@@ -525,7 +525,7 @@ defineProps({
     setTimeout(() => {
         axilInit.i();
         console.log('loaded');
-      }, "500")
+      }, "1000")
 
 
 
