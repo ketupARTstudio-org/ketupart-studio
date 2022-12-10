@@ -1,0 +1,7 @@
+:root {
+    --color-primary: #007100;
+ 
+    --gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
+  
+    --font-primary: "DM Sans", sans-serif;
+}

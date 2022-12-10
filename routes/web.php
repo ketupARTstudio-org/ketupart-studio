@@ -16,7 +16,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
+    return Inertia::render('Welcome/Index', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
@@ -24,8 +24,32 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/aboutus', function () {
+    return Inertia::render('AboutUs/Index', []);
+});
+
+Route::get('/ouroffice', function () {
+    return Inertia::render('OurOffice/Index', []);
+});
+
+Route::get('/team', function () {
+    return Inertia::render('Team/Index', []);
+});
+
+Route::get('/ourclient', function () {
+    return Inertia::render('OurClient/Index', []);
+});
+
+Route::get('/accreditation', function () {
+    return Inertia::render('Accreditation/Index', []);
+});
+
+Route::get('/testimonial', function () {
+    return Inertia::render('Testimonial/Index', []);
+});
+
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified',])->group(function () {
     Route::get('/dashboard', function () { 
-        return Inertia::render('Dashboard');
+        return Inertia::render('Dashboard/Index');
     })->name('dashboard');
 });
