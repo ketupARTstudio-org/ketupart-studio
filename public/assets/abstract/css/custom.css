@@ -5,3 +5,7 @@
   
     --font-primary: "DM Sans", sans-serif;
 }
+
+.call-to-action-area:before {
+    background-color: #0a260ad6;
+}

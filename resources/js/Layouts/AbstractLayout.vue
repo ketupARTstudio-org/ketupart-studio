@@ -610,6 +610,7 @@ defineProps({
                                                     <a href="javascript:void(0);">Services</a>
                                                     <ul class="axil-submenu">
                                                         <li><a href="service.html">Augmented Realities & Virtual Realities</a></li>
+                                                        <li><a href="service-2.html">Game Development</a></li>
                                                         <li><a href="service-2.html">Mobile Development</a></li>
                                                         <li><a href="service-design.html">Web Development</a></li>
                                                         <li><a href="service-design.html">Machine Learning & Articial Intelligence</a></li>

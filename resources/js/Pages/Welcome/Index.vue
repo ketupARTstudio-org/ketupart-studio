@@ -31,7 +31,7 @@ defineProps({
                 </div>
                 <div class="banner-thumbnail">
                     <div class="large-thumb" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
-                        <img class="paralax-image" src="assets/abstract/media/banner/data-management.png" alt="Shape">
+                        <img class="paralax-image" src="assets/abstract/media/banner/ketupat.png" alt="Shape">
                     </div>
                 </div>
                 <div class="banner-social" data-sal="slide-up" data-sal-duration="800">
@@ -53,90 +53,426 @@ defineProps({
                 </li>
             </ul>
         </section>
+   <!--=====================================-->
+        <!--=        Service Area Start         =-->
         <!--=====================================-->
-        <!--=        Project Area Start         =-->
-        <!--=====================================-->
-        <section class="section section-padding-equal bg-color-ship-gray">
+        <section class="section section-padding-2 bg-color-dark">
             <div class="container">
-                <div class="section-heading heading-light-left mb--90">
-                    <span class="subtitle">Case study</span>
-                    <h2 class="title">Selected projects</h2>
-                    <p>Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate eget risus imperdiet.</p>
+                <div class="section-heading heading-light-left">
+                    <span class="subtitle">What We Can Do For You</span>
+                    <h2 class="title">Services we can help you with</h2>
+                    <p class="opacity-50">Nulla facilisi. Nullam in magna id dolor
+                        blandit rutrum eget vulputate augue sed eu imperdiet.</p>
                 </div>
-                <div class="project-add-banner" data-sal="slide-up" data-sal-duration="1000">
-                    <div class="content">
-                        <span class="subtitle">branding, design</span>
-                        <h3 class="title"><a href="single-portfolio.html">Godaddy- Online platform and website design</a></h3>
-                        <div class="brand-logo">
-                            <img src="assets/abstract/media/project/godaddy.png" alt="Godaddy">
-                        </div>
-                    </div>
-                    <div class="thumbnail">
-                        <img src="assets/abstract/media/project/mobile-mockup.png" alt="Mockup">
-                    </div>
-                </div>
-                <div class="row row-45">
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="1000">
-                        <div class="project-grid project-style-2">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="services-grid active">
                             <div class="thumbnail">
-                                <a href="single-portfolio.html">
-                                    <img src="assets/abstract/media/project/project-7.png" alt="project">
-                                </a>
+                                <img src="assets/abstract/media/icon/icon-1.png" alt="icon">
                             </div>
                             <div class="content">
-                                <span class="subtitle">ios, design</span>
-                                <h3 class="title"><a href="single-portfolio.html">Mark Design</a></h3>
+                                <h5 class="title"> <a href="service-design.html">Design</a></h5>
+                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <a href="service-design.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        <div class="project-grid project-style-2">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid">
                             <div class="thumbnail">
-                                <a href="single-portfolio.html">
-                                    <img src="assets/abstract/media/project/project-8.png" alt="project">
-                                </a>
+                                <img src="assets/abstract/media/icon/icon-2.png" alt="icon">
                             </div>
                             <div class="content">
-                                <span class="subtitle">ios, design</span>
-                                <h3 class="title"><a href="single-portfolio.html">Cynic Agency</a></h3>
+                                <h5 class="title"> <a href="service-development.html">Development</a></h5>
+                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <a href="service-development.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="1000">
-                        <div class="project-grid project-style-2">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid">
                             <div class="thumbnail">
-                                <a href="single-portfolio.html">
-                                    <img src="assets/abstract/media/project/project-9.png" alt="project">
-                                </a>
+                                <img src="assets/abstract/media/icon/icon-3.png" alt="icon">
                             </div>
                             <div class="content">
-                                <span class="subtitle">ios, design</span>
-                                <h3 class="title"><a href="single-portfolio.html">Archi- Online platform</a></h3>
+                                <h5 class="title"> <a href="service-marketing.html">Online marketing</a></h5>
+                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <a href="service-marketing.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        <div class="project-grid project-style-2">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="services-grid">
                             <div class="thumbnail">
-                                <a href="single-portfolio.html">
-                                    <img src="assets/abstract/media/project/project-12.png" alt="project">
-                                </a>
+                                <img src="assets/abstract/media/icon/icon-4.png" alt="icon">
                             </div>
                             <div class="content">
-                                <span class="subtitle">ios, design</span>
-                                <h3 class="title"><a href="single-portfolio.html">Wordpress theme</a></h3>
+                                <h5 class="title"> <a href="service-business.html">Business</a></h5>
+                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <a href="service-business.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="more-project-btn">
-                    <a href="portfolio.html" class="axil-btn btn-fill-white">Discover More Projects</a>
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid">
+                            <div class="thumbnail">
+                                <img src="assets/abstract/media/icon/icon-5.png" alt="icon">
+                            </div>
+                            <div class="content">
+                                <h5 class="title"> <a href="service-technology.html">Technology</a></h5>
+                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <a href="service-technology.html" class="more-btn">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid">
+                            <div class="thumbnail">
+                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
+                            </div>
+                            <div class="content">
+                                <h5 class="title"> <a href="service-content-strategy.html">Content strategy</a></h5>
+                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <ul class="list-unstyled shape-group-10">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/circle-1.png" alt="Circle"></li>
-                <li class="shape shape-2"><img src="assets/abstract/media/others/line-3.png" alt="Circle"></li>
-                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-5.png" alt="Circle"></li>
+                <li class="shape shape-1"><img src="assets/abstract/media/others/line-9.png" alt="Circle"></li>
+                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-42.png" alt="Circle"></li>
+                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-43.png" alt="Circle"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=       Case Study Area Start       =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal case-study-featured-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6" data-sal="slide-right" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav featured-content" data-slick='{"infinite": true,"arrows": false, "dots": true, "slidesToShow": 1, "asNavFor": ".featured-thumbnail"}'>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Logo, identity &amp; web design for Uber</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="15">15</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="60">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Website and web Development, Design</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="20">20</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="60">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">Featured Case Study</span>
+                                        <h2 class="title">Branding, website &amp; digital marketing for Apple</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="15">15</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="60">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 d-none d-lg-block" data-sal="slide-left" data-sal-duration="800">
+                        <div class="slick-slider slick-dot-nav featured-thumbnail" data-slick='{"infinite": true,"arrows": false, "dots": false, "fade": true, "slidesToShow": 1, "asNavFor": ".featured-content"}'>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="assets/abstract/media/others/case-study-4.png" alt="travel">
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="assets/abstract/media/others/case-study-5.png" alt="travel">
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured-thumb">
+                                    <img src="assets/abstract/media/others/case-study-6.png" alt="travel">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        About Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal bg-color-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-sal="slide-up" data-sal-duration="800">
+                        <div class="about-us">
+                            <div class="section-heading heading-left mb-0">
+                                <span class="subtitle">About Us</span>
+                                <h2 class="title mb--40">We do design, code & develop.</h2>
+                                <p>Nulla et velit gravida, facilisis quam a, molestie ante. Mauris placerat suscipit dui, eget maximus tellus blandit a. Praesent non tellus sed ligula commodo blandit in et mauris. Quisque efficitur ipsum ut dolor molestie pellentesque. </p>
+                                <p>Nulla pharetra hendrerit mi quis dapibus. Quisque luctus, tortor a venenatis fermentum, est lacus feugiat nisl, id pharetra odio enim eget libero. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 offset-xl-1" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="contact-form-box">
+                            <h3 class="title">Get a free Keystroke quote now</h3>
+                            <form method="POST" action="mail.php" class="axil-contact-form">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" name="contact-name" placeholder="John Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="contact-email" placeholder="example@mail.com">
+                                </div>
+                                <div class="form-group mb--40">
+                                    <label>Phone</label>
+                                    <input type="tel" class="form-control" name="contact-company" placeholder="+123456789">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Free Quote</button>
+                                </div>
+                                <input type="hidden" class="form-control" name="contact-message" value="Null">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-6 list-unstyled">
+                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-7.png" alt="Bubble"></li>
+                <li class="shape shape-2"><img src="assets/abstract/media/others/line-4.png" alt="line"></li>
+                <li class="shape shape-3"><img src="assets/abstract/media/others/line-5.png" alt="line"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Project Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding-2">
+            <div class="container">
+                <div class="section-heading heading-left mb--40">
+                    <span class="subtitle">Our Project</span>
+                    <h2 class="title">Some of our <br> finest work.</h2>
+                </div>
+                <div class="axil-isotope-wrapper">
+                    <div class="isotope-button isotope-project-btn">
+                        <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
+                        <button data-filter=".branding"><span class="filter-text">Branding</span></button>
+                        <button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
+                    </div>
+                    <div class="row row-35 isotope-list">
+                        <div class="col-md-6 project branding">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="single-portfolio.html">
+                                        <img src="assets/abstract/media/project/project-1.png" alt="project">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="single-portfolio.html">Creative Agency</a></h4>
+                                    <span class="subtitle">Full Branding, Website, App</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="single-portfolio.html">
+                                        <img src="assets/abstract/media/project/project-2.png" alt="project">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="single-portfolio.html">Digital Marketing</a></h4>
+                                    <span class="subtitle">Logo, Website & Mobile App</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project branding">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="single-portfolio.html">
+                                        <img src="assets/abstract/media/project/project-3.png" alt="project">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="single-portfolio.html">Digital Agency</a></h4>
+                                    <span class="subtitle">Website, UI/UX</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="single-portfolio.html">
+                                        <img src="assets/abstract/media/project/project-4.png" alt="project">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="single-portfolio.html">Plan Management</a></h4>
+                                    <span class="subtitle">Branding, Website, IOS App</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project branding">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="single-portfolio.html">
+                                        <img src="assets/abstract/media/project/project-5.png" alt="project">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="single-portfolio.html">Social Engagement</a></h4>
+                                    <span class="subtitle">Design, Development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="single-portfolio.html">
+                                        <img src="assets/abstract/media/project/project-6.png" alt="project">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="single-portfolio.html">Web Application</a></h4>
+                                    <span class="subtitle">Logo, Webapp, App</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-7 list-unstyled">
+                <li class="shape shape-1"><img src="assets/abstract/media/others/circle-2.png" alt="circle"></li>
+                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-2.png" alt="Line"></li>
+                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-1.png" alt="Line"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Counter Up Area Start      =-->
+        <!--=====================================-->
+        <section class="section section-padding bg-color-dark">
+            <div class="container">
+                <div class="section-heading heading-light">
+                    <span class="subtitle">Featured Case Study</span>
+                    <h2 class="title">Design startup movement</h2>
+                    <p>In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="counterup-progress active">
+                            <div class="icon">
+                                <img src="assets/abstract/media/icon/icon-7.png" alt="Apple">
+                            </div>
+                            <div class="count-number h2">
+                                <span class="number count" data-count="15">15</span>
+                                <span class="symbol">+</span>
+                            </div>
+                            <h6 class="title">Years of operation</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="counterup-progress">
+                            <div class="icon">
+                                <img src="assets/abstract/media/icon/icon-8.png" alt="Apple">
+                            </div>
+                            <div class="count-number h2">
+                                <span class="number count" data-count="360">360</span>
+                                <span class="symbol">+</span>
+                            </div>
+                            <h6 class="title">Projects deliverd</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="counterup-progress">
+                            <div class="icon">
+                                <img src="assets/abstract/media/icon/icon-9.png" alt="Apple">
+                            </div>
+                            <div class="count-number h2">
+                                <span class="number count" data-count="600">600</span>
+                                <span class="symbol">+</span>
+                            </div>
+                            <h6 class="title">Specialist</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
+                        <div class="counterup-progress">
+                            <div class="icon">
+                                <img src="assets/abstract/media/icon/apple.png" alt="Apple">
+                            </div>
+                            <div class="count-number h2">
+                                <span class="number count" data-count="64">64</span>
+                                <span class="symbol">+</span>
+                            </div>
+                            <h6 class="title">Years of operation</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-unstyled shape-group-10">
+                <!-- <li class="shape shape-1"><img src="assets/abstract/media/others/line-9.png" alt="Circle"></li> -->
+                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-42.png" alt="Circle"></li>
+                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-43.png" alt="Circle"></li>
             </ul>
         </section>
         <!--=====================================-->
@@ -205,6 +541,125 @@ defineProps({
             </ul>
         </section>
         <!--=====================================-->
+        <!--=        Pricing Area Start       	=-->
+        <!--=====================================-->
+        <section class="section bg-color-light section-padding">
+            <div class="container">
+                <div class="section-heading mb-0">
+                    <span class="subtitle">Pricing Plan</span>
+                    <h2 class="title">Find the Right Plan.</h2>
+                    <p>Flexible pricing options for freelancers <br> and design teams.</p>
+                </div>
+                <div class="pricing-billing-duration">
+                    <ul>
+                        <li class="nav-item">
+                            <button class="nav-link" id="yearly-plan-btn" type="button">Billed yearly</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link active" id="monthly-plan-btn" type="button">
+                                Billed monthly</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="pricing-table active">
+                            <div class="pricing-header">
+                                <h3 class="title">Professional</h3>
+                                <span class="subtitle">A beautiful, simple website</span>
+                                <div class="price-wrap">
+                                    <div class="yearly-pricing">
+                                        <span class="amount">$119.99</span>
+                                        <span class="duration">/yearly</span>
+                                    </div>
+                                    <div class="monthly-pricing">
+                                        <span class="amount">$19.00</span>
+                                        <span class="duration">/monthly</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-btn">
+                                    <a href="#" class="axil-btn btn-large btn-borderd">Get Started Today</a>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="list-unstyled">
+                                    <li>10 Pages Responsive Website</li>
+                                    <li>5 PPC Campaigns</li>
+                                    <li>10 SEO Keywords</li>
+                                    <li>5 Facebook Camplaigns</li>
+                                    <li>2 Video Camplaigns</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="pricing-table">
+                            <div class="pricing-header">
+                                <h3 class="title">Standard</h3>
+                                <span class="subtitle">Small Team</span>
+                                <div class="price-wrap">
+                                    <div class="yearly-pricing">
+                                        <span class="amount">$219.99</span>
+                                        <span class="duration">/yearly</span>
+                                    </div>
+                                    <div class="monthly-pricing">
+                                        <span class="amount">$29.00</span>
+                                        <span class="duration">/monthly</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-btn">
+                                    <a href="#" class="axil-btn btn-large btn-borderd">Get Started Today</a>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="list-unstyled">
+                                    <li>50 Pages Responsive Website</li>
+                                    <li>Unlimited PPC Campaigns</li>
+                                    <li>Unlimited SEO Keywords</li>
+                                    <li>Unlimited Facebook Camplaigns</li>
+                                    <li>Unlimited Video Camplaigns</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="pricing-table">
+                            <div class="pricing-header">
+                                <h3 class="title">Ultimate</h3>
+                                <span class="subtitle">Large Team</span>
+                                <div class="price-wrap">
+                                    <div class="yearly-pricing">
+                                        <span class="amount">$559.99</span>
+                                        <span class="duration">/yearly</span>
+                                    </div>
+                                    <div class="monthly-pricing">
+                                        <span class="amount">$59.00</span>
+                                        <span class="duration">/monthly</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-btn">
+                                    <a href="#" class="axil-btn btn-large btn-borderd">Get Started Today</a>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <ul class="list-unstyled">
+                                    <li>10 Pages Responsive Website</li>
+                                    <li>5 PPC Campaigns</li>
+                                    <li>10 SEO Keywords</li>
+                                    <li>5 Facebook Camplaigns</li>
+                                    <li>2 Video Camplaigns</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-3 list-unstyled">
+                <li class="shape shape-1"><img src="assets/abstract/media/others/line-1.png" alt="shape"></li>
+                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-4.png" alt="shape"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
         <!--=        Brand Area Start       	=-->
         <!--=====================================-->
         <section class="section section-padding bg-color-dark">
@@ -269,7 +724,7 @@ defineProps({
                 <div class="section-heading">
                     <span class="subtitle">What's Going On</span>
                     <h2 class="title">Latest stories</h2>
-                    <p>News From abstract And Around The World Of Web Design And Complete Solution of Online Digital Marketing </p>
+                    <p>News From Abstrak And Around The World Of Web Design And Complete Solution of Online Digital Marketing </p>
                 </div>
                 <div class="row g-0">
                     <div class="col-xl-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
@@ -332,12 +787,12 @@ defineProps({
                 </div>
             </div>
             <ul class="list-unstyled shape-group-9">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-12.png" alt="Comments"></li>
+                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-12.2.png" alt="Comments"></li>
                 <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
-                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-13.png" alt="Comments"></li>
+                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-13.2.png" alt="Comments"></li>
                 <li class="shape shape-4"><img src="assets/abstract/media/others/bubble-14.png" alt="Comments"></li>
                 <li class="shape shape-5"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
-                <li class="shape shape-6"><img src="assets/abstract/media/others/bubble-15.png" alt="Comments"></li>
+                <li class="shape shape-6"><img src="assets/abstract/media/others/bubble-15.2.png" alt="Comments"></li>
                 <li class="shape shape-7"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
             </ul>
         </section>
