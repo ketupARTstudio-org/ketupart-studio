@@ -12,9 +12,10 @@ Link: <a href="https://vertigo.zulzayn.com" target="_blank">vertigo.zulzayn.com<
 This installation is intended to be used with laragon that comes with preinstall tools needed for the project for local development environment. For other ways the requirement is still the same but you need to configure them yourself.
 
 Just make sure that your Laragon run with below Environment
+- Composer 2
 - PHP = ^8.1
 - MySQL 5.7
-- Apache 2.4
+- Apache/Nginx 
 - Node 16++
 - NPM 8++
 
