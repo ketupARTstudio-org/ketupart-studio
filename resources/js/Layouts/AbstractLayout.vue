@@ -1,19 +1,316 @@
-<script setup>
-import { ref } from 'vue';
-import { Inertia } from '@inertiajs/inertia';
-import { Head, Link } from '@inertiajs/inertia-vue3';
-import ApplicationMark from '@/Components/ApplicationMark.vue';
-import Banner from '@/Components/Banner.vue';
-import Dropdown from '@/Components/Dropdown.vue';
-import DropdownLink from '@/Components/DropdownLink.vue';
-import NavLink from '@/Components/NavLink.vue';
-import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
+<script>
 
-defineProps({
-    title: String,
-});
+export default {
+  mounted() {
 
-(function(window, document, $, undefined) {
+    (function($) {
+        var jStyleSwitcher,
+            _defaultOptions = {
+                hasPreview: true,
+                defaultThemeId: 'jssDefault',
+                fullPath: 'css/',
+                cookie: {
+                    expires: "",
+                    isManagingLoad: true
+                }
+            },
+            // private
+            _cookieKey = 'jss_selected',
+            _docCookies = {};
+
+        /*\
+        |*|
+        |*|  :: cookies.js ::
+        |*|
+        |*|  A complete cookies reader/writer framework with full unicode support.
+        |*|
+        |*|  revision #1
+        |*|
+        |*|  https://developer.mozilla.org/en-US/docs/Web/API/document.cookie
+        |*|
+        |*|  This framework is released under the GNU Public License, version 3 or later.
+        |*|  http://www.gnu.org/licenses/gpl-3.0-standalone.html
+        |*|
+        |*|  Syntaxes:
+        |*|
+        |*|  * docCookies.setItem(name, value[, end[, path[, domain[, secure]]]])
+        |*|  * docCookies.getItem(name)
+        |*|  * docCookies.removeItem(name[, path[, domain]])
+        |*|  * docCookies.hasItem(name)
+        |*|  * docCookies.keys()
+        |*|
+        \*/
+        _docCookies = {
+            getItem: function(sKey) {
+                if (!sKey) {
+                    return null;
+                }
+                return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
+            },
+            setItem: function(sKey, sValue, vEnd, sPath, sDomain, bSecure) {
+                if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) {
+                    return false;
+                }
+                var sExpires = "";
+                if (vEnd) {
+                    switch (vEnd.constructor) {
+                        case Number:
+                            sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + vEnd;
+                            break;
+                        case String:
+                            sExpires = "; expires=" + vEnd;
+                            break;
+                        case Date:
+                            sExpires = "; expires=" + vEnd.toUTCString();
+                            break;
+                    }
+                }
+                document.cookie = encodeURIComponent(sKey) + "=" + encodeURIComponent(sValue) + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+                return true;
+            },
+            removeItem: function(sKey, sPath, sDomain) {
+                if (!this.hasItem(sKey)) {
+                    return false;
+                }
+                document.cookie = encodeURIComponent(sKey) + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
+                return true;
+            },
+            hasItem: function(sKey) {
+                if (!sKey) {
+                    return false;
+                }
+                return (new RegExp("(?:^|;\\s*)" + encodeURIComponent(sKey).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+            },
+            keys: function() {
+                var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+                for (var nLen = aKeys.length, nIdx = 0; nIdx < nLen; nIdx++) {
+                    aKeys[nIdx] = decodeURIComponent(aKeys[nIdx]);
+                }
+                return aKeys;
+            }
+        };
+
+        jStyleSwitcher = function($root, config) {
+            return this.init($root, config);
+        };
+
+        jStyleSwitcher.prototype = {
+
+            /**
+             * {Object} DOM reference to style option list
+             */
+            $root: null,
+
+            /**
+             * {Object} configs for the style switcher
+             */
+            config: {},
+
+            /**
+             * {Object} jQuery reference to <link> tag for swapping CSS
+             */
+            $themeCss: null,
+
+            /**
+             * {String} default theme page was loaded with
+             */
+            defaultTheme: null,
+
+            init: function($root, config) {
+                this.$root = $root;
+                this.config = config ? config : {};
+                this.setDefaultTheme();
+                if (this.defaultTheme) {
+                    // try cookies
+                    if (this.config.cookie) {
+                        this.checkCookie();
+                    }
+                    // try hover
+                    if (this.config.hasPreview) {
+                        this.addHoverEvents();
+                    }
+                    // finally, add click events
+                    this.addClickEvents();
+                } else {
+                    this.$root.addClass('jssError error level0');
+                }
+            },
+
+            setDefaultTheme: function() {
+                this.$themeCss = $('link[id=' + this.config.defaultThemeId + ']');
+                if (this.$themeCss.length) {
+                    this.defaultTheme = this.$themeCss.attr('href');
+                }
+            },
+
+            resetStyle: function() {
+                this.updateStyle(this.defaultTheme);
+            },
+
+            updateStyle: function(newStyle) {
+                this.$themeCss.attr('href', newStyle);
+            },
+
+            getFullAssetPath: function(asset) {
+                return this.config.fullPath + asset + '.css';
+            },
+
+            checkCookie: function() {
+                var styleCookie;
+                // if using cookies and using JavaScript to load css
+                if (this.config.cookie && this.config.cookie.isManagingLoad) {
+                    // check if css is set in cookie
+                    styleCookie = _docCookies.getItem(_cookieKey);
+                    if (styleCookie) {
+                        newStyle = this.getFullAssetPath(styleCookie);
+                        // update link tag
+                        this.updateStyle(newStyle);
+                        // update default ref
+                        this.defaultTheme = newStyle;
+                    }
+                }
+            },
+
+            addHoverEvents: function() {
+                var self = this;
+                this.$root.find('a').hover(
+                    function() {
+                        var asset = $(this).data('theme'),
+                            newStyle = self.getFullAssetPath(asset);
+                        // update link tag
+                        self.updateStyle(newStyle);
+                    },
+                    function() {
+                        // reset link tag
+                        self.resetStyle();
+                    }
+                );
+            },
+
+            addClickEvents: function() {
+                var self = this;
+                this.$root.find('.setColor').on('click',
+                    function() {
+                        var asset = $(this).data('theme'),
+                            newStyle = self.getFullAssetPath(asset);
+                        // update link tag
+                        self.updateStyle(newStyle);
+                        // update default ref
+                        self.defaultTheme = newStyle;
+                        // try to store cookie
+                        if (self.config.cookie) {
+                            _docCookies.setItem(_cookieKey, asset, self.config.cookie.expires, '/');
+                        }
+                    }
+                );
+            }
+        };
+
+        $.fn.styleSwitcher = function(options) {
+            return new jStyleSwitcher(this, $.extend(true, _defaultOptions, options));
+        };
+
+
+        function createCookie(name, value, days) {
+            var expires;
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + expires + "; path=/";
+        }
+
+        function readCookie(name) {
+            var nameEQ = encodeURIComponent(name) + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ')
+                    c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0)
+                    return decodeURIComponent(c.substring(nameEQ.length, c.length));
+            }
+            return null;
+        }
+
+        function eraseCookie(name) {
+            createCookie(name, "", -1);
+        }
+
+
+
+        //switcher js initialization
+        $(function() {
+
+            // $('#my_switcher ul').styleSwitcher({
+            //     defaultThemeId: 'papr-dark-css',
+            //     hasPreview: false,
+            //     fullPath: directory_uri.templateUrl + '/assets/css/',
+            //     cookie: {
+            //         expires: 2628000, // 3600 == 1 hour
+            //         isManagingLoad: true
+            //     }
+            // });
+
+            function setStyleCookie() {
+                var styleCookieVal = $('body').hasClass('active-dark-mode') ? 'dark' : 'light';
+                Cookies.set('styleCookieName', styleCookieVal, { expires: 7 });
+                // Cookies.set('styleCookieName', styleCookieVal);
+
+            }
+
+            if (Cookies.get('styleCookieName') == 'dark') {
+                $('body').addClass('active-dark-mode');
+            } else if(Cookies.get('styleCookieName') == 'light') {
+                $('body').removeClass('active-light-mode');
+            } else {
+                $('body').removeClass('active-light-mode');
+            }
+
+            // Check Cookie
+            // eraseCookie('jss_selected');
+            var activeStyle = Cookies.get('styleCookieName');
+            if( activeStyle == "dark" ){
+                $('.my_switcher').find('.setColor.dark').addClass('active');
+                $('body').removeClass('active-light-mode').addClass('active-dark-mode');
+            } else if(activeStyle == "light"){
+                $('.my_switcher').find('.setColor.light').addClass('active');
+                $('body').removeClass('active-dark-mode').addClass('active-light-mode');
+            } else {
+                // Swicher Active Class Baseon Body Class
+                if($("body").hasClass("active-dark-mode")){
+                    $('.my_switcher').find('.setColor.light').removeClass('active');
+                    $('.my_switcher').find('.setColor.dark').addClass('active');
+                }else{
+                    $('.my_switcher').find('.setColor.dark').removeClass('active');
+                    $('.my_switcher').find('.setColor.light').addClass('active');
+                }
+            }
+            // Set Click
+            $('.my_switcher .setColor').on('click', function() {
+                $(this).closest('ul').find('li').siblings().find('.active').removeClass('active');
+                $(this).addClass('active');
+                setStyleCookie();
+            });
+
+            // Add or Remove Class into body when click swicher
+            $('.my_switcher .setColor.dark').on('click', function() {
+                $('body').removeClass('active-light-mode').addClass('active-dark-mode');
+                setStyleCookie();
+            });
+            $('.my_switcher .setColor.light').on('click', function() {
+                $('body').removeClass('active-dark-mode').addClass('active-light-mode');
+                setStyleCookie();
+            });
+
+        });
+    })(jQuery);
+
+    (function(window, document, $, undefined) {
     'use strict';
 
     var axilInit = {
@@ -53,7 +350,6 @@ defineProps({
             axilInit.portfolioModalActivation();
             axilInit.caseModalActivation();
             axilInit.themeColorSet();
-           
         },
 
         w: function(e) {
@@ -521,15 +817,22 @@ defineProps({
             }
         },
     }
-
-    setTimeout(() => {
+  
         axilInit.i();
-        console.log('loaded');
-      }, "1000")
 
+    })(window, document, jQuery);
 
+    console.log(`AbstractLayout component is now mounted.`)
+  }
+}
+</script>
 
-})(window, document, jQuery);
+<script setup>
+import {  Link } from '@inertiajs/inertia-vue3';
+
+defineProps({
+    title: String,
+});
 </script>
 
 <template>
@@ -609,24 +912,21 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Services</a>
                                                     <ul class="axil-submenu">
-                                                        <li><a href="service.html">Augmented Realities & Virtual Realities</a></li>
-                                                        <li><a href="service-2.html">Game Development</a></li>
-                                                        <li><a href="service-2.html">Mobile Development</a></li>
-                                                        <li><a href="service-design.html">Web Development</a></li>
-                                                        <li><a href="service-design.html">Machine Learning & Articial Intelligence</a></li>
-                                                        <li><a href="service-design.html">Computer Vision</a></li>
-                                                        <li><a href="service-design.html">Blockchain</a></li>
+                                                        <li><Link href="/arvr">Augmented Realities & Virtual Realities</Link></li>
+                                                        <li><Link href="/gamedevelopment">Game Development</Link></li>
+                                                        <li><Link href="/mobiledevelopment">Mobile Development</Link></li>
+                                                        <li><Link href="/webdevelopment">Web Development</Link></li>
+                                                        <li><Link href="/machinelearning">Machine Learning</Link></li>
+                                                        <li><Link href="/computervision">Computer Vision</Link></li>
+                                                        <li><Link href="/blockchain">Blockchain</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Portfolio</a>
                                                     <ul class="axil-submenu">
-                                                        <li><a href="portfolio.html">Two Column</a></li>
-                                                        <li><a href="portfolio-2.html">Three Column</a></li>
-                                                        <li><a href="portfolio-3.html">Four Column</a></li>
-                                                        <li><a href="portfolio-4.html">Three Column Width</a></li>
-                                                        <li><a href="portfolio-5.html">Four Column Width</a></li>
-                                                        <li><a href="single-portfolio.html">Portfolio Details</a></li>
+                                                        <li><Link href="/casestudy">Case Study</Link></li>
+                                                        <li><Link href="/project">Projects</Link></li>
+                                                        <li><Link href="/publication">Publications</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li class="menu-item-has-children">
@@ -638,18 +938,8 @@ defineProps({
                                                         <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="javascript:void(0);">Blog</a>
-                                                    <ul class="axil-submenu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="single-blog.html">Standard Post</a></li>
-                                                        <li><a href="single-blog-gallery.html">Gallery Post</a></li>
-                                                        <li><a href="single-blog-video.html">Video Post</a></li>
-                                                        <li><a href="single-blog-audio.html">Audio Post</a></li>
-                                                        <li><a href="single-blog-quote.html">Quote Post</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><Link href="/blog">Blogs</Link></li>
+                                                <li><Link href="/contact">Contact</Link></li>
                                             </ul>
                                         </nav>
                                         <!-- End Mainmanu Nav -->

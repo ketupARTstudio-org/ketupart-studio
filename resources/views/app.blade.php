@@ -46,7 +46,7 @@
         <script src="assets/abstract/js/vendor/sal.js"></script>
         <script src="assets/abstract/js/vendor/jquery.magnific-popup.min.js"></script>
         <script src="assets/abstract/js/vendor/js.cookie.js"></script>
-        <script src="assets/abstract/js/vendor/jquery.style.switcher.js"></script>
+        <!-- <script src="assets/abstract/js/vendor/jquery.style.switcher.js"></script> -->
         <script src="assets/abstract/js/vendor/jquery.countdown.min.js"></script>
         <script src="assets/abstract/js/vendor/tilt.js"></script>
         <script src="assets/abstract/js/vendor/green-audio-player.min.js"></script>
