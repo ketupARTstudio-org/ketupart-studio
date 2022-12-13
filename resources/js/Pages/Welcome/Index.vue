@@ -22,9 +22,8 @@ defineProps({
         <section class="banner banner-style-4">
             <div class="container">
                 <div class="banner-content">
-                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Think the design, design the thinking.</h1>
-                    <p data-sal="slide-up" data-sal-duration="1000">Create live segments and target the right people
-                        for messages based on their behaviors.</p>
+                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Technology Solution craft for Industries and SMEs.</h1>
+                    <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of development services, with up-to-date industrial and technology standard.</p>
                     <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                         <a href="portfolio.html" class="axil-btn btn-fill-primary btn-large">View Showcase</a>
                     </div>
@@ -71,7 +70,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-1.png" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-design.html">Design</a></h5>
+                                <h5 class="title"> <a href="service-design.html">Web Development</a></h5>
                                 <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                                 <a href="service-design.html" class="more-btn">Find out more</a>
                             </div>
@@ -83,7 +82,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-2.png" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-development.html">Development</a></h5>
+                                <h5 class="title"> <a href="service-development.html">Mobile Development</a></h5>
                                 <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                                 <a href="service-development.html" class="more-btn">Find out more</a>
                             </div>
@@ -95,7 +94,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-3.png" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-marketing.html">Online marketing</a></h5>
+                                <h5 class="title"> <a href="service-marketing.html">Microservices & API</a></h5>
                                 <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                                 <a href="service-marketing.html" class="more-btn">Find out more</a>
                             </div>
@@ -107,7 +106,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-4.png" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-business.html">Business</a></h5>
+                                <h5 class="title"> <a href="service-business.html">Game Development</a></h5>
                                 <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                                 <a href="service-business.html" class="more-btn">Find out more</a>
                             </div>
@@ -119,7 +118,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-5.png" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-technology.html">Technology</a></h5>
+                                <h5 class="title"> <a href="service-technology.html">Augmented Reality</a></h5>
                                 <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                                 <a href="service-technology.html" class="more-btn">Find out more</a>
                             </div>
@@ -131,7 +130,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
                             </div>
                             <div class="content">
-                                <h5 class="title"> <a href="service-content-strategy.html">Content strategy</a></h5>
+                                <h5 class="title"> <a href="service-content-strategy.html">Virtual Reality</a></h5>
                                 <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                                 <a href="service-content-strategy.html" class="more-btn">Find out more</a>
                             </div>
@@ -156,8 +155,8 @@ defineProps({
                             <div class="slick-slide">
                                 <div class="case-study-featured">
                                     <div class="section-heading heading-left">
-                                        <span class="subtitle">Featured Case Study</span>
-                                        <h2 class="title">Logo, identity &amp; web design for Uber</h2>
+                                        <span class="subtitle">#1 Service Deliverable</span>
+                                        <h2 class="title" style="-webkit-line-clamp: 4;">Professional, Certified &amp; Experienced Developer</h2>
                                         <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
                                         <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
                                         <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
@@ -183,8 +182,8 @@ defineProps({
                             <div class="slick-slide">
                                 <div class="case-study-featured">
                                     <div class="section-heading heading-left">
-                                        <span class="subtitle">Featured Case Study</span>
-                                        <h2 class="title">Website and web Development, Design</h2>
+                                        <span class="subtitle">#2 Service Deliverable</span>
+                                        <h2 class="title">Agile Project Environment</h2>
                                         <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
                                         <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
                                         <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
@@ -210,8 +209,35 @@ defineProps({
                             <div class="slick-slide">
                                 <div class="case-study-featured">
                                     <div class="section-heading heading-left">
-                                        <span class="subtitle">Featured Case Study</span>
-                                        <h2 class="title">Branding, website &amp; digital marketing for Apple</h2>
+                                        <span class="subtitle">#3 Service Deliverable</span>
+                                        <h2 class="title" style="-webkit-line-clamp: 4;">Newest Technology and Security Compliance</h2>
+                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
+                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
+                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                    </div>
+                                    <div class="case-study-counterup">
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="20">20</span>
+                                                <span class="symbol">%</span>
+                                            </h2>
+                                            <span class="counter-title">ROI increase</span>
+                                        </div>
+                                        <div class="single-counterup">
+                                            <h2 class="count-number">
+                                                <span class="number count" data-count="60">60</span>
+                                                <span class="symbol">k</span>
+                                            </h2>
+                                            <span class="counter-title">Monthly website visits</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide">
+                                <div class="case-study-featured">
+                                    <div class="section-heading heading-left">
+                                        <span class="subtitle">#4 Service Deliverable</span>
+                                        <h2 class="title">High Quality Support & Maintenance</h2>
                                         <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
                                         <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
                                         <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
@@ -268,7 +294,7 @@ defineProps({
                         <div class="about-us">
                             <div class="section-heading heading-left mb-0">
                                 <span class="subtitle">About Us</span>
-                                <h2 class="title mb--40">We do design, code & develop.</h2>
+                                <h2 class="title mb--40">We do design, code, develop, test & maintenance.</h2>
                                 <p>Nulla et velit gravida, facilisis quam a, molestie ante. Mauris placerat suscipit dui, eget maximus tellus blandit a. Praesent non tellus sed ligula commodo blandit in et mauris. Quisque efficitur ipsum ut dolor molestie pellentesque. </p>
                                 <p>Nulla pharetra hendrerit mi quis dapibus. Quisque luctus, tortor a venenatis fermentum, est lacus feugiat nisl, id pharetra odio enim eget libero. </p>
                             </div>
