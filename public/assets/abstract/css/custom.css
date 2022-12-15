@@ -1,11 +1,23 @@
 :root {
     --color-primary: #007100;
+    --color-hover: #004900;
  
     --gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
   
     --font-primary: "DM Sans", sans-serif;
+
+
 }
 
 .call-to-action-area:before {
-    background-color: #0a260ad6;
+    background-color: #27272e;;
+}
+
+.axil-btn.btn-fill-primary:hover {
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+.axil-btn.btn-fill-primary::after {
+    background-color: var(--color-hover);
 }

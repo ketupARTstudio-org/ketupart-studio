@@ -3,11 +3,21 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="KetupArt Studio, Technology Solution craft for Industries and SMEs.">
+        <meta name="keywords" content="ketupart, development, web">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Ketupart Studio">
+        <meta property="og:url" content="">
+        <meta property="og:site_name" content="KetupArt Studio">
+        <meta name="application-name" content="KetupArt Studio">
 
         <title inertia>{{ config('app.name', 'KetupArt') }}</title>
 
+
         <!-- Fonts -->
-        <!-- <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap"> -->
+        <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">

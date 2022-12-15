@@ -23,9 +23,9 @@ defineProps({
             <div class="container">
                 <div class="banner-content">
                     <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Technology Solution craft for Industries and SMEs.</h1>
-                    <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of development services, with up-to-date industrial and technology standard.</p>
+                    <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of development services, with up-to-date technology and security frameworks to regulate your business and being on track with global standards with the vision to have a good governance, systematic risk management and compliance practices.</p>
                     <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        <a href="portfolio.html" class="axil-btn btn-fill-primary btn-large">View Showcase</a>
+                        <a href="portfolio.html" class="axil-btn btn-fill-primary btn-large">View Services</a>
                     </div>
                 </div>
                 <div class="banner-thumbnail">
