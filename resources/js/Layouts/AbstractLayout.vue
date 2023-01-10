@@ -933,9 +933,10 @@ defineProps({
                                                     <a href="javascript:void(0);">Products</a>
                                                     <ul class="axil-submenu">
                                                         <li><a href="about-us.html"><b>K-ERP</b> - Enterprise Resource Planning System</a></li>
-                                                        <li><a href="our-office.html"><b>K-XRLearn</b> - Extended Reality ELearning System</a></li>
                                                         <li><a href="case-study.html"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
                                                         <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>
+                                                        <li><hr class="my-2"></li>
+                                                        <li><a href="our-office.html"><b>K-XRLearn</b> - Extended Reality ELearning System</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><Link href="/blog">Blogs</Link></li>
