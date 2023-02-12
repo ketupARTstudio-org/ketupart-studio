@@ -912,10 +912,11 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Services</a>
                                                     <ul class="axil-submenu">
-                                                        <li><Link href="/arvr">Augmented Realities & Virtual Realities</Link></li>
-                                                        <li><Link href="/gamedevelopment">Game Development</Link></li>
-                                                        <li><Link href="/mobiledevelopment">Mobile Development</Link></li>
                                                         <li><Link href="/webdevelopment">Web Development</Link></li>
+                                                        <li><Link href="/mobiledevelopment">Mobile Development</Link></li>
+                                                        <li><Link href="/gamedevelopment">Game Development</Link></li>
+                                                        <li><Link href="/arvr">Augmented Realities & Virtual Realities</Link></li>
+                                                      
                                                         <li><Link href="/machinelearning">Machine Learning</Link></li>
                                                         <li><Link href="/computervision">Computer Vision</Link></li>
                                                         <li><Link href="/blockchain">Blockchain</Link></li>
@@ -932,11 +933,16 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Products</a>
                                                     <ul class="axil-submenu">
+                                                        <li><a href="about-us.html"><b>K-PMS</b> - Project Management System</a></li>
                                                         <li><a href="about-us.html"><b>K-ERP</b> - Enterprise Resource Planning System</a></li>
                                                         <li><a href="case-study.html"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
                                                         <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>
                                                         <li><hr class="my-2"></li>
                                                         <li><a href="our-office.html"><b>K-XRLearn</b> - Extended Reality ELearning System</a></li>
+                                                        <li><a href="our-office.html"><b>K-Learn</b> - ELearning Management System</a></li>
+                                                        <li><a href="our-office.html"><b>K-Tournament</b> - Tournament Management System</a></li>
+                                                        <li><hr class="my-2"></li>
+                                                        <li><a href="our-office.html"><b>VIEW ALL PRODUCTS</b></a></li>
                                                     </ul>
                                                 </li>
                                                 <li><Link href="/blog">Blogs</Link></li>
@@ -995,12 +1001,12 @@ defineProps({
                                     <ul class="list-unstyled">
                                         <li><a href="https://facebook.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="https://twitter.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="https://www.pinterest.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <!-- <li><a href="https://www.pinterest.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li> -->
                                         <li><a href="https://www.linkedin.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="https://www.instagram.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="https://vimeo.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i class="fab fa-vimeo-v"></i></a></li>
-                                        <li><a href="https://dribbble.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li>
-                                        <li><a href="https://www.behance.net/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i class="fab fa-behance"></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"><i class="fab fa-instagram"></i></a></li> -->
+                                        <!-- <li><a href="https://vimeo.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i class="fab fa-vimeo-v"></i></a></li> -->
+                                        <!-- <li><a href="https://dribbble.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li> -->
+                                        <!-- <li><a href="https://www.behance.net/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i class="fab fa-behance"></i></a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -1028,12 +1034,12 @@ defineProps({
                                                     <h6 class="widget-title">Services</h6>
                                                     <div class="footer-menu-link">
                                                         <ul class="list-unstyled">
-                                                            <li><a href="service-design.html">Logo &amp; Branding</a></li>
-                                                            <li><a href="service-development.html">Website Development</a></li>
-                                                            <li><a href="service-development.html">Mobile App Development</a></li>
-                                                            <li><a href="service-marketing.html">Search Engine Optimization</a></li>
-                                                            <li><a href="service-marketing.html">Pay-Per-Click</a></li>
-                                                            <li><a href="service-marketing.html">Social Media Marketing</a></li>
+                                                            <li><a href="service-design.html">Web Development</a></li>
+                                                            <li><a href="service-development.html">Mobile Development</a></li>
+                                                            <li><a href="service-marketing.html">Microservices & API</a></li>
+                                                            <li><a href="service-development.html">Game Development</a></li>
+                                                            <li><a href="service-marketing.html">Augmented Reality</a></li>
+                                                            <li><a href="service-marketing.html">Virtual Reality</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>

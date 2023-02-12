@@ -22,10 +22,10 @@ defineProps({
         <section class="banner banner-style-4">
             <div class="container">
                 <div class="banner-content">
-                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Technology Solution craft for Industries and SMEs.</h1>
-                    <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of development services, with up-to-date technology and security frameworks to regulate your business and being on track with global standards with the vision to have a good governance, systematic risk management and compliance practices.</p>
+                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Technology Solution craft for Industries, SMEs & Education.</h1>
+                    <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of development services, with latest technology and security frameworks to regulate your business and being on track with global standards with the vision in Empowering Industries, SMEs, and Education through cutting-edge technology solutions that unleash productivity, efficiency, and innovation for a brighter future.</p>
                     <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
-                        <a href="portfolio.html" class="axil-btn btn-fill-primary btn-large">View Services</a>
+                        <a href="#section-2" class="axil-btn btn-fill-primary btn-large">View Services</a>
                     </div>
                 </div>
                 <div class="banner-thumbnail">
@@ -55,23 +55,22 @@ defineProps({
    <!--=====================================-->
         <!--=        Service Area Start         =-->
         <!--=====================================-->
-        <section class="section section-padding-2 bg-color-dark">
+        <section class="section section-padding-2 bg-color-dark" id="section-2">
             <div class="container">
                 <div class="section-heading heading-light-left">
                     <span class="subtitle">What We Can Do For You</span>
                     <h2 class="title">Services we can help you with</h2>
-                    <p class="opacity-50">Nulla facilisi. Nullam in magna id dolor
-                        blandit rutrum eget vulputate augue sed eu imperdiet.</p>
+                    <p class="opacity-50 w-50">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="services-grid active">
+                        <div class="services-grid active p-20">
                             <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-1.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
                             </div>
                             <div class="content">
                                 <h5 class="title"> <a href="service-design.html">Web Development</a></h5>
-                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <p>Transform your online presence with our expert web development services, delivering stunning, user-friendly and scalable websites that captivate your audience, boost your brand and drive business growth.</p>
                                 <a href="service-design.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
@@ -79,11 +78,11 @@ defineProps({
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="services-grid">
                             <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-2.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
                             </div>
                             <div class="content">
                                 <h5 class="title"> <a href="service-development.html">Mobile Development</a></h5>
-                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <p>Transform your ideas into reality with our exceptional mobile development services, delivering intuitive, user-friendly, and innovative apps for iOS and Android platforms.</p>
                                 <a href="service-development.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
@@ -91,11 +90,11 @@ defineProps({
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid">
                             <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-3.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
                             </div>
                             <div class="content">
                                 <h5 class="title"> <a href="service-marketing.html">Microservices & API</a></h5>
-                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <p>Unleash the full potential of your business with our cutting-edge microservices and API development solutions, providing seamless integration, scalability, and agility to drive digital transformation.</p>
                                 <a href="service-marketing.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
@@ -103,11 +102,11 @@ defineProps({
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                         <div class="services-grid">
                             <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-4.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
                             </div>
                             <div class="content">
                                 <h5 class="title"> <a href="service-business.html">Game Development</a></h5>
-                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <p>Enter the world of endless entertainment with our expert game development services, crafting immersive and engaging games for mobile, PC, and console platforms with stunning graphics and captivating gameplay.</p>
                                 <a href="service-business.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
@@ -115,11 +114,11 @@ defineProps({
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="services-grid">
                             <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-5.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
                             </div>
                             <div class="content">
                                 <h5 class="title"> <a href="service-technology.html">Augmented Reality</a></h5>
-                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <p>Blend the digital and physical worlds like never before with our innovative augmented reality solutions, creating immersive and interactive experiences that engage, educate, and entertain your audience like never before.</p>
                                 <a href="service-technology.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
@@ -127,11 +126,11 @@ defineProps({
                     <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                         <div class="services-grid">
                             <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
+                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
                             </div>
                             <div class="content">
                                 <h5 class="title"> <a href="service-content-strategy.html">Virtual Reality</a></h5>
-                                <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                                <p>Step into a new reality with our cutting-edge virtual reality services, delivering mind-blowing experiences that transport users to new and fantastical worlds, driving engagement and delivering results beyond your wildest dreams.</p>
                                 <a href="service-content-strategy.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
@@ -157,11 +156,11 @@ defineProps({
                                     <div class="section-heading heading-left">
                                         <span class="subtitle">#1 Service Deliverable</span>
                                         <h2 class="title" style="-webkit-line-clamp: 4;">Professional, Certified &amp; Experienced Developer</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                        <p>Unlock the full potential of your business with our customized and cutting-edge technology solutions, designed and developed by our talented team of experts to meet your unique needs and exceed your expectations.</p>
+
+                                        <!-- <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a> -->
                                     </div>
-                                    <div class="case-study-counterup">
+                                    <!-- <div class="case-study-counterup">
                                         <div class="single-counterup">
                                             <h2 class="count-number">
                                                 <span class="number count" data-count="15">15</span>
@@ -176,7 +175,7 @@ defineProps({
                                             </h2>
                                             <span class="counter-title">Monthly website visits</span>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="slick-slide">
@@ -184,11 +183,10 @@ defineProps({
                                     <div class="section-heading heading-left">
                                         <span class="subtitle">#2 Service Deliverable</span>
                                         <h2 class="title">Agile Project Environment</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                        <p>Accelerate your path to success with our agile project environment, delivering flexible, responsive, and efficient solutions that adapt to your changing needs, driven by collaboration, transparency, and continuous improvement.</p>
+                                        <!-- <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a> -->
                                     </div>
-                                    <div class="case-study-counterup">
+                                    <!-- <div class="case-study-counterup">
                                         <div class="single-counterup">
                                             <h2 class="count-number">
                                                 <span class="number count" data-count="20">20</span>
@@ -203,7 +201,7 @@ defineProps({
                                             </h2>
                                             <span class="counter-title">Monthly website visits</span>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="slick-slide">
@@ -211,11 +209,10 @@ defineProps({
                                     <div class="section-heading heading-left">
                                         <span class="subtitle">#3 Service Deliverable</span>
                                         <h2 class="title" style="-webkit-line-clamp: 4;">Newest Technology and Security Compliance</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                        <p>Stay ahead of the curve with our innovative solutions, leveraging the newest technologies and security compliance standards to keep your business and customer data safe, secure, and ahead of the competition.</p>
+                                        <!-- <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a> -->
                                     </div>
-                                    <div class="case-study-counterup">
+                                    <!-- <div class="case-study-counterup">
                                         <div class="single-counterup">
                                             <h2 class="count-number">
                                                 <span class="number count" data-count="20">20</span>
@@ -230,7 +227,7 @@ defineProps({
                                             </h2>
                                             <span class="counter-title">Monthly website visits</span>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="slick-slide">
@@ -238,11 +235,10 @@ defineProps({
                                     <div class="section-heading heading-left">
                                         <span class="subtitle">#4 Service Deliverable</span>
                                         <h2 class="title">High Quality Support & Maintenance</h2>
-                                        <p>Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis.</p>
-                                        <p>Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris.</p>
-                                        <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a>
+                                        <p>Enjoy peace of mind with our high-quality support and maintenance services, providing round-the-clock technical assistance, regular updates, and proactive maintenance to ensure your solutions perform at their best and meet your evolving needs.</p>
+                                        <!-- <a href="single-case-study.html" class="axil-btn btn-fill-primary btn-large">Read Case Study</a> -->
                                     </div>
-                                    <div class="case-study-counterup">
+                                    <!-- <div class="case-study-counterup">
                                         <div class="single-counterup">
                                             <h2 class="count-number">
                                                 <span class="number count" data-count="15">15</span>
@@ -257,7 +253,7 @@ defineProps({
                                             </h2>
                                             <span class="counter-title">Monthly website visits</span>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -295,8 +291,8 @@ defineProps({
                             <div class="section-heading heading-left mb-0">
                                 <span class="subtitle">About Us</span>
                                 <h2 class="title mb--40">We do design, code, develop, test & maintenance.</h2>
-                                <p>Nulla et velit gravida, facilisis quam a, molestie ante. Mauris placerat suscipit dui, eget maximus tellus blandit a. Praesent non tellus sed ligula commodo blandit in et mauris. Quisque efficitur ipsum ut dolor molestie pellentesque. </p>
-                                <p>Nulla pharetra hendrerit mi quis dapibus. Quisque luctus, tortor a venenatis fermentum, est lacus feugiat nisl, id pharetra odio enim eget libero. </p>
+                                <p>We delivering user-friendly and aesthetically pleasing products that meet your business goals and exceed your expectations, every step of the way. Our team of experts combines creativity and technical expertise to bring your ideas to life, delivering solutions that are both functional and visually appealing.</p>
+                                <p>At every stage of the development process, we work closely with you to ensure that your needs and requirements are met, and that the final product meets your expectations. Whether you need a simple system or a complex system, our team is equipped with the skills and experience to deliver the best results. Our focus on quality and attention to detail ensures that the end product is not only functional but also secure, scalable, and user-friendly.</p>
                             </div>
                         </div>
                     </div>
@@ -343,8 +339,9 @@ defineProps({
                 <div class="axil-isotope-wrapper">
                     <div class="isotope-button isotope-project-btn">
                         <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
-                        <button data-filter=".branding"><span class="filter-text">Branding</span></button>
+                        <button data-filter=".branding"><span class="filter-text">Web</span></button>
                         <button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
+                        <button data-filter=".mobile"><span class="filter-text">Virtual Reality</span></button>
                     </div>
                     <div class="row row-35 isotope-list">
                         <div class="col-md-6 project branding">
@@ -442,7 +439,7 @@ defineProps({
                 <div class="section-heading heading-light">
                     <span class="subtitle">Featured Case Study</span>
                     <h2 class="title">Design startup movement</h2>
-                    <p>In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
+                    <p>"The design startup movement is a catalyst for change, where creativity and technology converge to solve problems, drive innovation, and change the world for the better." </p>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -451,7 +448,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-7.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
-                                <span class="number count" data-count="15">15</span>
+                                <span class="number count" data-count="3">3</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Years of operation</h6>
@@ -463,7 +460,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-8.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
-                                <span class="number count" data-count="360">360</span>
+                                <span class="number count" data-count="11">11</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Projects deliverd</h6>
@@ -475,7 +472,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-9.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
-                                <span class="number count" data-count="600">600</span>
+                                <span class="number count" data-count="10">10</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Specialist</h6>
@@ -487,10 +484,10 @@ defineProps({
                                 <img src="assets/abstract/media/icon/apple.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
-                                <span class="number count" data-count="64">64</span>
+                                <span class="number count" data-count="8">8</span>
                                 <span class="symbol">+</span>
                             </div>
-                            <h6 class="title">Years of operation</h6>
+                            <h6 class="title">Credentials</h6>
                         </div>
                     </div>
                 </div>
@@ -569,7 +566,7 @@ defineProps({
         <!--=====================================-->
         <!--=        Pricing Area Start       	=-->
         <!--=====================================-->
-        <section class="section bg-color-light section-padding">
+        <!-- <section class="section bg-color-light section-padding">
             <div class="container">
                 <div class="section-heading mb-0">
                     <span class="subtitle">Pricing Plan</span>
@@ -684,7 +681,7 @@ defineProps({
                 <li class="shape shape-1"><img src="assets/abstract/media/others/line-1.png" alt="shape"></li>
                 <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-4.png" alt="shape"></li>
             </ul>
-        </section>
+        </section> -->
         <!--=====================================-->
         <!--=        Brand Area Start       	=-->
         <!--=====================================-->
