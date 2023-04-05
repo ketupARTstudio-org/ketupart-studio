@@ -36,8 +36,12 @@ Just make sure that your Laragon run with below Environment
 
 **6) Create database - dev_ketupart_studio**
 
+**7) Migrate database - php artisan migrate**
+
 **7) run - `npm install`**
 
 **8) run - `npm run build`**
+
+**9) : If Linux Server) Set Permission - sudo chown -R root:www-data /var/www/html/ketupart-studio/ && sudo find /var/www/html/ketupart-studio/ -type f -exec chmod 664 {} \; && sudo find /var/www/html/ketupart-studio/ -type d -exec chmod 775 {} \;**
 
 
