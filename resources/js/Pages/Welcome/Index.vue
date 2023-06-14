@@ -29,8 +29,8 @@ defineProps({
                     </div>
                 </div>
                 <div class="banner-thumbnail">
-                    <div class="large-thumb" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
-                        <img class="paralax-image" src="assets/abstract/media/banner/ketupat.png" alt="Shape">
+                    <div class="large-thumb text-end" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
+                        <img class="paralax-image w-50" src="assets/images/robot.png" alt="Shape">
                     </div>
                 </div>
                 <div class="banner-social" data-sal="slide-up" data-sal-duration="800">
@@ -330,7 +330,7 @@ defineProps({
         <!--=====================================-->
         <!--=        Project Area Start         =-->
         <!--=====================================-->
-        <section class="section section-padding-2">
+        <!-- <section class="section section-padding-2">
             <div class="container">
                 <div class="section-heading heading-left mb--40">
                     <span class="subtitle">Our Project</span>
@@ -430,7 +430,7 @@ defineProps({
                 <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-2.png" alt="Line"></li>
                 <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-1.png" alt="Line"></li>
             </ul>
-        </section>
+        </section> -->
         <!--=====================================-->
         <!--=        Counter Up Area Start      =-->
         <!--=====================================-->
@@ -501,7 +501,7 @@ defineProps({
         <!--=====================================-->
         <!--=        Testimonial Area Start      =-->
         <!--=====================================-->
-        <section class="section section-padding">
+        <!-- <section class="section section-padding">
             <div class="container">
                 <div class="section-heading heading-left">
                     <span class="subtitle">Testimonial</span>
@@ -562,7 +562,7 @@ defineProps({
             <ul class="shape-group-4 list-unstyled">
                 <li class="shape-1"><img src="assets/abstract/media/others/bubble-1.png" alt="Bubble"></li>
             </ul>
-        </section>
+        </section> -->
         <!--=====================================-->
         <!--=        Pricing Area Start       	=-->
         <!--=====================================-->
@@ -685,7 +685,7 @@ defineProps({
         <!--=====================================-->
         <!--=        Brand Area Start       	=-->
         <!--=====================================-->
-        <section class="section section-padding bg-color-dark">
+        <!-- <section class="section section-padding bg-color-dark">
             <div class="container">
                 <div class="section-heading heading-light-left">
                     <span class="subtitle">Top Clients</span>
@@ -738,11 +738,11 @@ defineProps({
             <ul class="list-unstyled shape-group-10">
                 <li class="shape shape-1"><img src="assets/abstract/media/others/line-9.png" alt="Circle"></li>
             </ul>
-        </section>
+        </section> -->
         <!--=====================================-->
         <!--=        Blog Area Start       	    =-->
         <!--=====================================-->
-        <section class="section section-padding-equal">
+        <!-- <section class="section section-padding-equal">
             <div class="container">
                 <div class="section-heading">
                     <span class="subtitle">What's Going On</span>
@@ -782,7 +782,7 @@ defineProps({
                 <li class="shape shape-3"><img src="assets/abstract/media/others/line-2.png" alt="bubble"></li>
                 <li class="shape shape-4"><img src="assets/abstract/media/others/bubble-2.png" alt="bubble"></li>
             </ul>
-        </section>
+        </section> -->
         <!--=====================================-->
         <!--=     Call To Action Area Start     =-->
         <!--=====================================-->

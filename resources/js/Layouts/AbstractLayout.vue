@@ -902,11 +902,11 @@ defineProps({
                                                     <a href="javascript:void(0);">About</a>
                                                     <ul class="axil-submenu">
                                                         <li><Link href="/aboutus">About Us</Link></li>
-                                                        <li><Link href="/ouroffice">Our Office</Link></li>
+                                                        <!-- <li><Link href="/ouroffice">Our Office</Link></li>
                                                         <li><Link href="/team">Team</Link></li>
                                                         <li><Link href="/ourclient">Our Clients</Link></li>
                                                         <li><Link href="/accreditation">Accreditation</Link></li>
-                                                        <li><Link href="/testimonial">Testimonials</Link></li>
+                                                        <li><Link href="/testimonial">Testimonials</Link></li> -->
                                                     </ul>
                                                 </li>
                                                 <li class="menu-item-has-children">
@@ -917,12 +917,12 @@ defineProps({
                                                         <li><Link href="/gamedevelopment">Game Development</Link></li>
                                                         <li><Link href="/arvr">Augmented Realities & Virtual Realities</Link></li>
                                                       
-                                                        <li><Link href="/machinelearning">Machine Learning</Link></li>
+                                                        <!-- <li><Link href="/machinelearning">Machine Learning</Link></li>
                                                         <li><Link href="/computervision">Computer Vision</Link></li>
-                                                        <li><Link href="/blockchain">Blockchain</Link></li>
+                                                        <li><Link href="/blockchain">Blockchain</Link></li> -->
                                                     </ul>
                                                 </li>
-                                                <li class="menu-item-has-children">
+                                                <!-- <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Portfolio</a>
                                                     <ul class="axil-submenu">
                                                         <li><Link href="/casestudy">Case Study</Link></li>
@@ -944,8 +944,8 @@ defineProps({
                                                         <li><hr class="my-2"></li>
                                                         <li><a href="our-office.html"><b>VIEW ALL PRODUCTS</b></a></li>
                                                     </ul>
-                                                </li>
-                                                <li><Link href="/blog">Blogs</Link></li>
+                                                </li> -->
+                                                <!-- <li><Link href="/blog">Blogs</Link></li> -->
                                                 <li><Link href="/contact">Contact</Link></li>
                                             </ul>
                                         </nav>
@@ -1016,8 +1016,7 @@ defineProps({
                                         <div class="footer-widget border-end">
                                             <div class="footer-newsletter">
                                                 <h2 class="title">Get in touch!</h2>
-                                                <p>Fusce varius, dolor tempor interdum tristique, dui urna bib
-                                                    endum magna, ut ullamcorper purus</p>
+                                                <p>Please feel free to contact us if you have any question</p>
                                                 <form>
                                                     <div class="input-group">
                                                         <input type="email" class="form-control" placeholder="Email address">
@@ -1044,7 +1043,7 @@ defineProps({
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-3">
+                                            <!-- <div class="col-sm-3">
                                                 <div class="footer-widget">
                                                     <h6 class="widget-title">Resourses</h6>
                                                     <div class="footer-menu-link">
@@ -1055,7 +1054,7 @@ defineProps({
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="col-sm-3">
                                                 <div class="footer-widget">
                                                     <h6 class="widget-title">Support</h6>
@@ -1076,7 +1075,7 @@ defineProps({
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="footer-copyright">
-                                            <span class="copyright-text">© 2021. All rights reserved by <a href="https://axilthemes.com/">Axilthemes</a>.</span>
+                                            <span class="copyright-text">© 2023. All rights reserved by KetupArt Studio.</span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -1103,14 +1102,14 @@ defineProps({
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            <form action="#" class="side-nav-search-form">
+                            <!-- <form action="#" class="side-nav-search-form">
                                 <div class="form-group">
                                     <input type="text" class="search-field" name="search-field" placeholder="Search...">
                                     <button class="side-nav-search-btn"><i class="fas fa-search"></i></button>
                                 </div>
-                            </form>
+                            </form> -->
                             <div class="row ">
-                                <div class="col-lg-5 col-xl-6">
+                                <!-- <div class="col-lg-5 col-xl-6">
                                     <ul class="main-navigation list-unstyled">
                                         <li><a href="index-1.html">Digital Agency</a></li>
                                         <li><a href="index-2.html">Creative Agency</a></li>
@@ -1118,20 +1117,20 @@ defineProps({
                                         <li><a href="index-4.html">Home Startup</a></li>
                                         <li><a href="index-5.html">Corporate Agency</a></li>
                                     </ul>
-                                </div>
+                                </div> -->
                                 <div class="col-lg-7 col-xl-6">
                                     <div class="contact-info-wrap">
                                         <div class="contact-inner">
                                             <address class="address">
                                                 <span class="title">Contact Information</span>
-                                                <p>Theodore Lowe, Ap #867-859 <br> Sit Rd, Azusa New York</p>
+                                                <p>ketupartstudio@gmail.com</p>
                                             </address>
                                             <address class="address">
-                                                <span class="title">We're Available 24/7. Call Now.</span>
-                                                <a class="tel" href="tel:8884562790"><i class="fas fa-phone"></i>(888)
+                                                <span class="title">We're Available 24/7. </span>
+                                                <!-- <a class="tel" href="tel:8884562790"><i class="fas fa-phone"></i>(888)
                                                     456-2790</a>
                                                 <a class="tel" href="tel:12125553333"><i class="fas fa-fax"></i>(121)
-                                                    255-53333</a>
+                                                    255-53333</a> -->
                                             </address>
                                         </div>
                                         <div class="contact-inner">
@@ -1140,7 +1139,6 @@ defineProps({
                                                 <ul class="social-share list-unstyled">
                                                     <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
                                                     <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
-                                                    <li><a href="https://www.behance.net/"><i class="fab fa-behance"></i></a></li>
                                                     <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
                                                 </ul>
                                             </div>

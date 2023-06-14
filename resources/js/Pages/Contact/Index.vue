@@ -42,7 +42,7 @@ defineProps({
         <section class="section section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-6">
+                    <!-- <div class="col-xl-5 col-lg-6">
                         <div class="contact-form-box shadow-box mb--30">
                             <h3 class="title">Get a free Keystroke quote now</h3>
                             <form method="POST" action="mail.php" class="axil-contact-form">
@@ -67,17 +67,17 @@ defineProps({
                                 </div>
                             </form>
                         </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 offset-xl-1">
-                        <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
+                    </div> -->
+                    <div class="col-xl-12 col-lg-12 offset-xl-1">
+                        <!-- <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                             <h4 class="title">Phone</h4>
-                            <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
+                            <p>Our person in charge is open from Mon-Fri, 10:00 am to 6:00 pm</p>
                             <h4 class="phone-number"><a href="tel:1234567890">(123) 456 7890</a></h4>
-                        </div>
+                        </div> -->
                         <div class="contact-info mb--30">
                             <h4 class="title">Email</h4>
                             <p>Our support team will get back to in 48-h during standard business hours.</p>
-                            <h4 class="phone-number"><a href="mailto:info@example.com">info@example.com</a></h4>
+                            <h4 class="phone-number"><a href="mailto:info@example.com">ketupartstudio@gmail.com</a></h4>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ defineProps({
         <!--=====================================-->
         <!--=       Location  Area Start        =-->
         <!--=====================================-->
-        <section class="section section-padding bg-color-dark overflow-hidden">
+        <!-- <section class="section section-padding bg-color-dark overflow-hidden">
             <div class="container">
                 <div class="section-heading heading-light-left">
                     <span class="subtitle">Find Us</span>
@@ -149,7 +149,7 @@ defineProps({
                 <li class="shape shape-1"><img src="assets/abstract/media/others/line-6.png" alt="line"></li>
                 <li class="shape shape-2"><img src="assets/abstract/media/others/circle-3.png" alt="line"></li>
             </ul>
-        </section>
+        </section> -->
     </AbsractLayout>
 
 </template>
