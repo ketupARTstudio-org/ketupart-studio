@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Welcome" />
+    <Head title="Home" />
 
     <AbsractLayout>
 
@@ -22,7 +22,7 @@ defineProps({
         <section class="banner banner-style-4">
             <div class="container">
                 <div class="banner-content">
-                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Technology Solution craft for Industries, SMEs & Education.</h1>
+                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Craft Technology for Industries, SMEs & Education with Art.</h1>
                     <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of development services, with latest technology and security frameworks to regulate your business and being on track with global standards with the vision in Empowering Industries, SMEs, and Education through cutting-edge technology solutions that unleash productivity, efficiency, and innovation for a brighter future.</p>
                     <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                         <a href="#section-2" class="axil-btn btn-fill-primary btn-large">View Services</a>

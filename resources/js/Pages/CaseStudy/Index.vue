@@ -1,5 +1,5 @@
 <script setup>
-import AbsractLayout from '@/Layouts/AbstractLayout.vue';
+import AbstractLayout from '@/Layouts/AbstractLayout.vue';
 import { Head, Link } from '@inertiajs/inertia-vue3';
 
 defineProps({
@@ -10,7 +10,15 @@ defineProps({
 <template>
     <Head title="Case Study" />
 
-    <AbsractLayout>
-    </AbsractLayout>
+    <AbstractLayout>
+
+        <section class="banner">
+            <div class="container">
+           
+            </div>
+        </section>
+
+
+    </AbstractLayout>
 
 </template>

@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Augmented Reality & Virtual Reality" />
+    <Head title="Immersive" />
 
     <AbsractLayout>
 

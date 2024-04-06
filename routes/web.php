@@ -45,8 +45,11 @@ Route::get('/testimonial', function () {
 });
 
 //Services
-Route::get('/arvr', function () {
-    return Inertia::render('ArVr/Index', []);
+Route::get('/consultancy', function () {
+    return Inertia::render('Consultancy/Index', []);
+});
+Route::get('/immersive', function () {
+    return Inertia::render('Immersive/Index', []);
 });
 Route::get('/gamedevelopment', function () {
     return Inertia::render('GameDevelopment/Index', []);
@@ -57,19 +60,19 @@ Route::get('/mobiledevelopment', function () {
 Route::get('/webdevelopment', function () {
     return Inertia::render('WebDevelopment/Index', []);
 });
-Route::get('/machinelearning', function () {
-    return Inertia::render('MachineLearning/Index', []);
-});
-Route::get('/computervision', function () {
-    return Inertia::render('ComputerVision/Index', []);
-});
 Route::get('/blockchain', function () {
     return Inertia::render('Blockchain/Index', []);
+});
+Route::get('/cloudcomputing', function () {
+    return Inertia::render('CloudComputing/Index', []);
+});
+Route::get('/microservice', function () {
+    return Inertia::render('Microservice/Index', []);
 });
 
 //Portfolio
 Route::get('/casestudy', function () {
-    return Inertia::render('Blockchain/Index', []);
+    return Inertia::render('CaseStudy/Index', []);
 });
 Route::get('/project', function () {
     return Inertia::render('Blockchain/Index', []);

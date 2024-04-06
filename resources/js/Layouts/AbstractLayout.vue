@@ -901,28 +901,28 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">About</a>
                                                     <ul class="axil-submenu">
-                                                        <li><Link href="/aboutus">About Us</Link></li>
-                                                        <!-- <li><Link href="/ouroffice">Our Office</Link></li>
-                                                        <li><Link href="/team">Team</Link></li>
+                                                        <li><Link href="/aboutus">KetupArt</Link></li>
+                                                        <!-- <li><Link href="/ouroffice">Our Office</Link></li>-->
+                                                        <!-- <li><Link href="/team">Team</Link></li> -->
                                                         <li><Link href="/ourclient">Our Clients</Link></li>
-                                                        <li><Link href="/accreditation">Accreditation</Link></li>
-                                                        <li><Link href="/testimonial">Testimonials</Link></li> -->
+                                                        <!-- <li><Link href="/accreditation">Accreditation</Link></li> -->
+                                                        <!-- <li><Link href="/testimonial">Testimonials</Link></li>  -->
                                                     </ul>
                                                 </li>
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Services</a>
                                                     <ul class="axil-submenu">
-                                                        <li><Link href="/webdevelopment">Web Development</Link></li>
-                                                        <li><Link href="/mobiledevelopment">Mobile Development</Link></li>
+                                                        <li><Link href="/consultancy">Digital Consultancy</Link></li>
+                                                        <li><Link href="/immersive">Immersive Technology</Link></li>
+                                                        <li><Link href="/blockchain">Blockchain Technology</Link></li>
+                                                        <li><Link href="/cloudcomputing">Cloud Computing</Link></li>
+                                                        <li><Link href="/microservice">Microservices</Link></li>
                                                         <li><Link href="/gamedevelopment">Game Development</Link></li>
-                                                        <li><Link href="/arvr">Augmented Realities & Virtual Realities</Link></li>
-                                                      
-                                                        <!-- <li><Link href="/machinelearning">Machine Learning</Link></li>
-                                                        <li><Link href="/computervision">Computer Vision</Link></li>
-                                                        <li><Link href="/blockchain">Blockchain</Link></li> -->
+                                                        <li><Link href="/webdevelopment">Web Development</Link></li>
+                                                        <li><Link href="/mobiledevelopment">Mobile Development</Link></li>                                                       
                                                     </ul>
                                                 </li>
-                                                <!-- <li class="menu-item-has-children">
+                                                <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Portfolio</a>
                                                     <ul class="axil-submenu">
                                                         <li><Link href="/casestudy">Case Study</Link></li>
@@ -933,18 +933,28 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Products</a>
                                                     <ul class="axil-submenu">
-                                                        <li><a href="about-us.html"><b>K-PMS</b> - Project Management System</a></li>
-                                                        <li><a href="about-us.html"><b>K-ERP</b> - Enterprise Resource Planning System</a></li>
-                                                        <li><a href="case-study.html"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
-                                                        <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>
-                                                        <li><hr class="my-2"></li>
-                                                        <li><a href="our-office.html"><b>K-XRLearn</b> - Extended Reality ELearning System</a></li>
-                                                        <li><a href="our-office.html"><b>K-Learn</b> - ELearning Management System</a></li>
+                                                        <li><strong class="ms-2 text-primary">Education</strong></li>
                                                         <li><a href="our-office.html"><b>K-Tournament</b> - Tournament Management System</a></li>
+                                                        <li><a href="learn.html"><b>K-Learn</b> - ELearning Management System</a></li>
+                                                        <li><hr class="my-2"></li>
+                                                        <li><strong class="ms-2  text-primary">Project Management</strong></li>
+                                                        <li><a href="about-us.html"><b>K-Project</b> - Project Management System</a></li>
+                                                        <li><hr class="my-2"></li>
+                                                        <li><strong class="ms-2  text-primary">Human Resources</strong></li>
+                                                        <li><a href="about-us.html"><b>K-HR</b> - Human Resources Management System</a></li>
+                                                        <li><hr class="my-2"></li>
+                                                        <li><strong class="ms-2  text-primary">Health & Safety</strong></li>
+                                                        <li><a href="hse.html"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
+                                                        <li><hr class="my-2"></li>
+                                                        <li><strong class="ms-2  text-primary">Financing</strong></li>
+                                                        <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>                                                       
+                                                        <li><hr class="my-2"></li>
+                                                        <li><strong class="ms-2  text-primary">POS</strong></li>
+                                                        <li><a href="case-study.html"><b>K-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
                                                         <li><hr class="my-2"></li>
                                                         <li><a href="our-office.html"><b>VIEW ALL PRODUCTS</b></a></li>
                                                     </ul>
-                                                </li> -->
+                                                </li>
                                                 <!-- <li><Link href="/blog">Blogs</Link></li> -->
                                                 <li><Link href="/contact">Contact</Link></li>
                                             </ul>
