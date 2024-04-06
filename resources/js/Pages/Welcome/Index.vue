@@ -30,7 +30,7 @@ defineProps({
                 </div>
                 <div class="banner-thumbnail">
                     <div class="large-thumb text-end" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
-                        <img class="paralax-image w-50" src="assets/images/robot.png" alt="Shape">
+                        <img class="paralax-image w-100" src="assets/abstract/media/banner/data-management.png" alt="Shape">
                     </div>
                 </div>
                 <div class="banner-social" data-sal="slide-up" data-sal-duration="800">
@@ -63,75 +63,85 @@ defineProps({
                     <p class="opacity-50 w-50">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="services-grid active p-20">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
-                            </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="services-grid active p-20" style="padding: 20px;">
+                         
                             <div class="content">
-                                <h5 class="title"> <a href="service-design.html">Web Development</a></h5>
+                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
+                                <h5 class="title"> <a href="service-design.html">Digital Consultancy</a></h5>
                                 <p>Transform your online presence with our expert web development services, delivering stunning, user-friendly and scalable websites that captivate your audience, boost your brand and drive business growth.</p>
                                 <a href="service-design.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
-                            </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <h5 class="title"> <a href="service-development.html">Mobile Development</a></h5>
+                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
+                                <h5 class="title"> <a href="service-development.html">Immersive Technology</a></h5>
                                 <p>Transform your ideas into reality with our exceptional mobile development services, delivering intuitive, user-friendly, and innovative apps for iOS and Android platforms.</p>
                                 <a href="service-development.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
-                            </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid" style="padding: 20px;">
                             <div class="content">
+                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
+                                <h5 class="title"> <a href="service-technology.html">Blockchain Technology</a></h5>
+                                <p>Blend the digital and physical worlds like never before with our innovative augmented reality solutions, creating immersive and interactive experiences that engage, educate, and entertain your audience like never before.</p>
+                                <a href="service-technology.html" class="more-btn">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid" style="padding: 20px;">
+                            <div class="content">
+                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
+                                <h5 class="title"> <a href="service-content-strategy.html">Cloud Computing</a></h5>
+                                <p>Step into a new reality with our cutting-edge virtual reality services, delivering mind-blowing experiences that transport users to new and fantastical worlds, driving engagement and delivering results beyond your wildest dreams.</p>
+                                <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid" style="padding: 20px;">
+                            <div class="content">
+                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
                                 <h5 class="title"> <a href="service-marketing.html">Microservices & API</a></h5>
                                 <p>Unleash the full potential of your business with our cutting-edge microservices and API development solutions, providing seamless integration, scalability, and agility to drive digital transformation.</p>
                                 <a href="service-marketing.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
-                            </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="services-grid" style="padding: 20px;">
                             <div class="content">
+                                <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
                                 <h5 class="title"> <a href="service-business.html">Game Development</a></h5>
                                 <p>Enter the world of endless entertainment with our expert game development services, crafting immersive and engaging games for mobile, PC, and console platforms with stunning graphics and captivating gameplay.</p>
                                 <a href="service-business.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
-                            </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="services-grid" style="padding: 20px;">
+                         
                             <div class="content">
-                                <h5 class="title"> <a href="service-technology.html">Augmented Reality</a></h5>
-                                <p>Blend the digital and physical worlds like never before with our innovative augmented reality solutions, creating immersive and interactive experiences that engage, educate, and entertain your audience like never before.</p>
-                                <a href="service-technology.html" class="more-btn">Find out more</a>
+                                <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
+                                <h5 class="title"> <a href="service-design.html">Web Development</a></h5>
+                                <p>Transform your online presence with our expert web development services, delivering stunning, user-friendly and scalable websites that captivate your audience, boost your brand and drive business growth.</p>
+                                <a href="service-design.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="services-grid">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
-                            </div>
+                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid" style="padding: 20px;">
                             <div class="content">
-                                <h5 class="title"> <a href="service-content-strategy.html">Virtual Reality</a></h5>
-                                <p>Step into a new reality with our cutting-edge virtual reality services, delivering mind-blowing experiences that transport users to new and fantastical worlds, driving engagement and delivering results beyond your wildest dreams.</p>
-                                <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                                <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
+                                <h5 class="title"> <a href="service-development.html">Mobile Development</a></h5>
+                                <p>Transform your ideas into reality with our exceptional mobile development services, delivering intuitive, user-friendly, and innovative apps for iOS and Android platforms.</p>
+                                <a href="service-development.html" class="more-btn">Find out more</a>
                             </div>
                         </div>
                     </div>
@@ -143,6 +153,55 @@ defineProps({
                 <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-43.png" alt="Circle"></li>
             </ul>
         </section>
+
+        <!--=====================================-->
+        <!--=        About Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal bg-color-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12" data-sal="slide-up" data-sal-duration="800">
+                        <div class="about-us">
+                            <div class="section-heading heading-left mb-0">
+                                <span class="subtitle">Our Core Work</span>
+                                <h2 class="title mb--40">We do design, code, develop, test & maintenance.</h2>
+                                <p>We delivering user-friendly and aesthetically pleasing products that meet your business goals and exceed your expectations, every step of the way. Our team of experts combines creativity and technical expertise to bring your ideas to life, delivering solutions that are both functional and visually appealing.</p>
+                                <p>At every stage of the development process, we work closely with you to ensure that your needs and requirements are met, and that the final product meets your expectations. Whether you need a simple system or a complex system, our team is equipped with the skills and experience to deliver the best results. Our focus on quality and attention to detail ensures that the end product is not only functional but also secure, scalable, and user-friendly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-5 col-lg-6 offset-xl-1" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="contact-form-box">
+                            <h3 class="title">Get a free Keystroke quote now</h3>
+                            <form method="POST" action="mail.php" class="axil-contact-form">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" name="contact-name" placeholder="John Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="contact-email" placeholder="example@mail.com">
+                                </div>
+                                <div class="form-group mb--40">
+                                    <label>Phone</label>
+                                    <input type="tel" class="form-control" name="contact-company" placeholder="+123456789">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Free Quote</button>
+                                </div>
+                                <input type="hidden" class="form-control" name="contact-message" value="Null">
+                            </form>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <ul class="shape-group-6 list-unstyled">
+                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-7.png" alt="Bubble"></li>
+                <li class="shape shape-2"><img src="assets/abstract/media/others/line-4.png" alt="line"></li>
+                <li class="shape shape-3"><img src="assets/abstract/media/others/line-5.png" alt="line"></li>
+            </ul>
+        </section>
+
         <!--=====================================-->
         <!--=       Case Study Area Start       =-->
         <!--=====================================-->
@@ -280,53 +339,7 @@ defineProps({
                 </div>
             </div>
         </section>
-        <!--=====================================-->
-        <!--=        About Area Start         =-->
-        <!--=====================================-->
-        <section class="section section-padding-equal bg-color-light">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6" data-sal="slide-up" data-sal-duration="800">
-                        <div class="about-us">
-                            <div class="section-heading heading-left mb-0">
-                                <span class="subtitle">About Us</span>
-                                <h2 class="title mb--40">We do design, code, develop, test & maintenance.</h2>
-                                <p>We delivering user-friendly and aesthetically pleasing products that meet your business goals and exceed your expectations, every step of the way. Our team of experts combines creativity and technical expertise to bring your ideas to life, delivering solutions that are both functional and visually appealing.</p>
-                                <p>At every stage of the development process, we work closely with you to ensure that your needs and requirements are met, and that the final product meets your expectations. Whether you need a simple system or a complex system, our team is equipped with the skills and experience to deliver the best results. Our focus on quality and attention to detail ensures that the end product is not only functional but also secure, scalable, and user-friendly.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 offset-xl-1" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                        <div class="contact-form-box">
-                            <h3 class="title">Get a free Keystroke quote now</h3>
-                            <form method="POST" action="mail.php" class="axil-contact-form">
-                                <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" name="contact-name" placeholder="John Smith">
-                                </div>
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="email" class="form-control" name="contact-email" placeholder="example@mail.com">
-                                </div>
-                                <div class="form-group mb--40">
-                                    <label>Phone</label>
-                                    <input type="tel" class="form-control" name="contact-company" placeholder="+123456789">
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Get Free Quote</button>
-                                </div>
-                                <input type="hidden" class="form-control" name="contact-message" value="Null">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="shape-group-6 list-unstyled">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-7.png" alt="Bubble"></li>
-                <li class="shape shape-2"><img src="assets/abstract/media/others/line-4.png" alt="line"></li>
-                <li class="shape shape-3"><img src="assets/abstract/media/others/line-5.png" alt="line"></li>
-            </ul>
-        </section>
+   
         <!--=====================================-->
         <!--=        Project Area Start         =-->
         <!--=====================================-->
@@ -460,7 +473,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-8.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
-                                <span class="number count" data-count="11">11</span>
+                                <span class="number count" data-count="4">4</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Projects deliverd</h6>
@@ -472,7 +485,7 @@ defineProps({
                                 <img src="assets/abstract/media/icon/icon-9.png" alt="Apple">
                             </div>
                             <div class="count-number h2">
-                                <span class="number count" data-count="10">10</span>
+                                <span class="number count" data-count="5">5</span>
                                 <span class="symbol">+</span>
                             </div>
                             <h6 class="title">Specialist</h6>
@@ -792,20 +805,20 @@ defineProps({
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
                         <h2 class="title">Need a successful project?</h2>
-                        <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
+                        <Link href="/contact" class="axil-btn btn-fill-primary btn-large">Estimate Project</Link>
                     </div>
                     <div class="thumbnail">
                         <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
                             <img class="paralax-image" src="assets/abstract/media/others/chat-group.png" alt="Chat">
                         </div>
-                        <ul class="list-unstyled small-thumb">
+                        <!-- <ul class="list-unstyled small-thumb">
                             <li class="shape shape-1" data-sal="slide-right" data-sal-duration="800" data-sal-delay="400">
                                 <img class="paralax-image" src="assets/abstract/media/others/laptop-poses.png" alt="Laptop">
                             </li>
                             <li class="shape shape-2" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
                                 <img class="paralax-image" src="assets/abstract/media/others/bill-pay.png" alt="Bill">
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>

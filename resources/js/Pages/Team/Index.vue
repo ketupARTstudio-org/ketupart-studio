@@ -17,11 +17,11 @@ defineProps({
         <div class="breadcrum-area breadcrumb-banner">
             <div class="container">
                 <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
-                    <h1 class="title h2">Meet talent &amp; experience</h1>
-                    <p>Grow your business online by awesomely designed mobile apps that fits all types.</p>
+                    <h1 class="title h2">Talent &amp; Experience</h1>
+                    <p>Build your solution with us and revolutionize the way forward with state-of-the-art technology that help people life.</p>
                 </div>
                 <div class="banner-thumbnail thumbnail-2" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
-                    <img class="paralax-image" src="assets/abstract/media/banner/banner-thumb-2.png" alt="Illustration">
+                    <img class="paralax-image" src="assets/images/world-connect.png" alt="Illustration">
                 </div>
             </div>
             <ul class="shape-group-8 list-unstyled">
@@ -36,200 +36,57 @@ defineProps({
                 </li>
             </ul>
         </div>
-        <!--=====================================-->
-        <!--=       Experts  Area Start        =-->
-        <!--=====================================-->
-        <section class="section section-padding expert-counterup-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="section-heading heading-left">
-                            <span class="subtitle">Experts in field</span>
-                            <h2>What makes us special?</h2>
-                            <p class="mb--50">In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in egestas ipsum. Mauris in mi ac tellus.</p>
-                            <a href="contact.html" class="axil-btn btn-large btn-fill-primary">Careers</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 offset-xl-1">
-                        <div class="row" id="no-equal-gallery">
-                            <div class="col-sm-6 no-equal-item" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                                <div class="counterup-progress counterup-style-2 active">
-                                    <div class="icon">
-                                        <img class="dark-icon" src="assets/abstract/media/icon/icon-10.png" alt="Icon">
-                                        <img class="light-icon" src="assets/abstract/media/icon/icon-7.png" alt="Icon">
-                                    </div>
-                                    <div class="count-number h2">
-                                        <span class="number count" data-count="15">15</span>
-                                        <span class="symbol">+</span>
-                                    </div>
-                                    <h6 class="title">Years of operation</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 mt--90 mt_md--0 no-equal-item" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                                <div class="counterup-progress counterup-style-2">
-                                    <div class="icon">
-                                        <img class="dark-icon" src="assets/abstract/media/icon/icon-11.png" alt="Icon">
-                                        <img class="light-icon" src="assets/abstract/media/icon/icon-8.png" alt="Icon">
-                                    </div>
-                                    <div class="count-number h2">
-                                        <span class="number count" data-count="360">360</span>
-                                        <span class="symbol">+</span>
-                                    </div>
-                                    <h6 class="title">Projects deliverd</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 no-equal-item" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                                <div class="counterup-progress counterup-style-2">
-                                    <div class="icon">
-                                        <img class="dark-icon" src="assets/abstract/media/icon/icon-12.png" alt="Icon">
-                                        <img class="light-icon" src="assets/abstract/media/icon/icon-9.png" alt="Icon">
-                                    </div>
-                                    <div class="count-number h2">
-                                        <span class="number count" data-count="600">600</span>
-                                        <span class="symbol">+</span>
-                                    </div>
-                                    <h6 class="title">Specialist</h6>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 no-equal-item" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
-                                <div class="counterup-progress counterup-style-2">
-                                    <div class="icon">
-                                        <img class="dark-icon" src="assets/abstract/media/icon/apple-black.png" alt="Icon">
-                                        <img class="light-icon" src="assets/abstract/media/icon/apple.png" alt="Icon">
-                                    </div>
-                                    <div class="count-number h2">
-                                        <span class="number count" data-count="64">64</span>
-                                        <span class="symbol">+</span>
-                                    </div>
-                                    <h6 class="title">Years of operation</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       <!-- Button trigger modal -->
+
         <!--=====================================-->
         <!--=           Team  Area Start        =-->
         <!--=====================================-->
         <section class="section section-padding bg-color-dark pb--70 pb_lg--20 pb_md--0">
             <div class="container">
                 <div class="section-heading heading-light">
-                    <span class="subtitle">Our valus</span>
+                    <span class="subtitle">Strategic Leadership</span>
                     <h2 class="title mb--50">Meet The Team</h2>
-                    <p>Nulla facilisi. Nullam in magna id dolor
-                        blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet.</p>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-sm-6">
-                        <div class="team-grid active">
+                    <div class="col-4">
+                        <div class="team-grid">
                             <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-1.png" alt="Team Member">
+                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ismailModal">
+                                    <img src="assets/abstract/media/team/ismail.png" alt="Team Member" style="width:200px">
                                 </a>
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="single-team.html">Savannah Nguyen</a></h4>
-                                <span class="designation">Communications</span>
-                                <span class="designation">Strategist</span>
+                                <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ismailModal">Muhammad Ismail Mat Isham</a></h4>
+                                <span class="designation fw-bold">Founder / Chief Executive Officer</span>
+                                <span class="designation">Immersive Tech Specialist</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-4">
                         <div class="team-grid">
                             <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-2.png" alt="Team Member">
+                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#siangModal">
+                                    <img src="assets/abstract/media/team/chanveisiang.jpeg" alt="Team Member" style="width:200px">
                                 </a>
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="single-team.html">Jerome Bell</a></h4>
-                                <span class="designation">Lead Research</span>
-                                <span class="designation">Producer</span>
+                                <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#siangModal">Chan Vei Siang</a></h4>
+                                <span class="designation fw-bold">Founder / Chief Operating Officer</span>
+                                <span class="designation">Immersive Tech Specialist / AI Specialist</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-4">
                         <div class="team-grid">
                             <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-3.png" alt="Team Member">
+                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#zulZaynModal">
+                                    <img src="assets/abstract/media/team/zulzayn.jpeg" alt="Team Member" style="width:200px">
                                 </a>
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="single-team.html">Darlene Robertson</a></h4>
-                                <span class="designation">Implementation</span>
-                                <span class="designation">Specialist</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6">
-                        <div class="team-grid">
-                            <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-4.png" alt="Team Member">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h4 class="title"><a href="single-team.html">Marvin McKinney</a></h4>
-                                <span class="designation">Forward Interactions</span>
-                                <span class="designation">Developer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6">
-                        <div class="team-grid">
-                            <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-5.png" alt="Team Member">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h4 class="title"><a href="single-team.html">Ralph Edwards</a></h4>
-                                <span class="designation">Communications</span>
-                                <span class="designation">Strategist</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6">
-                        <div class="team-grid">
-                            <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-6.png" alt="Team Member">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h4 class="title"><a href="single-team.html">Kathryn Murphy</a></h4>
-                                <span class="designation">Lead Research</span>
-                                <span class="designation">Producer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6">
-                        <div class="team-grid">
-                            <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-7.png" alt="Team Member">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h4 class="title"><a href="single-team.html">Jane Cooper</a></h4>
-                                <span class="designation">Implementation</span>
-                                <span class="designation">Specialist</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-sm-6">
-                        <div class="team-grid">
-                            <div class="thumbnail">
-                                <a href="single-team.html">
-                                    <img src="assets/abstract/media/team/team-8.png" alt="Team Member">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <h4 class="title"><a href="single-team.html">Cody Fisher</a></h4>
-                                <span class="designation">Forward Interactions</span>
-                                <span class="designation">Developer</span>
+                                <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#zulZaynModal">Zulwaqar Zain Mohtar</a></h4>
+                                <span class="designation fw-bold">Founder / Chief Technology Officer</span>
+                                <span class="designation">Cloud Specialist / Full Stack Specialist</span>
                             </div>
                         </div>
                     </div>
@@ -241,70 +98,114 @@ defineProps({
                 <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-5.png" alt="Circle"></li>
             </ul>
         </section>
+
         <!--=====================================-->
-        <!--=          About  Area Start        =-->
+        <!--=       About Team  Area Start      =-->
         <!--=====================================-->
-        <section class="section section-padding-equal">
+        <section class="section-padding-equal">
             <div class="container">
-                <div class="section-heading">
-                    <span class="subtitle">Experts in field</span>
-                    <h2 class="title">Design startup <br> movement</h2>
-                </div>
-                <div class="about-expert">
-                    <div class="thumbnail">
-                        <img src="assets/abstract/media/about/about-1.png" alt="Thumbnail">
-                        <div class="popup-video">
-                            <a href="https://www.youtube.com/watch?v=1iIZeIy7TqM" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
+                <div class="row align-items-center">
+                    <div class="col-lg-7" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
+                        <div class="about-team">
+                            <div class="thumbnail">
+                                <img src="assets/abstract/media/about/about-2.png" alt="thumbnail">
+                            </div>
                         </div>
                     </div>
-                    <ul class="frame-shape">
-                        <li class="shape shape-1"><img src="assets/abstract/media/about/frame-1.png" alt="Frame"></li>
-                        <li class="shape shape-2"><img src="assets/abstract/media/about/frame-2.png" alt="Frame"></li>
-                    </ul>
-                </div>
-            </div>
-            <ul class="shape-group-16 list-unstyled">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/circle-2.png" alt="circle"></li>
-                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-2.png" alt="Line"></li>
-                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-1.png" alt="Line"></li>
-            </ul>
-        </section>
-        <!--=====================================-->
-        <!--=     Call To Action Area Start     =-->
-        <!--=====================================-->
-        <section class="section call-to-action-area">
-            <div class="container">
-                <div class="call-to-action">
-                    <div class="section-heading heading-light">
-                        <span class="subtitle">Let's Work Together</span>
-                        <h2 class="title">Need a successful project?</h2>
-                        <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
-                            <img class="paralax-image" src="assets/abstract/media/others/chat-group.png" alt="Chat">
+                    <div class="col-lg-5" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
+                        <div class="about-team">
+                            <div class="section-heading heading-left">
+                                <span class="subtitle">Our Team</span>
+                                <h2>Alone we can do so little; together we can do so much.</h2>
+                                <p>"Our team believes that alone, we can do so little, but together, we can achieve so much."</p>
+                                <a href="team.html" class="axil-btn btn-large btn-fill-primary">Our Team</a>
+                            </div>
                         </div>
-                        <ul class="list-unstyled small-thumb">
-                            <li class="shape shape-1" data-sal="slide-right" data-sal-duration="800" data-sal-delay="400">
-                                <img class="paralax-image" src="assets/abstract/media/others/laptop-poses.png" alt="Laptop">
-                            </li>
-                            <li class="shape shape-2" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
-                                <img class="paralax-image" src="assets/abstract/media/others/bill-pay.png" alt="Bill">
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
-            <ul class="list-unstyled shape-group-9">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-12.png" alt="Comments"></li>
-                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
-                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-13.png" alt="Comments"></li>
-                <li class="shape shape-4"><img src="assets/abstract/media/others/bubble-14.png" alt="Comments"></li>
-                <li class="shape shape-5"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
-                <li class="shape shape-6"><img src="assets/abstract/media/others/bubble-15.png" alt="Comments"></li>
-                <li class="shape shape-7"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
-            </ul>
         </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ismailModal" tabindex="-1" aria-labelledby="ismailModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-color-dark">
+                <div class="modal-body p-0">
+                    <a href="javascript:;" class="float-end text-white p-4" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="far fa-times-circle h5 mb-0"></i>
+                    </a>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="assets/abstract/media/team/ismail.png" alt="Team Member" class="w-100">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div class="content d-flex flex-column h-100 justify-content-center">
+                                <h4 class="title">Muhammad Ismail Mat Isham</h4>
+                                <span class="designation fw-bold">Founder / Chief Executive Officer</span>
+                                <span class="designation">Immersive Tech Specialist</span>
+                                <p>As a Chief Executive Officer, Muhammad Ismail Mat Isham is responsible for the overall strategic direction and growth of the company. He has over 10 years of experience in the technology industry and has a proven track record of delivering innovative solutions to complex problems. Ismail is passionate about using technology to solve real-world problems and is committed to helping businesses achieve their goals through the use of cutting-edge technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="siangModal" tabindex="-1" aria-labelledby="siangModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-color-dark">
+                <div class="modal-body p-0">
+                    <a href="javascript:;" class="float-end text-white p-4" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="far fa-times-circle h5 mb-0"></i>
+                    </a>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="assets/abstract/media/team/chanveisiang.jpeg" alt="Team Member" class="w-100">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div class="content d-flex flex-column h-100 justify-content-center">
+                                <h4 class="title">Chan Vei Siang</h4>
+                                <span class="designation fw-bold">Founder / Chief Operating Officer</span>
+                                <span class="designation">Immersive Tech Specialist / AI Specialist</span>
+                                <p>As a Chief Operating Officer, Chan Vei Siang is responsible for the overall operations and growth of the company. He has over 10 years of experience in the technology industry and has a proven track record of delivering innovative solutions to complex problems. Siang is passionate about using technology to solve real-world problems and is committed to helping businesses achieve their goals through the use of cutting-edge technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="zulZaynModal" tabindex="-1" aria-labelledby="zulZaynModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-color-dark">
+                <div class="modal-body p-0">
+                    <a href="javascript:;" class="float-end text-white p-4" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="far fa-times-circle h5 mb-0"></i>
+                    </a>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <img src="assets/abstract/media/team/zulzayn.jpeg" alt="Team Member" class="w-100">
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <div class="content d-flex flex-column h-100 justify-content-center">
+                                <h4 class="title">Zulwaqar Zain Mohtar</h4>
+                                <span class="designation fw-bold">Founder / Chief Technology Officer</span>
+                                <span class="designation">Cloud Specialist / Full Stack Specialist</span>
+                                <p>As a Chief Technology Officer, Zulwaqar Zain Mohtar is responsible for the overall technology strategy and direction of the company. He has over 10 years of experience in the technology industry and has a proven track record of delivering innovative solutions to complex problems. Zulwaqar is passionate about using technology to solve real-world problems and is committed to helping businesses achieve their goals through the use of cutting-edge technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
     </AbsractLayout>
+
+
 
 </template>

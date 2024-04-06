@@ -28,9 +28,6 @@ Route::get('/', function () {
 Route::get('/aboutus', function () {
     return Inertia::render('AboutUs/Index', []);
 });
-Route::get('/ouroffice', function () {
-    return Inertia::render('OurOffice/Index', []);
-});
 Route::get('/team', function () {
     return Inertia::render('Team/Index', []);
 });
@@ -71,14 +68,17 @@ Route::get('/microservice', function () {
 });
 
 //Portfolio
+Route::get('/methodology', function () {
+    return Inertia::render('Methodology/Index', []);
+});
 Route::get('/casestudy', function () {
     return Inertia::render('CaseStudy/Index', []);
 });
 Route::get('/project', function () {
-    return Inertia::render('Blockchain/Index', []);
+    return Inertia::render('Project/Index', []);
 });
 Route::get('/publication', function () {
-    return Inertia::render('Blockchain/Index', []);
+    return Inertia::render('Publication/Index', []);
 });
 
 //Blog

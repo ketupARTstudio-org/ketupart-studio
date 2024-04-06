@@ -409,7 +409,7 @@ export default {
 
         themeColorSet: function() {
 
-            var defaultColor = 'active-light-mode';
+            var defaultColor = 'active-dark-mode';
 
             if ($('body').hasClass('active-dark-mode')) {
                 $('body').removeClass('active-light-mode');
@@ -902,8 +902,7 @@ defineProps({
                                                     <a href="javascript:void(0);">About</a>
                                                     <ul class="axil-submenu">
                                                         <li><Link href="/aboutus">KetupArt</Link></li>
-                                                        <!-- <li><Link href="/ouroffice">Our Office</Link></li>-->
-                                                        <!-- <li><Link href="/team">Team</Link></li> -->
+                                                        <li><Link href="/team">Team</Link></li>
                                                         <li><Link href="/ourclient">Our Clients</Link></li>
                                                         <!-- <li><Link href="/accreditation">Accreditation</Link></li> -->
                                                         <!-- <li><Link href="/testimonial">Testimonials</Link></li>  -->
@@ -925,6 +924,7 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Portfolio</a>
                                                     <ul class="axil-submenu">
+                                                        <li><Link href="/methodology">Work Methodology</Link></li>
                                                         <li><Link href="/casestudy">Case Study</Link></li>
                                                         <li><Link href="/project">Projects</Link></li>
                                                         <li><Link href="/publication">Publications</Link></li>
@@ -933,23 +933,23 @@ defineProps({
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Products</a>
                                                     <ul class="axil-submenu">
-                                                        <li><strong class="ms-2 text-primary">Education</strong></li>
+                                                        <li><strong class="ms-2 text-success">Education</strong></li>
                                                         <li><a href="our-office.html"><b>K-Tournament</b> - Tournament Management System</a></li>
                                                         <li><a href="learn.html"><b>K-Learn</b> - ELearning Management System</a></li>
                                                         <li><hr class="my-2"></li>
-                                                        <li><strong class="ms-2  text-primary">Project Management</strong></li>
+                                                        <li><strong class="ms-2  text-success">Project Management</strong></li>
                                                         <li><a href="about-us.html"><b>K-Project</b> - Project Management System</a></li>
                                                         <li><hr class="my-2"></li>
-                                                        <li><strong class="ms-2  text-primary">Human Resources</strong></li>
+                                                        <li><strong class="ms-2  text-success">Human Resources</strong></li>
                                                         <li><a href="about-us.html"><b>K-HR</b> - Human Resources Management System</a></li>
                                                         <li><hr class="my-2"></li>
-                                                        <li><strong class="ms-2  text-primary">Health & Safety</strong></li>
+                                                        <li><strong class="ms-2  text-success">Health & Safety</strong></li>
                                                         <li><a href="hse.html"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
                                                         <li><hr class="my-2"></li>
-                                                        <li><strong class="ms-2  text-primary">Financing</strong></li>
+                                                        <li><strong class="ms-2  text-success">Financing</strong></li>
                                                         <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>                                                       
                                                         <li><hr class="my-2"></li>
-                                                        <li><strong class="ms-2  text-primary">POS</strong></li>
+                                                        <li><strong class="ms-2  text-success">POS</strong></li>
                                                         <li><a href="case-study.html"><b>K-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
                                                         <li><hr class="my-2"></li>
                                                         <li><a href="our-office.html"><b>VIEW ALL PRODUCTS</b></a></li>
@@ -1009,14 +1009,9 @@ defineProps({
                             <div class="footer-top">
                                 <div class="footer-social-link">
                                     <ul class="list-unstyled">
-                                        <li><a href="https://facebook.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i class="fab fa-facebook-f"></i></a></li>
+                                        <!-- <li><a href="https://facebook.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="https://twitter.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200"><i class="fab fa-twitter"></i></a></li>
-                                        <!-- <li><a href="https://www.pinterest.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li> -->
-                                        <li><a href="https://www.linkedin.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <!-- <li><a href="https://www.instagram.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"><i class="fab fa-instagram"></i></a></li> -->
-                                        <!-- <li><a href="https://vimeo.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i class="fab fa-vimeo-v"></i></a></li> -->
-                                        <!-- <li><a href="https://dribbble.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li> -->
-                                        <!-- <li><a href="https://www.behance.net/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i class="fab fa-behance"></i></a></li> -->
+                                        <li><a href="https://www.linkedin.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -1031,6 +1026,7 @@ defineProps({
                                                     <div class="input-group">
                                                         <input type="email" class="form-control" placeholder="Email address">
                                                         <button class="subscribe-btn" type="submit">Subscribe</button>
+                                                        
                                                     </div>
                                                 </form>
                                             </div>
