@@ -1017,58 +1017,73 @@ defineProps({
                             </div>
                             <div class="footer-main">
                                 <div class="row">
-                                    <div class="col-xl-6 col-lg-5" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
-                                        <div class="footer-widget border-end">
-                                            <div class="footer-newsletter">
-                                                <h2 class="title">Get in touch!</h2>
-                                                <p>Please feel free to contact us if you have any question</p>
-                                                <form>
-                                                    <div class="input-group">
-                                                        <input type="email" class="form-control" placeholder="Email address">
-                                                        <button class="subscribe-btn" type="submit">Subscribe</button>
-                                                        
-                                                    </div>
-                                                </form>
-                                            </div>
+                                    <div class="col-xl-3" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
+                                        <div class="d-flex flex-column">
+                                            <img src="assets/images/logo/Logo V4 for black background.png" alt="" srcset="">
+                                            <p class="mb-1">© 2022 - 2024 KetupArt Studio <br> All Rights Reserved</p>
+                                            <p>Registration No: 202203172936 (003414323-D)</p>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-lg-7" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
+                                    <div class="col-xl-3" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
+                                        <div class="d-flex flex-column">
+                                            <h5>Get In Touch</h5>
+                                            <p>KetupArt Studio, T03, Level 1, University Industry Research Laboratory (UIRL), Universiti Teknologi Malaysia, 81310 Johor Bahru, Johor</p>
+                                            <p>admin@ketupartstudio.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
                                         <div class="row">
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-4">
                                                 <div class="footer-widget">
                                                     <h6 class="widget-title">Services</h6>
                                                     <div class="footer-menu-link">
                                                         <ul class="list-unstyled">
-                                                            <li><a href="service-design.html">Web Development</a></li>
-                                                            <li><a href="service-development.html">Mobile Development</a></li>
-                                                            <li><a href="service-marketing.html">Microservices & API</a></li>
-                                                            <li><a href="service-development.html">Game Development</a></li>
-                                                            <li><a href="service-marketing.html">Augmented Reality</a></li>
-                                                            <li><a href="service-marketing.html">Virtual Reality</a></li>
+                                                            <li><Link href="/consultancy"><small>Digital Consultancy</small></Link></li>
+                                                            <li><Link href="/immersive"><small>Immersive Technology</small></Link></li>
+                                                            <li><Link href="/blockchain"><small>Blockchain Technology</small></Link></li>
+                                                            <li><Link href="/cloudcomputing"><small>Cloud Computing</small></Link></li>
+                                                            <li><Link href="/microservice"><small>Microservices</small></Link></li>
+                                                            <li><Link href="/gamedevelopment"><small>Game Development</small></Link></li>
+                                                            <li><Link href="/webdevelopment"><small>Web Development</small></Link></li>
+                                                            <li><Link href="/mobiledevelopment"><small>Mobile Development</small></Link></li>  
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <div class="col-sm-3">
+                                            <div class="col-sm-3">
                                                 <div class="footer-widget">
-                                                    <h6 class="widget-title">Resourses</h6>
+                                                    <h6 class="widget-title">About us</h6>
                                                     <div class="footer-menu-link">
                                                         <ul class="list-unstyled">
-                                                            <li><a href="blog.html">Blog</a></li>
-                                                            <li><a href="case-study.html">Case Studies</a></li>
-                                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                                            <li><Link href="/aboutus"><small>KetupArt</small></Link></li>
+                                                            <li><Link href="/team"><small>Team</small></Link></li>
+                                                            <li><Link href="/ourclient"><small>Our Clients</small></Link></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <h6 class="widget-title pt-5">Portfolio</h6>
+                                                    <div class="footer-menu-link">
+                                                        <ul class="list-unstyled">
+                                                            <li><Link href="/methodology"><small>Work Methodology</small></Link></li>
+                                                            <li><Link href="/casestudy"><small>Case Study</small></Link></li>
+                                                            <li><Link href="/project"><small>Projects</small></Link></li>
+                                                            <li><Link href="/publication"><small>Publications</small></Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </div> -->
-                                            <div class="col-sm-3">
+                                            </div>
+                                            <div class="col-sm-5">
                                                 <div class="footer-widget">
-                                                    <h6 class="widget-title">Support</h6>
+                                                    <h6 class="widget-title">Products</h6>
                                                     <div class="footer-menu-link">
                                                         <ul class="list-unstyled">
-                                                            <li><a href="contact.html">Contact</a></li>
-                                                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                                            <li><a href="terms-of-use.html">Terms of Use</a></li>
+                                                            <li><a href="our-office.html"><small><b>K-Tournament</b> - Tournament Management System</small></a></li>
+                                                            <li><a href="learn.html"><small><b>K-Learn</b> - ELearning Management System</small></a></li>
+                                                            <li><a href="about-us.html"><small><b>K-Project</b> - Project Management System</small></a></li>
+                                                            <li><a href="about-us.html"><small><b>K-HR</b> - Human Resources Management System</small></a></li>
+                                                            <li><a href="hse.html"><small><b>K-HSE</b> - Health, Safety & Environment System</small></a></li>
+                                                            <li><a href="case-study.html"><small><b>K-PayDay</b> - Payroll System</small></a></li>          
+                                                            <li><a href="case-study.html"><small><b>K-Resto</b> - Restaurant Ordering Management System</small></a></li>        
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -1076,12 +1091,15 @@ defineProps({
                                         </div>
                                     </div>
                                 </div>
+
+                             
+
                             </div>
                             <div class="footer-bottom" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="footer-copyright">
-                                            <span class="copyright-text">© 2023. All rights reserved by KetupArt Studio.</span>
+                                            <span class="copyright-text">Copyright © 2022 - 2024 KetupArt Studio</span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -1108,22 +1126,7 @@ defineProps({
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            <!-- <form action="#" class="side-nav-search-form">
-                                <div class="form-group">
-                                    <input type="text" class="search-field" name="search-field" placeholder="Search...">
-                                    <button class="side-nav-search-btn"><i class="fas fa-search"></i></button>
-                                </div>
-                            </form> -->
                             <div class="row ">
-                                <!-- <div class="col-lg-5 col-xl-6">
-                                    <ul class="main-navigation list-unstyled">
-                                        <li><a href="index-1.html">Digital Agency</a></li>
-                                        <li><a href="index-2.html">Creative Agency</a></li>
-                                        <li><a href="index-3.html">Personal Portfolio</a></li>
-                                        <li><a href="index-4.html">Home Startup</a></li>
-                                        <li><a href="index-5.html">Corporate Agency</a></li>
-                                    </ul>
-                                </div> -->
                                 <div class="col-lg-7 col-xl-6">
                                     <div class="contact-info-wrap">
                                         <div class="contact-inner">
@@ -1133,10 +1136,6 @@ defineProps({
                                             </address>
                                             <address class="address">
                                                 <span class="title">We're Available 24/7. </span>
-                                                <!-- <a class="tel" href="tel:8884562790"><i class="fas fa-phone"></i>(888)
-                                                    456-2790</a>
-                                                <a class="tel" href="tel:12125553333"><i class="fas fa-fax"></i>(121)
-                                                    255-53333</a> -->
                                             </address>
                                         </div>
                                         <div class="contact-inner">

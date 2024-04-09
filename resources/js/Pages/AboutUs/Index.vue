@@ -20,8 +20,8 @@ defineProps({
                     <h1 class="title h2">About KetupArt Studio</h1>
                     <p>KetupArt Studio start the journey in 2023 and begin to provide robust solution to clients. At KetupArtStudio, we specialize in creating innovative and customized digital experiences that empower businesses to thrive in the digital landscape. With a team of skilled professionals and a passion for pushing boundaries, we deliver exceptional results that exceed client expectations.</p>
                 </div>
-                <div class="banner-thumbnail thumbnail-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
-                    <img src="assets/abstract/media/banner/banner-thumb-3.png" alt="Illustration">
+                <div class="banner-thumbnail thumbnail-3" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                    <img src="assets/abstract/media/banner/ketupat.png" alt="Illustration">
                 </div>
             </div>
             <ul class="shape-group-8 list-unstyled">
@@ -42,12 +42,12 @@ defineProps({
         <section class="section section-padding case-study-featured-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7 col-lg-6">
-                        <div class="case-study-featured-thumb text-start">
-                            <img src="assets/abstract/media/others/case-study-4.png" alt="travel">
+                    <div class="col-xl-6">
+                        <div class="case-study-featured-thumb h-100 d-flex align-items-center">
+                            <img src="assets/abstract/media/banner/data-management.png" alt="travel">
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-xl-6">
                         <div class="case-study-featured">
                             <div class="section-heading heading-left">
                                 <span class="subtitle">Who we are</span>
@@ -86,8 +86,8 @@ defineProps({
             <div class="container">
                 <div class="section-heading heading-light-left mb--100">
                     <span class="subtitle">Our Values</span>
-                    <h2 class="title">Why should you work with us?</h2>
-                    <p class="opacity-50">Working with us means collaborating with a team that is dedicated to your success. We prioritize communication, transparency, and delivering results that exceed expectations. With our expertise, personalized approach, and commitment to innovation, we are confident that we can provide the solutions you need to thrive in the digital landscape.</p>
+                    <h2 class="title w-100">Why should you work with us?</h2>
+                    <p class="opacity-50 w-100">Working with us means collaborating with a team that is dedicated to your success. We prioritize communication, transparency, and delivering results that exceed expectations. With our expertise, personalized approach, and commitment to innovation, we are confident that we can provide the solutions you need to thrive in the digital landscape.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">

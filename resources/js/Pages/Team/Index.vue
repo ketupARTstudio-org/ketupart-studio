@@ -39,6 +39,25 @@ defineProps({
        <!-- Button trigger modal -->
 
         <!--=====================================-->
+        <!--=       About Team  Area Start      =-->
+        <!--=====================================-->
+        <section class="section-padding-equal">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
+                        <div class="about-team">
+                            <div class="section-heading heading-left">
+                                <span class="subtitle">Our Team</span>
+                                <h2>Alone we can do so little; together we can do so much.</h2>
+                                <p>"Our team believes that alone, we can do so little, but together, we can achieve so much."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=====================================-->
         <!--=           Team  Area Start        =-->
         <!--=====================================-->
         <section class="section section-padding bg-color-dark pb--70 pb_lg--20 pb_md--0">
@@ -99,32 +118,7 @@ defineProps({
             </ul>
         </section>
 
-        <!--=====================================-->
-        <!--=       About Team  Area Start      =-->
-        <!--=====================================-->
-        <section class="section-padding-equal">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
-                        <div class="about-team">
-                            <div class="thumbnail">
-                                <img src="assets/abstract/media/about/about-2.png" alt="thumbnail">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
-                        <div class="about-team">
-                            <div class="section-heading heading-left">
-                                <span class="subtitle">Our Team</span>
-                                <h2>Alone we can do so little; together we can do so much.</h2>
-                                <p>"Our team believes that alone, we can do so little, but together, we can achieve so much."</p>
-                                <a href="team.html" class="axil-btn btn-large btn-fill-primary">Our Team</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
 
         <!-- Modal -->
         <div class="modal fade" id="ismailModal" tabindex="-1" aria-labelledby="ismailModalLabel" aria-hidden="true">

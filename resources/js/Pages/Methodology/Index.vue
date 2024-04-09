@@ -15,7 +15,7 @@ defineProps({
         <!--=====================================-->
         <!--=       Work Process Area Start     =-->
         <!--=====================================-->
-        <section class="section section-padding bg-color-light pb--70">
+        <section class="section pb--70">
             <div class="container">
                 <div class="section-heading mb--90">
                     <span class="subtitle">Process</span>
@@ -94,7 +94,6 @@ defineProps({
                 </div>
             </div>
             <ul class="shape-group-17 list-unstyled">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-24.png" alt="Bubble"></li>
                 <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-23.png" alt="Bubble"></li>
                 <li class="shape shape-3"><img src="assets/abstract/media/others/line-4.png" alt="Line"></li>
                 <li class="shape shape-4"><img src="assets/abstract/media/others/line-5.png" alt="Line"></li>

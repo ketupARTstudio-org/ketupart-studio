@@ -11,7 +11,109 @@ defineProps({
     <Head title="Game Development" />
 
     <AbsractLayout>
-        <section class="banner">
+
+        <!--=====================================-->
+        <!--=       Breadcrumb Area Start       =-->
+        <!--=====================================-->
+        <div class="breadcrum-area breadcrumb-banner" style="background-image: url('assets/abstract/media/banner/banner1.webp');background-size: cover;">
+            <div class="container">
+                <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
+                    <h1 class="title h2">Game Development</h1>
+                    <p>Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.</p>
+                </div>
+            </div>
+            <!-- <ul class="shape-group-8 list-unstyled">
+                <li class="shape shape-1" data-sal="slide-right" data-sal-duration="500" data-sal-delay="100">
+                    <img src="assets/abstract/media/others/bubble-9.png" alt="Bubble">
+                </li>
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
+                    <img src="assets/abstract/media/others/bubble-21.png" alt="Bubble">
+                </li>
+                <li class="shape shape-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                    <img src="assets/abstract/media/others/line-4.png" alt="Line">
+                </li>
+            </ul> -->
+        </div>
+        <!--=====================================-->
+        <!--=        Service Area Start         =-->
+        <!--=====================================-->
+        <div class="service-scroll-navigation-area">
+            <!-- Service Nav -->
+            <nav id="onepagenav" class="service-scroll-nav navbar onepagefixed">
+                <div class="container">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Our Capabilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Game Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">Technology & Platform</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Design Service -->
+            <div class="section section-padding" id="section1">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">Service</span>
+                        <h2 class="title">Design</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Development Service -->
+            <div class="section section-padding bg-color-light" id="section2">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">Service</span>
+                        <h2 class="title">Development</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Online Marketing Service -->
+            <div class="section section-padding" id="section3">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">Service</span>
+                        <h2 class="title">Online Marketing</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Business Service -->
+            <div class="section section-padding bg-color-light" id="section4">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">Service</span>
+                        <h2 class="title">Business</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Technology Service -->
+            <div class="section section-padding" id="section5">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">Service</span>
+                        <h2 class="title">Technology</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Content strategy Service -->
+            <div class="section section-padding bg-color-dark" id="section6">
+                <div class="container">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">Service</span>
+                        <h2 class="title">Content strategy</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="breadcrum-area breadcrumb-banner">
             <div class="container">
                 <p>At KetupArtStudio, we offer comprehensive game development services tailored to bring your gaming ideas to life. Our team of experienced professionals specializes in creating captivating and immersive gaming experiences across various platforms.</p>
 
@@ -32,23 +134,17 @@ defineProps({
         <!--=====================================-->
         <!--=     Call To Action Area Start     =-->
         <!--=====================================-->
-        <section class="section call-to-action-area">
+        <section class="section py-5 bg-color-dark">
             <div class="container">
-                <div class="call-to-action">
+                <div class="">
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
                         <h2 class="title">Need a successful project?</h2>
-                        <a href="contact.html" class="axil-btn btn-large btn-fill-white">Estimate Project</a>
-                    </div>
-                    <div class="thumbnail">
-                        <div class="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
-                            <img class="paralax-image" src="assets/abstract/media/others/chat-group.png" alt="Chat">
-                        </div>
+                        <Link href="/contact" class="axil-btn btn-fill-primary btn-large">Estimate Project</Link>
                     </div>
                 </div>
             </div>
             <ul class="list-unstyled shape-group-9">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/bubble-12.2.png" alt="Comments"></li>
                 <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-16.png" alt="Comments"></li>
                 <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-13.2.png" alt="Comments"></li>
                 <li class="shape shape-4"><img src="assets/abstract/media/others/bubble-14.png" alt="Comments"></li>
