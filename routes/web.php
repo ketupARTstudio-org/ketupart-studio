@@ -74,6 +74,9 @@ Route::get('/methodology', function () {
 Route::get('/casestudy', function () {
     return Inertia::render('CaseStudy/Index', []);
 });
+Route::get('/casestudy/1', function () {
+    return Inertia::render('CaseStudy/Show', []);
+});
 Route::get('/project', function () {
     return Inertia::render('Project/Index', []);
 });

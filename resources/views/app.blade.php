@@ -23,18 +23,18 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         
         <!-- Vendor Stylesheet -->
-        <link rel="stylesheet" href="assets/abstract/css/vendor/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/font-awesome.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/slick.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/slick-theme.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/sal.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/magnific-popup.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/green-audio-player.min.css">
-        <link rel="stylesheet" href="assets/abstract/css/vendor/odometer-theme-default.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/font-awesome.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/slick.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/slick-theme.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/sal.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/magnific-popup.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/green-audio-player.min.css">
+        <link rel="stylesheet" href="/assets/abstract/css/vendor/odometer-theme-default.css">
 
         <!-- Site Stylesheet -->
-        <link rel="stylesheet" href="assets/abstract/css/app.css">
-        <link rel="stylesheet" href="assets/abstract/css/custom.css">
+        <link rel="stylesheet" href="/assets/abstract/css/app.css">
+        <link rel="stylesheet" href="/assets/abstract/css/custom.css">
 
 
         <!-- Scripts -->
@@ -46,23 +46,23 @@
         @inertia
 
         <!-- Jquery Js -->
-        <script src="assets/abstract/js/vendor/jquery-3.6.0.min.js"></script>
-        <script src="assets/abstract/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/abstract/js/vendor/isotope.pkgd.min.js"></script>
-        <script src="assets/abstract/js/vendor/imagesloaded.pkgd.min.js"></script>
-        <script src="assets/abstract/js/vendor/odometer.min.js"></script>
-        <script src="assets/abstract/js/vendor/jquery-appear.js"></script>
-        <script src="assets/abstract/js/vendor/slick.min.js"></script>
-        <script src="assets/abstract/js/vendor/sal.js"></script>
-        <script src="assets/abstract/js/vendor/jquery.magnific-popup.min.js"></script>
-        <script src="assets/abstract/js/vendor/js.cookie.js"></script>
-        <!-- <script src="assets/abstract/js/vendor/jquery.style.switcher.js"></script> -->
-        <script src="assets/abstract/js/vendor/jquery.countdown.min.js"></script>
-        <script src="assets/abstract/js/vendor/tilt.js"></script>
-        <script src="assets/abstract/js/vendor/green-audio-player.min.js"></script>
-        <script src="assets/abstract/js/vendor/jquery.nav.js"></script>
+        <script src="/assets/abstract/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="/assets/abstract/js/vendor/bootstrap.min.js"></script>
+        <script src="/assets/abstract/js/vendor/isotope.pkgd.min.js"></script>
+        <script src="/assets/abstract/js/vendor/imagesloaded.pkgd.min.js"></script>
+        <script src="/assets/abstract/js/vendor/odometer.min.js"></script>
+        <script src="/assets/abstract/js/vendor/jquery-appear.js"></script>
+        <script src="/assets/abstract/js/vendor/slick.min.js"></script>
+        <script src="/assets/abstract/js/vendor/sal.js"></script>
+        <script src="/assets/abstract/js/vendor/jquery.magnific-popup.min.js"></script>
+        <script src="/assets/abstract/js/vendor/js.cookie.js"></script>
+        <!-- <script src="/assets/abstract/js/vendor/jquery.style.switcher.js"></script> -->
+        <script src="/assets/abstract/js/vendor/jquery.countdown.min.js"></script>
+        <script src="/assets/abstract/js/vendor/tilt.js"></script>
+        <script src="/assets/abstract/js/vendor/green-audio-player.min.js"></script>
+        <script src="/assets/abstract/js/vendor/jquery.nav.js"></script>
 
         <!-- Site Scripts -->
-        <!-- <script src="assets/abstract/js/app.js"></script> -->
+        <!-- <script src="/assets/abstract/js/app.js"></script> -->
     </body>
 </html>

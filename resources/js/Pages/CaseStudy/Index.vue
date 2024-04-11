@@ -12,9 +12,11 @@ defineProps({
 
     <AbstractLayout>
 
-          <!--=====================================-->
+        <!--=====================================-->
         <!--=        Project Area Start         =-->
         <!--=====================================-->
+
+      
         <section class="section">
             <div class="container">
                 <div class="section-heading heading-left mb--40">
@@ -23,86 +25,105 @@ defineProps({
                 </div>
                 <div class="axil-isotope-wrapper">
                     <div class="isotope-button isotope-project-btn">
-                        <button data-filter="*" class="is-checked"><span class="filter-text">All Works</span></button>
-                        <button data-filter=".branding"><span class="filter-text">Branding</span></button>
-                        <button data-filter=".mobile"><span class="filter-text">Mobile</span></button>
+                        <button data-filter="*" class="is-checked"><span class="filter-text">All Case Studies</span></button>
+                        <button data-filter=".education"><span class="filter-text">Education</span></button>
+                        <button data-filter=".engineering"><span class="filter-text">Engineering</span></button>
+                        <button data-filter=".manufacturing"><span class="filter-text">Manufacturing</span></button>
+                        <button data-filter=".healthcare"><span class="filter-text">Healthcare</span></button>
                     </div>
                     <div class="row row-35 isotope-list">
-                        <div class="col-md-6 project branding">
+                        <div class="col-md-6 project education">
                             <div class="project-grid">
                                 <div class="thumbnail">
-                                    <a href="single-portfolio.html">
-                                        <img src="assets/abstract/media/project/project-1.png" alt="project">
+                                    <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">
+                                        <img src="/assets/abstract/media/casestudies/dec4irtournament.png" alt="project">
                                     </a>
                                 </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">Creative Agency</a></h4>
-                                    <span class="subtitle">Full Branding, Website, App</span>
+                                <div class="content d-flex flex-column justify-content-between" style="height: 350px;">
+                                    <div>
+                                        <small class="fw-bold text-primary">Education</small>
+                                        <h5 class="title"><a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">Beyond Limits: How We Handled 30,000 Participants in an Online National Drone Tournament &nbsp;<i class="fas fa-external-link-alt fs-6"></i></a></h5>
+                                        <span class="subtitle">This case study highlights our success in managing a 30,000-participant online drone tournament. Explore how we overcame challenges and optimized performance to deliver a seamless experience for all participants.</span>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank" class="text-primary fw-bold">Find out more <i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 project mobile">
+                        <div class="col-md-6 project education">
                             <div class="project-grid">
                                 <div class="thumbnail">
-                                    <a href="single-portfolio.html">
-                                        <img src="assets/abstract/media/project/project-2.png" alt="project">
+                                    <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">
+                                        <img src="/assets/abstract/media/casestudies/dronevr.png" alt="project">
                                     </a>
                                 </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">Digital Marketing</a></h4>
-                                    <span class="subtitle">Logo, Website & Mobile App</span>
+                                <div class="content d-flex flex-column justify-content-between" style="height: 350px;">
+                                    <div>
+                                        <small class="fw-bold text-primary">Education</small>
+                                        <h5 class="title"><a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">3D Drone View Application &nbsp;<i class="fas fa-external-link-alt fs-6"></i></a></h5>
+                                        <span class="subtitle">This case study is the development of mobile and desktop applications to teach the students about the component of drones. The 3D Drone View application is based on the request of UTM’s lecturer to provide a means to teach the students during the drone setup workshop.</span>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank" class="text-primary fw-bold">Find out more <i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 project branding">
+                        
+                        <div class="col-md-6 project engineering">
                             <div class="project-grid">
                                 <div class="thumbnail">
-                                    <a href="single-portfolio.html">
-                                        <img src="assets/abstract/media/project/project-3.png" alt="project">
+                                    <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">
+                                        <img src="/assets/abstract/media/casestudies/vrweldingkit.png" alt="project">
                                     </a>
                                 </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">Digital Agency</a></h4>
-                                    <span class="subtitle">Website, UI/UX</span>
+                                <div class="content d-flex flex-column justify-content-between" style="height: 350px;">
+                                    <div>
+                                        <small class="fw-bold text-primary">Education</small>
+                                        <h5 class="title"><a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">VR Welding Kit &nbsp;<i class="fas fa-external-link-alt fs-6"></i></a></h5>
+                                        <span class="subtitle">We have researched and created VR Welding Kit, an affordable VR welding training simulation for mobile smartphones to train the student regarding basic welding’s psychomotor skills. </span>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank" class="text-primary fw-bold">Find out more <i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 project mobile">
+                        <div class="col-md-6 project manufacturing">
                             <div class="project-grid">
                                 <div class="thumbnail">
-                                    <a href="single-portfolio.html">
-                                        <img src="assets/abstract/media/project/project-4.png" alt="project">
+                                    <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">
+                                        <img src="/assets/abstract/media/casestudies/umwaerospace.png" alt="project">
                                     </a>
                                 </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">Plan Management</a></h4>
-                                    <span class="subtitle">Branding, Website, IOS App</span>
+                                <div class="content d-flex flex-column justify-content-between" style="height: 350px;">
+                                    <div>
+                                        <small class="fw-bold text-primary">Manufacturing</small>
+                                        <h5 class="title"><a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">UMW Aerospace VR Showcase &nbsp;<i class="fas fa-external-link-alt fs-6"></i></a></h5>
+                                        <span class="subtitle">This case study highlights our success in managing a 30,000-participant online drone tournament. Explore how we overcame challenges and optimized performance to deliver a seamless experience for all participants.</span>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank" class="text-primary fw-bold">Find out more <i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 project branding">
+                        </div>  <div class="col-md-6 project healthcare">
                             <div class="project-grid">
                                 <div class="thumbnail">
-                                    <a href="single-portfolio.html">
-                                        <img src="assets/abstract/media/project/project-5.png" alt="project">
+                                    <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">
+                                        <img src="/assets/abstract/media/casestudies/vrpelvic.png" alt="project">
                                     </a>
                                 </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">Social Engagement</a></h4>
-                                    <span class="subtitle">Design, Development</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 project mobile">
-                            <div class="project-grid">
-                                <div class="thumbnail">
-                                    <a href="single-portfolio.html">
-                                        <img src="assets/abstract/media/project/project-6.png" alt="project">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="single-portfolio.html">Web Application</a></h4>
-                                    <span class="subtitle">Logo, Webapp, App</span>
+                                <div class="content d-flex flex-column justify-content-between" style="height: 350px;">
+                                    <div>
+                                        <small class="fw-bold text-primary">Healthcare</small>
+                                        <h5 class="title"><a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank">Pelvic AR Mobile Application &nbsp;<i class="fas fa-external-link-alt fs-6"></i></a></h5>
+                                        <span class="subtitle">This case study is Pelvic AR, a mobile application that utilises an AR-based model target method to teach students about the human’s pelvic structure. It is also a collaboration project with UTM’s lecturer.</span>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank" class="text-primary fw-bold">Find out more <i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -110,9 +131,9 @@ defineProps({
                 </div>
             </div>
             <ul class="shape-group-7 list-unstyled">
-                <li class="shape shape-1"><img src="assets/abstract/media/others/circle-2.png" alt="circle"></li>
-                <li class="shape shape-2"><img src="assets/abstract/media/others/bubble-2.png" alt="Line"></li>
-                <li class="shape shape-3"><img src="assets/abstract/media/others/bubble-1.png" alt="Line"></li>
+                <li class="shape shape-1"><img src="/assets/abstract/media/others/circle-2.png" alt="circle"></li>
+                <li class="shape shape-2"><img src="/assets/abstract/media/others/bubble-2.png" alt="Line"></li>
+                <li class="shape shape-3"><img src="/assets/abstract/media/others/bubble-1.png" alt="Line"></li>
             </ul>
         </section>
     </AbstractLayout>

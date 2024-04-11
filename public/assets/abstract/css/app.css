@@ -4644,7 +4644,7 @@ Pagination
 }
 
 .project-grid .content .title a:hover {
-    color: var(--color-link);
+    color: var(--color-primary);
 }
 
 .project-grid:hover .thumbnail img {

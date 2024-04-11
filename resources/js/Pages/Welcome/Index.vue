@@ -30,14 +30,14 @@ defineProps({
                 </div>
                 <div class="banner-thumbnail">
                     <div class="large-thumb text-end" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
-                        <img class="paralax-image w-100 w-lg-50 me-20 me-lg-0" src="assets/abstract/media/banner/technology.png" alt="Shape">
+                        <img class="paralax-image w-100 w-lg-50 me-20 me-lg-0" src="assets/abstract/media/banner/technology2.png" alt="Shape">
                     </div>
                 </div>
                 <div class="banner-social" data-sal="slide-up" data-sal-duration="800">
                     <div class="border-line"></div>
                     <ul class="list-unstyled social-icon">
-                        <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i> twitter</a></li>
+                        <!-- <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i> twitter</a></li> -->
                         <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in "></i> Linkedin</a></li>
                     </ul>
                 </div>

@@ -1,8 +1,9 @@
 <script>
+import { asset } from '@inertiajs/inertia-vue3';
 
 export default {
   mounted() {
-
+    asset,
     (function($) {
         var jStyleSwitcher,
             _defaultOptions = {
@@ -877,9 +878,9 @@ defineProps({
                             <div class="container">
                                 <div class="header-navbar">
                                     <div class="header-logo">
-                                        <a href="index-1.html"><img class="light-version-logo" src="assets/abstract/media/logo.png" alt="logo"></a>
-                                        <a href="index-1.html"><img class="dark-version-logo" src="assets/abstract/media/logo-3.png" alt="logo"></a>
-                                        <a href="index-1.html"><img class="sticky-logo" src="assets/abstract/media/logo-2.png" alt="logo"></a>
+                                        <a href="index-1.html"><img class="light-version-logo" src="/assets/abstract/media/logo.png" alt="logo"></a>
+                                        <a href="index-1.html"><img class="dark-version-logo" src="/assets/abstract/media/logo-3.png" alt="logo"></a>
+                                        <a href="index-1.html"><img class="sticky-logo" src="/assets/abstract/media/logo-2.png" alt="logo"></a>
                                     </div>
                                     <div class="header-main-nav">
                                         <!-- Start Mainmanu Nav -->
@@ -888,8 +889,8 @@ defineProps({
                                                 <div class="mobile-nav-header">
                                                     <div class="mobile-nav-logo">
                                                         <a href="index-1.html">
-                                                            <img class="light-mode" src="assets/abstract/media/logo-2.png" alt="Site Logo">
-                                                            <img class="dark-mode" src="assets/abstract/media/logo-3.png" alt="Site Logo">
+                                                            <img class="light-mode" src="/assets/abstract/media/logo-2.png" alt="Site Logo">
+                                                            <img class="dark-mode" src="/assets/abstract/media/logo-3.png" alt="Site Logo">
                                                         </a>
                                                     </div>
                                                     <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
@@ -918,7 +919,7 @@ defineProps({
                                                         <li><Link href="/microservice">Microservices</Link></li>
                                                         <li><Link href="/gamedevelopment">Game Development</Link></li>
                                                         <li><Link href="/webdevelopment">Web Development</Link></li>
-                                                        <li><Link href="/mobiledevelopment">Mobile Development</Link></li>                                                       
+                                                        <li><Link href="/mobiledevelopment">Mobile Apps Development</Link></li>                                                       
                                                     </ul>
                                                 </li>
                                                 <li class="menu-item-has-children">
@@ -934,25 +935,25 @@ defineProps({
                                                     <a href="javascript:void(0);">Products</a>
                                                     <ul class="axil-submenu">
                                                         <li><strong class="ms-2 text-success">Education</strong></li>
-                                                        <li><a href="our-office.html"><b>K-Tournament</b> - Tournament Management System</a></li>
-                                                        <li><a href="learn.html"><b>K-Learn</b> - ELearning Management System</a></li>
+                                                        <li><a href="javascript:;"><b>K-Tournament</b> - Tournament Management System</a></li>
+                                                        <li><a href="javascript:;"><b>K-Learn</b> - ELearning Management System</a></li>
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">Project Management</strong></li>
-                                                        <li><a href="about-us.html"><b>K-Project</b> - Project Management System</a></li>
+                                                        <li><a href="javascript:;"><b>K-Project</b> - Project Management System</a></li>
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">Human Resources</strong></li>
-                                                        <li><a href="about-us.html"><b>K-HR</b> - Human Resources Management System</a></li>
-                                                        <li><hr class="my-2"></li>
+                                                        <li><a href="javascript:;"><b>K-HR</b> - Human Resources Management System</a></li>
+                                                        <!-- <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">Health & Safety</strong></li>
-                                                        <li><a href="hse.html"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
+                                                        <li><a href="javascript:;"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">Financing</strong></li>
-                                                        <li><a href="case-study.html"><b>K-PayDay</b> - Payroll System</a></li>                                                       
+                                                        <li><a href="javascript:;"><b>K-PayDay</b> - Payroll System</a></li>                                                       
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">POS</strong></li>
-                                                        <li><a href="case-study.html"><b>K-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
+                                                        <li><a href="javascript:;"><b>K-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
                                                         <li><hr class="my-2"></li>
-                                                        <li><a href="our-office.html"><b>VIEW ALL PRODUCTS</b></a></li>
+                                                        <li><a href="javascript:;"><b>VIEW ALL PRODUCTS</b></a></li> -->
                                                     </ul>
                                                 </li>
                                                 <!-- <li><Link href="/blog">Blogs</Link></li> -->
@@ -1019,9 +1020,10 @@ defineProps({
                                 <div class="row">
                                     <div class="col-xl-3" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
                                         <div class="d-flex flex-column">
-                                            <img src="assets/images/logo/Logo V4 for black background.png" alt="" srcset="">
+                                            <img src="/assets/images/logo/Logo V4 for black background.png" alt="" srcset="">
                                             <p class="mb-1">© 2022 - 2024 KetupArt Studio <br> All Rights Reserved</p>
                                             <p>Registration No: 202203172936 (003414323-D)</p>
+                                            <a href="https://www.linkedin.com/company/ketupart-studio/" target="_blank" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" class="text-white">LinkedIn | <i class="fab fa-linkedin-in"></i> </a>
                                         </div>
                                     </div>
                                     <div class="col-xl-3" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
@@ -1142,8 +1144,8 @@ defineProps({
                                             <h5 class="title">Find us here</h5>
                                             <div class="contact-social-share">
                                                 <ul class="social-share list-unstyled">
-                                                    <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                                    <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                                    <!-- <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li> -->
                                                     <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
                                                 </ul>
                                             </div>
