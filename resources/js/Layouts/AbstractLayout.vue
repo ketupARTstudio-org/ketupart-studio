@@ -878,9 +878,9 @@ defineProps({
                             <div class="container">
                                 <div class="header-navbar">
                                     <div class="header-logo">
-                                        <a href="index-1.html"><img class="light-version-logo" src="/assets/abstract/media/logo.png" alt="logo"></a>
-                                        <a href="index-1.html"><img class="dark-version-logo" src="/assets/abstract/media/logo-3.png" alt="logo"></a>
-                                        <a href="index-1.html"><img class="sticky-logo" src="/assets/abstract/media/logo-2.png" alt="logo"></a>
+                                        <Link href="/"><img class="light-version-logo" src="/assets/abstract/media/logo.png" alt="logo"></Link>
+                                        <Link href="/"><img class="dark-version-logo" src="/assets/abstract/media/logo-3.png" alt="logo"></Link>
+                                        <Link href="/"><img class="sticky-logo" src="/assets/abstract/media/logo-2.png" alt="logo"></Link>
                                     </div>
                                     <div class="header-main-nav">
                                         <!-- Start Mainmanu Nav -->
@@ -888,10 +888,10 @@ defineProps({
                                             <div class="d-block d-lg-none">
                                                 <div class="mobile-nav-header">
                                                     <div class="mobile-nav-logo">
-                                                        <a href="index-1.html">
+                                                        <Link href="/">
                                                             <img class="light-mode" src="/assets/abstract/media/logo-2.png" alt="Site Logo">
                                                             <img class="dark-mode" src="/assets/abstract/media/logo-3.png" alt="Site Logo">
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                     <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
                                                 </div>
