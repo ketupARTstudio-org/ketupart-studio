@@ -1,9 +1,9 @@
 <script>
-import { asset } from '@inertiajs/inertia-vue3';
 
 export default {
   mounted() {
-    asset,
+    //ensure body tag overflow is scroll
+    document.body.style.overflow = 'scroll';
     (function($) {
         var jStyleSwitcher,
             _defaultOptions = {
