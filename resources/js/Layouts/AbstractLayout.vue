@@ -3,7 +3,7 @@
 export default {
   mounted() {
     //ensure body tag overflow is scroll
-    document.body.style.overflow = 'scroll';
+    document.body.style.overflowY = 'scroll';
     (function($) {
         var jStyleSwitcher,
             _defaultOptions = {
