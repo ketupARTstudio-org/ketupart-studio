@@ -67,7 +67,7 @@ defineProps({
                     <h2 class="title mb--50">Meet The Team</h2>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="team-grid">
                             <div class="thumbnail">
                                 <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ismailModal">
@@ -81,7 +81,7 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="team-grid">
                             <div class="thumbnail">
                                 <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#siangModal">
@@ -95,7 +95,7 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="team-grid">
                             <div class="thumbnail">
                                 <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#zulZaynModal">

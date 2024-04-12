@@ -61,7 +61,7 @@ defineProps({
             <div class="section section-padding" id="section1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="section-heading heading-left mb-3">
                                 <h2 class="title">Overview</h2>
                                 <span class="subtitle">Microservices: Driving Agile Innovation for Modern Businesses</span>
@@ -69,7 +69,7 @@ defineProps({
                             <p>Microservices are a modular architectural style where applications are composed of small, independent services that can be developed, deployed, and scaled independently. Each service focuses on a specific business function, allowing for rapid development, seamless integration, and easier maintenance.</p>
                             <p>We specialize in designing, implementing, and managing microservices architectures tailored to your business needs. Our experienced team leverages industry best practices, cutting-edge technologies, and agile methodologies to deliver scalable, resilient, and future-ready solutions.</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="team-details-thumb">
                                 <img class="paralax-image" src="assets/abstract/media/banner/cloud2.gif" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>
@@ -136,11 +136,11 @@ defineProps({
                         <div class="col-12">
                             <p class="w-100">Monolithic architecture represents a traditional approach where an entire application is built as a single, tightly integrated unit. In contrast, microservices architecture breaks down the application into smaller, independent services that can be developed, deployed, and scaled independently.</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <p class="w-100">In a monolithic architecture, changes to one part of the application often require rebuilding and redeploying the entire monolith, leading to longer development cycles and increased risk. Scaling a monolith can also be challenging, as the entire application needs to be scaled even if only a specific component requires more resources.</p>
                             <p class="w-100">On the other hand, microservices architecture promotes agility, scalability, and fault isolation. Each microservice focuses on a specific business function and communicates with other services via APIs, allowing for parallel development, faster deployment cycles, and better resource utilization. Microservices can be scaled horizontally, meaning specific services can be scaled independently based on demand, leading to improved performance and cost-efficiency. Failures in one microservice are isolated, reducing the impact on the overall application and improving fault tolerance. Overall, microservices architecture offers a more flexible, resilient, and scalable approach to building and managing modern applications.</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="project branding">
                                 <div class="project-grid">
                                     <div class="thumbnail">

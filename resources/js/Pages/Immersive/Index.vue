@@ -64,7 +64,7 @@ defineProps({
             <div class="section section-padding" id="section1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="section-heading heading-left mb-3">
                                 <h2 class="title">Overview</h2>
                                 <span class="subtitle">Experience Beyond Boundaries with Immersive Tech</span>
@@ -73,7 +73,7 @@ defineProps({
                                 At KetupArt Studio, we excel in AR/VR development, crafting immersive experiences that push the boundaries of technology. Our dedicated team of developers and designers combines expertise with industry best practices to create captivating applications and simulations. Whether it's immersive virtual reality experiences or augmented reality integrations in real-world settings, we bring your visions to life. With a strong focus on user-centric design and optimal performance, our AR/VR solutions engage users, enhance brand experiences, and drive business growth.
                             </p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="team-details-thumb">
                                 <img class="paralax-image" src="assets/abstract/media/banner/immersive.jpg" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>

@@ -61,7 +61,7 @@ defineProps({
             <div class="section section-padding" id="section1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="section-heading heading-left mb-3">
                                 <h2 class="title">Overview</h2>
                                 <span class="subtitle">Crafting Virtual Worlds, Unleash Your Imagination</span>
@@ -70,7 +70,7 @@ defineProps({
 
                             <p>With expertise in game design, we craft visually stunning and engaging gameplay environments that captivate players and keep them coming back for more. From concept development to character design, our creative team ensures that every aspect of your game is meticulously designed to deliver an unforgettable gaming experience.</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="team-details-thumb">
                                 <img class="paralax-image" src="assets/abstract/media/banner/gamedev.jpg" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>
@@ -113,7 +113,7 @@ defineProps({
                         </div>
                         <div class="col-12">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img src="assets/abstract/media/icon/icon-39.png" alt="" srcset="">
                                         <h5 class="mb-0">Cutting-edge Graphics and Visual Effects</h5>
@@ -121,7 +121,7 @@ defineProps({
                    
                                     <p>Delivering immersive gaming experiences with stunning graphics, realistic animations, and captivating visual effects.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img src="assets/abstract/media/icon/icon-29.png" alt="" srcset="">
                                         <h5 class="mb-0">Engaging Gameplay Mechanics</h5> 
@@ -129,7 +129,7 @@ defineProps({
                       
                                     <p>Creating compelling gameplay mechanics, interactive elements, and challenging levels that keep players engaged and coming back for more.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img src="assets/abstract/media/icon/icon-31.png" alt="" srcset="">
                                         <h5 class="mb-0">Multiplatform Compatibility</h5>
@@ -137,7 +137,7 @@ defineProps({
                                  
                                     <p>Developing games that are compatible across multiple platforms, including PC, console, mobile, and virtual reality, ensuring a wide reach and accessibility for players.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img src="assets/abstract/media/icon/icon-32.png" alt="" srcset="">
                                         <h5 class="mb-0">Robust Multiplayer and Social Features</h5>

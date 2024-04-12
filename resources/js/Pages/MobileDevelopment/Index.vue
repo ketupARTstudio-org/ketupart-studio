@@ -64,7 +64,7 @@ defineProps({
             <div class="section section-padding" id="section1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="section-heading heading-left mb-3">
                                 <h2 class="title">Overview</h2>
                                 <span class="subtitle">Crafting Virtual Worlds, Unleash Your Imagination</span>
@@ -75,7 +75,7 @@ defineProps({
 
                             <p>With our mobile development services, we help businesses reach and captivate their target audiences in the ever-expanding mobile landscape.</p>  
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="team-details-thumb">
                                 <img class="paralax-image" src="assets/abstract/media/banner/mobiledev.gif" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>

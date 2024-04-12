@@ -68,7 +68,7 @@ defineProps({
             <div class="section section-padding" id="section1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="section-heading heading-left mb-3">
                                 <h2 class="title">Overview</h2>
                                 <span class="subtitle">Navigate the Digital Landscape with Confidence</span>
@@ -77,7 +77,7 @@ defineProps({
                                 Our expertise is in facilitating the integration of business and technology to expedite the achievement of digital transformation goals for businesses of all sizes. By providing strategic counsel, leveraging technological expertise, offering change management assistance, and promoting continuous improvement, we enable you to successfully traverse the challenges of digital transformation, streamline the process, and achieve the desired business benefit.
                             </p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="team-details-thumb">
                                 <img class="paralax-image" src="assets/abstract/media/banner/handshake.jpg" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>
@@ -90,7 +90,7 @@ defineProps({
                 <div class="container">
                     
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-12 col-lg-5">
                             <div class="section-heading heading-left mb-3">
                                     <h2 class="title">Digital Transformation</h2>
                                     <span class="subtitle">Reimagining business processes, empowering employees, and engaging customers</span>
@@ -98,24 +98,24 @@ defineProps({
                             <p>Digital transformation is no longer a mere trendy term in the contemporary business environment; rather, it has evolved into a critical strategic necessity for organizations that wish to prosper in the era of digitalization. KetupArt Studio specializes in providing guidance to businesses as they navigate this process of transformation by implementing innovative strategies and state-of-the-art technologies to stimulate expansion, optimize operations, and enhance client contentment.</p>
                             <p>Integrating digital technologies into every aspect of business operations constitutes digital transformation, which profoundly alters the way in which organizations function and provide value to their clients. Remaining agile in a digital-first world requires more than simply implementing new tools or systems; it also entails reimagining business processes, empowering employees, and engaging customers.</p>
                         </div>
-                        <div class="col-7">
+                        <div class="col-12 col-lg-7">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-39.png" alt="" srcset="">
                                     <h5>Strategy and Vision</h5>
                                     <p>We collaborate extensively with your executive team in order to establish a distinct digital strategy that is in harmony with your organization's objectives and the demands of your clientele. Our consultants aid you in conceptualizing your organization's future state and developing a strategic plan to achieve that vision.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-29.png" alt="" srcset="">
                                     <h5>Technology Integration</h5>
                                     <p>We assist you in capitalizing on the potential of nascent technologies including data analytics, cloud computing, artificial intelligence, and the Internet of Things. Our team of specialists guarantees a smooth incorporation of these technologies into your current infrastructure, thereby augmenting productivity and ingenuity.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-31.png" alt="" srcset="">
                                     <h5>Change Management</h5>
                                     <p>Digital transformation necessitates organizational and cultural shifts. We facilitate change management processes for your teams, cultivate a mindset that is prepared for the digital age, and encourage employees to adopt novel approaches to work.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-32.png" alt="" srcset="">
                                     <h5>Customer Experience Enhancement</h5>
                                     <p>A fundamental aspect of digital transformation is the provision of outstanding client experiences. We assist in the development and execution of digital strategies that prioritize the consumer, utilizing data-driven insights to tailor interactions and foster enduring connections.</p>
@@ -139,7 +139,7 @@ defineProps({
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">1</h4>
@@ -152,7 +152,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">2</h4>
@@ -165,7 +165,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">3</h4>
@@ -180,7 +180,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">4</h4>
@@ -193,7 +193,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">5</h4>
@@ -206,7 +206,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">6</h4>
@@ -219,7 +219,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">7</h4>
@@ -232,7 +232,7 @@ defineProps({
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">8</h4>

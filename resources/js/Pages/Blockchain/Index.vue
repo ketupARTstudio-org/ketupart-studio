@@ -64,14 +64,14 @@ defineProps({
             <div class="section section-padding" id="section1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="section-heading heading-left mb-3">
                                 <h2 class="title">Overview</h2>
                                 <span class="subtitle">Empowering Trust in a Digital World with Blockchain</span>
                             </div>
                             <p>We provide ground-breaking solutions that transform entire industries with blockchain technology. Blockchain, a decentralized ledger technology, facilitates transparent and tamper-proof record-keeping, improves security, and guarantees data integrity. By utilizing decentralized and immutable systems, our blockchain solutions enable organizations to optimize operations, decrease expenditures, and cultivate confidence among stakeholders. Blockchain technology is applied to supply chain management, digital identity verification, smart contracts, and other processes to promote innovation, transparency, and efficiency. We aid clients in capitalizing on new opportunities, mitigating risks, and transforming their businesses for the digital age by leveraging our blockchain expertise.                            </p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="team-details-thumb">
                                 <img class="paralax-image" src="assets/abstract/media/banner/blockchain.jpg" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                             </div>
@@ -93,7 +93,7 @@ defineProps({
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">1</h4>
@@ -102,7 +102,7 @@ defineProps({
                                <p>We specialize in designing tailored blockchain solutions that align with your business objectives and industry requirements. Whether it's implementing private, public, or hybrid blockchain networks, developing smart contracts, or creating decentralized applications (dApps), we ensure that our blockchain solutions are scalable, secure, and interoperable.</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">2</h4>
@@ -111,7 +111,7 @@ defineProps({
                                 <p>Our team excels in integrating blockchain technology with existing systems and applications seamlessly. We leverage APIs, SDKs, and interoperability protocols to integrate blockchain into your ecosystem, enabling data sharing, transaction processing, and business logic execution across platforms.</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">3</h4>
@@ -120,7 +120,7 @@ defineProps({
                                 <p>We prioritize security and compliance in blockchain development, implementing robust security measures such as cryptographic algorithms, access controls, and data encryption. Our expertise in regulatory compliance ensures that your blockchain solutions adhere to industry standards and legal requirements, mitigating risks and ensuring data privacy.</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-12 col-lg-3">
                             <div class="about-quality">
                                 <div class="d-flex align-items-center">
                                     <h4 class="sl-number">4</h4>
@@ -189,7 +189,7 @@ defineProps({
             <div class="section section-padding bg-color-light" id="section4">
                 <div class="container">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-12 col-lg-5">
                             <div class="section-heading heading-left mb-3">
                                     <h2 class="title">Security and Privacy</h2>
                                     <span class="subtitle">Safeguarding Data with Unbreakable Security and Unrivaled Privacy</span>
@@ -197,24 +197,24 @@ defineProps({
                             <p>Blockchain technology offers robust security and privacy features that make it an ideal choice for various applications, from financial transactions to supply chain management and data sharing. Its decentralized and distributed nature ensures data integrity and reduces the risk of fraud, while cryptographic techniques secure transactions and authenticate participants. Consensus mechanisms maintain network security, and access control and privacy features protect sensitive information, making blockchain a trusted solution for secure and transparent operations in the digital era.</p>
 
                         </div>
-                        <div class="col-7">
+                        <div class="col-12 col-lg-7">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-39.png" alt="" srcset="">
                                     <h5>Immutability and Data Integrity</h5>
                                     <p>Blockchain's decentralized and distributed nature ensures immutability, making it nearly impossible to alter or tamper with data once recorded on the blockchain. This feature enhances data integrity and reduces the risk of fraud or unauthorized changes.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-29.png" alt="" srcset="">
                                     <h5>Cryptography</h5>
                                     <p>Blockchain relies on cryptographic techniques such as hashing, digital signatures, and encryption to secure transactions and data. Hash functions ensure data integrity by generating unique identifiers (hashes) for each block, while digital signatures authenticate transactions and verify participants' identities without revealing sensitive information.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-31.png" alt="" srcset="">
                                     <h5>Consensus Mechanisms</h5>
                                     <p>Consensus algorithms like Proof of Work (PoW), Proof of Stake (PoS), and others ensure network security and consensus among participants in validating and adding new blocks to the blockchain. These mechanisms prevent malicious actors from manipulating the blockchain and maintain network reliability.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-32.png" alt="" srcset="">
                                     <h5>Access Control and Privacy Features</h5>
                                     <p>Blockchain platforms often include access control mechanisms and privacy-enhancing features to protect sensitive information. Smart contracts can enforce access permissions, encryption can secure data at rest and in transit, and zero-knowledge proofs (ZKPs) can enable selective disclosure of information without revealing the underlying data.</p>

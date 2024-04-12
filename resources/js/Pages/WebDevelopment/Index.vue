@@ -70,12 +70,12 @@ defineProps({
                                 <span class="subtitle">Crafting Solutions, Unleash Your Imagination</span>
                             </div>
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <p>Our company specializes in professional web development services, delivering high-quality websites that are visually appealing, user-friendly, and optimized for performance. With a team of skilled developers and designers, we offer comprehensive web development solutions tailored to meet your specific business needs and objectives.</p>  
                                     <p>From custom website design to responsive web development, we leverage the latest technologies and industry best practices to create engaging online experiences that leave a lasting impression on your target audience. Our expertise in front-end and back-end development ensures seamless functionality, intuitive user interfaces, and robust backend systems that power your website's performance.</p>  
                                     <p>Whether you require an e-commerce platform, a content management system, or a corporate website, our web development services encompass a wide range of solutions to help you establish a strong online presence and drive business growth.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="team-details-thumb">
                                         <img class="paralax-image" src="assets/abstract/media/banner/webdevelopment.gif" alt="Thumbnail" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
                                     </div>
@@ -89,7 +89,7 @@ defineProps({
             <div class="section section-padding bg-color-light" id="section2">
                 <div class="container">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-12 col-lg-5">
                             <div class="section-heading heading-left mb-3">
                                     <h2 class="title">Our Capabilities</h2>
                                     <span class="subtitle">Your Vision, Our Expertise: Transforming Ideas into Digital Reality</span>
@@ -101,29 +101,29 @@ defineProps({
                             <p>In addition to cost optimization, our Application Development and Maintenance Services prioritize the creation of genuine value, the improvement of customer experiences, and the promotion of innovation.</p>
 
                         </div>
-                        <div class="col-7">
+                        <div class="col-12 col-lg-7">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-39.png" alt="" srcset="">
                                     <h5>Custom Web Development</h5>
                                     <p>Tailoring unique and innovative web solutions that meet clients' specific business goals and requirements, from dynamic websites to complex web applications.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-29.png" alt="" srcset="">
                                     <h5>Responsive Design</h5>
                                     <p>Creating responsive and mobile-friendly websites that provide optimal user experiences across devices, ensuring accessibility and usability for all users.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-31.png" alt="" srcset="">
                                     <h5>Cloud Integration and Automation</h5>
                                     <p>Implementing cloud-based solutions and automation tools to streamline workflows, enhance scalability, and improve performance in web applications.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-32.png" alt="" srcset="">
                                     <h5>Performance Optimization</h5>
                                     <p>Optimizing website performance through techniques such as code minification, image optimization, caching strategies, and server-side optimizations, ensuring fast loading times and excellent user experience.</p>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-lg-6">
                                     <img src="assets/abstract/media/icon/icon-32.png" alt="" srcset="">
                                     <h5>AI-Based Web Development</h5>
                                     <p>Leveraging artificial intelligence technologies to enhance user interactions, personalize content, and improve decision-making processes on web platforms.</p>
@@ -139,7 +139,8 @@ defineProps({
                     <div class="section-heading heading-left">
                         <h2 class="title">System Type</h2>
                         <span class="subtitle">Some example system that you can work on with us</span>
-                        <table class="w-100 table table-bordered text-white">
+                        <div style="overflow:scroll">
+                            <table class="w-100 table table-bordered text-white">
                             <tr>
                                 <td style="width:33.333%"><h5 class="mb-0 fw-bold">Conventional App</h5></td>
                                 <td style="width:33.333%"><h5 class="mb-0 fw-bold">Modern App</h5></td>
@@ -217,6 +218,8 @@ defineProps({
                                 </td>
                             </tr>
                         </table>
+                        </div>
+                   
                     </div>
                 </div>
             </div>

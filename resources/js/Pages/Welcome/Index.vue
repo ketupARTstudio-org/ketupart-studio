@@ -60,7 +60,7 @@ defineProps({
                 <div class="section-heading ">
                     <span class="subtitle">What We Can Do For You</span>
                     <h2 class="title">Services we can help you with</h2>
-                    <p class="opacity-50 w-50">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
+                    <p class="opacity-50 w-100">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
@@ -415,7 +415,7 @@ defineProps({
                     <div class="section-heading heading-light">
                         <span class="subtitle">Let's Work Together</span>
                         <h2 class="title">Need a successful project?</h2>
-                        <Link href="/contact" class="axil-btn btn-fill-primary btn-large">Estimate Project</Link>
+                        <Link href="/contact" class="axil-btn btn-fill-primary btn-large">Kick Start Project</Link>
                     </div>
                 </div>
             </div>
