@@ -95,7 +95,7 @@ defineProps({
                             <div class="blog-grid blog-without-thumb mb-3">
                                 <div class="content">
                                     <h5 class="title"> <a href="service-design.html">Strategize</a></h5>
-                                    <p class="mb-0">Your team strategizes by understanding client objectives, market trends, and user needs to formulate a clear roadmap for mobile app development. This involves defining project goals, target audience, and key performance indicators (KPIs) to ensure alignment with business objectives.</p>
+                                    <p class="mb-0">Strategizes by understanding business objectives, market trends, and user needs to formulate a clear roadmap for mobile app development. This involves defining project goals, target audience, and key performance indicators (KPIs) to ensure alignment with business objectives.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ defineProps({
                             <div class="blog-grid blog-without-thumb mb-3">
                                 <div class="content">
                                     <h5 class="title"> <a href="service-development.html">Planning</a></h5>
-                                    <p class="mb-0">Through meticulous planning, your team outlines the project scope, timeline, resource allocation, and budgeting requirements. This phase involves creating detailed project plans, defining milestones, and establishing communication channels to keep stakeholders informed throughout the development lifecycle.</p>
+                                    <p class="mb-0">Through meticulous planning, we outlines the project scope, timeline, resource allocation, and budgeting requirements. This phase involves creating detailed project plans, defining milestones, and establishing communication channels to keep stakeholders informed throughout the development lifecycle.</p>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ defineProps({
                             <div class="blog-grid blog-without-thumb mb-3">
                                 <div class="content">
                                     <h5 class="title"> <a href="service-content-strategy.html">Design</a></h5>
-                                    <p class="mb-0">Your design expertise shines as you create captivating and user-centric mobile app designs. This includes UI/UX design, prototyping, wireframing, and visual design elements that enhance user experience, usability, and brand identity, ensuring that the app resonates with the target audience.</p>
+                                    <p class="mb-0">We create captivating and user-centric mobile app designs. This includes UI/UX design, prototyping, wireframing, and visual design elements that enhance user experience, usability, and brand identity, ensuring that the app resonates with the target audience.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ defineProps({
                             <div class="blog-grid blog-without-thumb mb-3">
                                 <div class="content">
                                     <h5 class="title"> <a href="service-content-strategy.html">App Development</a></h5>
-                                    <p class="mb-0">Leveraging your development capabilities, your team transforms design concepts into functional mobile applications. This involves frontend and backend development, coding, integration of features, APIs, and third-party services, ensuring scalability, performance, and functionality across platforms.</p>
+                                    <p class="mb-0">Transforms design concepts into functional mobile applications. This involves frontend and backend development, coding, integration of features, APIs, and third-party services, ensuring scalability, performance, and functionality across platforms.</p>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@ defineProps({
                             <div class="blog-grid blog-without-thumb mb-3">
                                 <div class="content">
                                     <h5 class="title"> <a href="service-content-strategy.html">Testing</a></h5>
-                                    <p class="mb-0">Your thorough testing processes ensure app quality, functionality, and performance. This includes unit testing, integration testing, user acceptance testing (UAT), and quality assurance (QA) testing to identify and resolve bugs, glitches, and compatibility issues, ensuring a seamless user experience.</p>
+                                    <p class="mb-0">Testing processes ensure app quality, functionality, and performance. This includes unit testing, integration testing, user acceptance testing (UAT), and quality assurance (QA) testing to identify and resolve bugs, glitches, and compatibility issues, ensuring a seamless user experience.</p>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ defineProps({
                             <div class="blog-grid blog-without-thumb mb-3">
                                 <div class="content">
                                     <h5 class="title"> <a href="service-content-strategy.html">Deployment</a></h5>
-                                    <p class="mb-0">Finally, your deployment expertise ensures a smooth launch and deployment of mobile apps. This involves app configuration, deployment to app stores (e.g., Apple App Store, Google Play Store), version management, and post-launch support, ensuring that the app reaches its intended audience and performs optimally in the market.</p>
+                                    <p class="mb-0">Deployment ensures a smooth launch and deployment of mobile apps. This involves app configuration, deployment to app stores (e.g., Apple App Store, Google Play Store), version management, and post-launch support, ensuring that the app reaches its intended audience and performs optimally in the market.</p>
                                 </div>
                             </div>
                         </div>
