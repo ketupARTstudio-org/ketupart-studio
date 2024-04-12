@@ -19,7 +19,7 @@ defineProps({
             <div class="container">
                 <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
                     <h1 class="title h2">Immersive Technology</h1>
-                    <p>Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.</p>
+                    <p>Embark on a Journey of Innovation and Discovery with Our Immersive Technology Solutions, Redefining Reality to Create Unforgettable Experiences.</p>
                 </div>
             </div>
             <!-- <ul class="shape-group-8 list-unstyled">

@@ -19,7 +19,7 @@ defineProps({
             <div class="container">
                 <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
                     <h1 class="title h2">Web Development</h1>
-                    <p>Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.</p>
+                    <p>Empowering Businesses with Innovative Web Solutions: Where Creativity, Technology, and Strategy Converge to Build Exceptional Online Experiences for Lasting Impact and Sustainable Growth.</p>
                 </div>
             </div>
             <!-- <ul class="shape-group-8 list-unstyled">
