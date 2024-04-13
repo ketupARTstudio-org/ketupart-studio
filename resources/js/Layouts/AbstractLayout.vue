@@ -943,7 +943,7 @@ defineProps({
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">Human Resources</strong></li>
                                                         <li><a href="javascript:;"><b>K-HR</b> - Human Resources Management System</a></li>
-                                                        <!-- <li><hr class="my-2"></li>
+                                                        <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">Health & Safety</strong></li>
                                                         <li><a href="javascript:;"><b>K-HSE</b> - Health, Safety & Environment System</a></li>
                                                         <li><hr class="my-2"></li>
@@ -952,7 +952,7 @@ defineProps({
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">POS</strong></li>
                                                         <li><a href="javascript:;"><b>K-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
-                                                        <li><hr class="my-2"></li>
+                                                        <!-- <li><hr class="my-2"></li>
                                                         <li><a href="javascript:;"><b>VIEW ALL PRODUCTS</b></a></li> -->
                                                     </ul>
                                                 </li>
