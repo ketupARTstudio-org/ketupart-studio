@@ -1083,9 +1083,9 @@ defineProps({
                                                             <li><a href="learn.html"><small><b>K-Learn</b> - ELearning Management System</small></a></li>
                                                             <li><a href="about-us.html"><small><b>K-Project</b> - Project Management System</small></a></li>
                                                             <li><a href="about-us.html"><small><b>K-HR</b> - Human Resources Management System</small></a></li>
-                                                            <!-- <li><a href="hse.html"><small><b>K-HSE</b> - Health, Safety & Environment System</small></a></li>
+                                                            <li><a href="hse.html"><small><b>K-HSE</b> - Health, Safety & Environment System</small></a></li>
                                                             <li><a href="case-study.html"><small><b>K-PayDay</b> - Payroll System</small></a></li>          
-                                                            <li><a href="case-study.html"><small><b>K-Resto</b> - Restaurant Ordering Management System</small></a></li>         -->
+                                                            <li><a href="case-study.html"><small><b>K-Resto</b> - Restaurant Ordering Management System</small></a></li>        
                                                         </ul>
                                                     </div>
                                                 </div>
