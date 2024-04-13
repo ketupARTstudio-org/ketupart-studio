@@ -36,7 +36,7 @@
         <link rel="stylesheet" href="/assets/abstract/css/app.css">
         <link rel="stylesheet" href="/assets/abstract/css/custom.css">
 
-
+        @laravelPWA
         <!-- Scripts -->
         @routes
         @vite('resources/js/app.js')
