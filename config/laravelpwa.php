@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'name' => 'KETUPART STUDIO',
+    'name' => 'KETUPART',
     'manifest' => [
-        'name' => env('APP_NAME', 'KETUPART STUDIO'),
-        'short_name' => 'KETUPART STUDIO',
+        'name' => env('APP_NAME', 'KETUPART'),
+        'short_name' => 'KETUPART',
         'start_url' => '/',
         'background_color' => '#ffffff',
         'theme_color' => '#000000',
