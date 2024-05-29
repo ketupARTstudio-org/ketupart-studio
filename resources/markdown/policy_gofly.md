@@ -72,34 +72,34 @@ Want to learn more about what we do with any information we collect? [Review th
 
   
 
-<a href="#1-what-information-do-we-collect">1\. WHAT INFORMATION DO WE COLLECT?</a>
+<a href="#infocollect">1. WHAT INFORMATION DO WE COLLECT?</a>
 
-[2\. HOW DO WE PROCESS YOUR INFORMATION?](#2-how-do-we-process-your-information)
+<a href="#processinfo">2. HOW DO WE PROCESS YOUR INFORMATION?</a>
 
-[3\. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?](#3-what-legal-bases-do-we-rely-on-to-process-your-personal-information)
+<a href="#personalinfo">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</a>
 
-[4\. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?](#4-when-and-with-whom-do-we-share-your-personal-information)
+<a href="#shareinfo">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a>
 
-[5\. HOW LONG DO WE KEEP YOUR INFORMATION?](#5-how-long-do-we-keep-your-information)
+<a href="#keepinfo">5. HOW LONG DO WE KEEP YOUR INFORMATION?</a>
 
-[6\. HOW DO WE KEEP YOUR INFORMATION SAFE?](#6-how-do-we-keep-your-information-safe)
+<a href="#infosafe">6. HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
 
-[7\. WHAT ARE YOUR PRIVACY RIGHTS?](#7-what-are-your-privacy-rights)
+<a href="#privacyrights">7. WHAT ARE YOUR PRIVACY RIGHTS?</a>
 
-[8\. CONTROLS FOR DO-NOT-TRACK FEATURES](#8-controls-for-do-not-track-features)
+<a href="#dnt">8. CONTROLS FOR DO-NOT-TRACK FEATURES]</a>
 
-[9\. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?](#9-do-united-states-residents-have-specific-privacy-rights)
+<a href="#usprivacy">9. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?]</a>
 
-[10\. DO WE MAKE UPDATES TO THIS NOTICE?](#10-do-we-make-updates-to-this-notice)
+<a href="#updatenotice">10. DO WE MAKE UPDATES TO THIS NOTICE?</a>
 
-[11\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#11-how-can-you-contact-us-about-this-notice)
+<a href="#contactus">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a>
 
-[12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?](#12-how-can-you-review-update-or-delete-the-data-we-collect-from-you)
-
-  
+<a href="#reviewdata">12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a>
 
   
-<h2 id="#1-what-information-do-we-collect"> 1. WHAT INFORMATION DO WE COLLECT?</h2>
+
+  
+<h2 id="infocollect">1. WHAT INFORMATION DO WE COLLECT?</h2>
 
   
 
@@ -125,7 +125,7 @@ All personal information that you provide to us must be true, complete, and accu
 
   
 
-## 2. HOW DO WE PROCESS YOUR INFORMATION?
+<h2 id="processinfo">2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
 
   
 
@@ -139,7 +139,7 @@ All personal information that you provide to us must be true, complete, and accu
 
   
 
-## 3\. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?
+<h2 id="personalinfo">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</h2>
 
   
 
@@ -194,7 +194,7 @@ In some exceptional cases, we may be legally permitted under applicable law to p
 
   
 
-## 4\. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+<h2 id="shareinfo"> 4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h2>
 
   
 
@@ -208,7 +208,7 @@ We may need to share your personal information in the following situations:
 
   
 
-## 5\. HOW LONG DO WE KEEP YOUR INFORMATION?
+<h2 id="keepinfo">5. HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
 
   
 
@@ -224,7 +224,7 @@ When we have no ongoing legitimate business need to process your personal inform
 
   
 
-## 6\. HOW DO WE KEEP YOUR INFORMATION SAFE?
+<h2 id="infosafe">6. HOW DO WE KEEP YOUR INFORMATION SAFE?</h2>
 
   
 
@@ -236,7 +236,7 @@ We have implemented appropriate and reasonable technical and organizational secu
 
   
 
-## 7\. WHAT ARE YOUR PRIVACY RIGHTS?
+<h2 id="privacyrights">7. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
 
   
 
@@ -270,7 +270,7 @@ If you have questions or comments about your privacy rights, you may email us at
 
   
 
-## 8\. CONTROLS FOR DO-NOT-TRACK FEATURES
+<h2 id="dnt">8. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
 
   
 
@@ -282,7 +282,7 @@ California law requires us to let you know how we respond to web browser DNT sig
 
   
 
-## 9\. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+<h2 id="usprivacy">9. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
 
   
 
@@ -430,7 +430,7 @@ California Civil Code Section 1798.83, also known as the "Shine The Light" law, 
 
   
 
-## 10\. DO WE MAKE UPDATES TO THIS NOTICE?
+<h2 id="updatenotice">10. DO WE MAKE UPDATES TO THIS NOTICE?<h2>
 
   
 
@@ -442,7 +442,7 @@ We may update this privacy notice from time to time. The updated version will be
 
   
 
-## 11\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+<h2 id="contactus">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
 
   
 
@@ -458,7 +458,7 @@ Malaysia
 
   
 
-## 12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+<h2 id="reviewdata">12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
 
   
 
