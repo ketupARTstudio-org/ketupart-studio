@@ -26,7 +26,7 @@ This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), desc
 
   
 
-**_This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our_** [**_table of contents_**](#table-of-contents) **_below to find the section you are looking for._**
+**_This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our_** [**_table of contents_**](#toc) **_below to find the section you are looking for._**
 
   
 
@@ -42,11 +42,11 @@ This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), desc
 
   
 
-**How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#infouse).
+**How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#processinfo).
 
   
 
-**In what situations and with which parties do we share personal information?** We may share information in specific situations and with specific third parties. Learn more about [when and with whom we share your personal information](#whoshare).
+**In what situations and with which parties do we share personal information?** We may share information in specific situations and with specific third parties. Learn more about [when and with whom we share your personal information](#shareinfo).
 
   
 
@@ -68,7 +68,7 @@ Want to learn more about what we do with any information we collect? [Review th
 
   
 
-### TABLE OF CONTENTS
+<h3 id="toc">TABLE OF CONTENTS</h3>
 
   
 
@@ -86,9 +86,9 @@ Want to learn more about what we do with any information we collect? [Review th
 
 <a href="#privacyrights">7. WHAT ARE YOUR PRIVACY RIGHTS?</a>
 
-<a href="#dnt">8. CONTROLS FOR DO-NOT-TRACK FEATURES]</a>
+<a href="#dnt">8. CONTROLS FOR DO-NOT-TRACK FEATURES</a>
 
-<a href="#usprivacy">9. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?]</a>
+<a href="#usprivacy">9. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a>
 
 <a href="#updatenotice">10. DO WE MAKE UPDATES TO THIS NOTICE?</a>
 
@@ -258,7 +258,7 @@ If you are located in Switzerland, you may contact the [Federal Data Protection 
 
   
 
-**Withdrawing your consent:** If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#contact)" below.
+<b id="withdrawconsent">Withdrawing your consent:</b> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#contact)" below.
 
   
 
@@ -426,11 +426,11 @@ Under certain US state data protection laws, if we decline to take action regard
 
   
 
-California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#11-how-can-you-contact-us-about-this-notice)"
+California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#contactus)"
 
   
 
-<h2 id="updatenotice">10. DO WE MAKE UPDATES TO THIS NOTICE?<h2>
+<h2 id="updatenotice">10. DO WE MAKE UPDATES TO THIS NOTICE?</h2>
 
   
 
@@ -458,7 +458,7 @@ Malaysia
 
   
 
-<h2 id="reviewdata">12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
+<h2 id="reviewdata">12. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
 
   
 
