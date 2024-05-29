@@ -3,6 +3,8 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Laravel\Jetstream\Jetstream;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -94,8 +96,33 @@ Route::get('/contact', function () {
     return Inertia::render('Contact/Index', []);
 });
 
+//Dashboard
 Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified',])->group(function () {
     Route::get('/dashboard', function () { 
         return Inertia::render('Dashboard/Index');
     })->name('dashboard');
 });
+
+//Terms and Privacy Policy
+Route::get('/terms-of-service', function () {
+    $termFile = Jetstream::localizedMarkdownPath('terms.md');
+    return view('policy', [
+        'policy' => Str::markdown(file_get_contents($termFile)),
+    ]);
+});
+
+Route::get('/privacy-policy', function () {
+    $policyFile = Jetstream::localizedMarkdownPath('policy.md');
+    return view('policy', [
+        'policy' => Str::markdown(file_get_contents($policyFile)),
+    ]);
+});
+
+Route::get('/gofly/privacy-policy', function () {
+    $policyFile = Jetstream::localizedMarkdownPath('policy_gofly.md');
+    return view('policy', [
+        'policy' => Str::markdown(file_get_contents($policyFile)),
+    ]);
+});
+
+
