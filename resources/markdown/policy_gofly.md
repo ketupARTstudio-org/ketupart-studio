@@ -1,4 +1,4 @@
-**PRIVACY POLICY**
+# PRIVACY POLICY
 
   
 
@@ -22,11 +22,11 @@ This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), desc
 
   
 
-**SUMMARY OF KEY POINTS**
+## SUMMARY OF KEY POINTS
 
   
 
-**_This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our_** [**_table of contents_**](#toc) **_below to find the section you are looking for._**
+**_This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our_** [**_table of contents_**](#table-of-contents) **_below to find the section you are looking for._**
 
   
 
@@ -68,39 +68,38 @@ Want to learn more about what we do with any information we collect? [Review th
 
   
 
-**TABLE OF CONTENTS**
+### TABLE OF CONTENTS
 
   
 
-[1\. WHAT INFORMATION DO WE COLLECT?](#infocollect)
+[1\. WHAT INFORMATION DO WE COLLECT?](#1-what-information-do-we-collect)
 
-[2\. HOW DO WE PROCESS YOUR INFORMATION?](#infouse)
+[2\. HOW DO WE PROCESS YOUR INFORMATION?](#2-how-do-we-process-your-information)
 
-[3\. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?](#legalbases)
+[3\. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?](#3-what-legal-bases-do-we-rely-on-to-process-your-personal-information)
 
-[4\. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?](#whoshare)
+[4\. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?](#4-when-and-with-whom-do-we-share-your-personal-information)
 
-[5\. HOW LONG DO WE KEEP YOUR INFORMATION?](#inforetain)
+[5\. HOW LONG DO WE KEEP YOUR INFORMATION?](#5-how-long-do-we-keep-your-information)
 
-[6\. HOW DO WE KEEP YOUR INFORMATION SAFE?](#infosafe)
+[6\. HOW DO WE KEEP YOUR INFORMATION SAFE?](#6-how-do-we-keep-your-information-safe)
 
-[7\. WHAT ARE YOUR PRIVACY RIGHTS?](#privacyrights)
+[7\. WHAT ARE YOUR PRIVACY RIGHTS?](#7-what-are-your-privacy-rights)
 
-[8\. CONTROLS FOR DO-NOT-TRACK FEATURES](#DNT)
+[8\. CONTROLS FOR DO-NOT-TRACK FEATURES](#8-controls-for-do-not-track-features)
 
-[9\. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?](#uslaws)
+[9\. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?](#9-do-united-states-residents-have-specific-privacy-rights)
 
-[10\. DO WE MAKE UPDATES TO THIS NOTICE?](#policyupdates)
+[10\. DO WE MAKE UPDATES TO THIS NOTICE?](#10-do-we-make-updates-to-this-notice)
 
-[11\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#contact)
+[11\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#11-how-can-you-contact-us-about-this-notice)
 
-[12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?](#request)
-
-  
+[12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?](#12-how-can-you-review-update-or-delete-the-data-we-collect-from-you)
 
   
 
-**1\. WHAT INFORMATION DO WE COLLECT?**
+  
+## 1\. WHAT INFORMATION DO WE COLLECT?
 
   
 
@@ -126,7 +125,7 @@ All personal information that you provide to us must be true, complete, and accu
 
   
 
-**2\. HOW DO WE PROCESS YOUR INFORMATION?**
+## 2. HOW DO WE PROCESS YOUR INFORMATION?
 
   
 
@@ -140,7 +139,7 @@ All personal information that you provide to us must be true, complete, and accu
 
   
 
-**3\. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?**
+## 3\. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?
 
   
 
@@ -195,7 +194,7 @@ In some exceptional cases, we may be legally permitted under applicable law to p
 
   
 
-**4\. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?**
+## 4\. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
 
   
 
@@ -209,7 +208,7 @@ We may need to share your personal information in the following situations:
 
   
 
-**5\. HOW LONG DO WE KEEP YOUR INFORMATION?**
+## 5\. HOW LONG DO WE KEEP YOUR INFORMATION?
 
   
 
@@ -225,7 +224,7 @@ When we have no ongoing legitimate business need to process your personal inform
 
   
 
-**6\. HOW DO WE KEEP YOUR INFORMATION SAFE?**
+## 6\. HOW DO WE KEEP YOUR INFORMATION SAFE?
 
   
 
@@ -237,7 +236,7 @@ We have implemented appropriate and reasonable technical and organizational secu
 
   
 
-**7\. WHAT ARE YOUR PRIVACY RIGHTS?**
+## 7\. WHAT ARE YOUR PRIVACY RIGHTS?
 
   
 
@@ -271,7 +270,7 @@ If you have questions or comments about your privacy rights, you may email us at
 
   
 
-**8\. CONTROLS FOR DO-NOT-TRACK FEATURES**
+## 8\. CONTROLS FOR DO-NOT-TRACK FEATURES
 
   
 
@@ -283,7 +282,7 @@ California law requires us to let you know how we respond to web browser DNT sig
 
   
 
-**9\. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?**
+## 9\. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
 
   
 
@@ -299,17 +298,11 @@ We have collected the following categories of personal information in the past t
 
   
 
-|     |     |     |
-| --- | --- | --- |
+
 | **Category** | **Examples** | **Collected** |
+| --- | --- | --- |
 | A. Identifiers | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | NO  |
-
-|     |     |     |
-| --- | --- | --- |
 | B. Personal information as defined in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information | NO  |
-
-|     |     |     |
-| --- | --- | --- |
 | C. Protected classification characteristics under state or federal law | Gender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data | NO  |
 | D. Commercial information | Transaction information, purchase history, financial details, and payment information | NO  |
 | E. Biometric information | Fingerprints and voiceprints | NO  |
@@ -433,11 +426,11 @@ Under certain US state data protection laws, if we decline to take action regard
 
   
 
-California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#contact)"
+California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#11-how-can-you-contact-us-about-this-notice)"
 
   
 
-**10\. DO WE MAKE UPDATES TO THIS NOTICE?**
+## 10\. DO WE MAKE UPDATES TO THIS NOTICE?
 
   
 
@@ -449,7 +442,7 @@ We may update this privacy notice from time to time. The updated version will be
 
   
 
-**11\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?**
+## 11\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 
   
 
@@ -457,19 +450,15 @@ If you have questions or comments about this notice, you may contact our Data Pr
 
   
 
-KetupART Studio
-
-Data Protection Officer
-
-9230, Jalan Enggang 4 Bandar Putra
-
-Kulai, Johor 81000
-
+KetupART Studio <br>
+Data Protection Officer <br>
+9230, Jalan Enggang 4 Bandar Putra <br>
+Kulai, Johor 81000 <br>
 Malaysia
 
   
 
-**12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?**
+## 12\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 
   
 
