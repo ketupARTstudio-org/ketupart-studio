@@ -72,7 +72,7 @@ Want to learn more about what we do with any information we collect? [Review th
 
   
 
-[1\. WHAT INFORMATION DO WE COLLECT?](#1-what-information-do-we-collect)
+<a href="#1-what-information-do-we-collect">1\. WHAT INFORMATION DO WE COLLECT?</a>
 
 [2\. HOW DO WE PROCESS YOUR INFORMATION?](#2-how-do-we-process-your-information)
 
@@ -99,7 +99,7 @@ Want to learn more about what we do with any information we collect? [Review th
   
 
   
-## 1\. WHAT INFORMATION DO WE COLLECT?
+<h2 id="#1-what-information-do-we-collect"> 1. WHAT INFORMATION DO WE COLLECT?</h2>
 
   
 
