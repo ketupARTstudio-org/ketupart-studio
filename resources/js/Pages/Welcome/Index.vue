@@ -69,7 +69,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
                                 <h5 class="title"> <Link href="/consultancy">Digital Consultancy</Link></h5>
-                                <p>Transform your online presence with our expert web development services, delivering stunning, user-friendly and scalable websites that captivate your audience, boost your brand and drive business growth.</p>
+                                <p>We integrate business and technology to accelerate digital transformation, offering strategic counsel, tech expertise, change management, and continuous improvement to achieve your business goals.</p>
                                 <Link href="/consultancy" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
                                 <h5 class="title"> <Link href="/immersive">Immersive Technology</Link></h5>
-                                <p>Transform your ideas into reality with our exceptional mobile development services, delivering intuitive, user-friendly, and innovative apps for iOS and Android platforms.</p>
+                                <p>At KetupArt Studio, we specialize in AR/VR development, creating immersive experiences that enhance user engagement, elevate brand experiences, and drive business growth.</p>
                                 <Link href="/immersive" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
                                 <h5 class="title"> <Link href="/blockchain">Blockchain Technology</Link></h5>
-                                <p>Blend the digital and physical worlds like never before with our innovative augmented reality solutions, creating immersive and interactive experiences that engage, educate, and entertain your audience like never before.</p>
+                                <p>We offer innovative blockchain solutions to transform industries, enhance security, ensure data integrity, optimize operations, reduce costs, and promote transparency in supply chain management, identity verification, and smart contracts.</p>
                                 <Link href="/blockchain" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
                                 <h5 class="title"> <Link href="/cloudcomputing">Cloud Computing</Link></h5>
-                                <p>Step into a new reality with our cutting-edge virtual reality services, delivering mind-blowing experiences that transport users to new and fantastical worlds, driving engagement and delivering results beyond your wildest dreams.</p>
+                                <p>We deliver comprehensive cloud solutions with AWS, Azure, and Google Cloud, offering IaaS, PaaS, and SaaS for scalable, efficient, and secure business growth.</p>
                                 <Link href="/cloudcomputing" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
                                 <h5 class="title"> <Link href="/microservice">Microservices & API</Link></h5>
-                                <p>Unleash the full potential of your business with our cutting-edge microservices and API development solutions, providing seamless integration, scalability, and agility to drive digital transformation.</p>
+                                <p>We design and manage microservices tailored to your needs, ensuring scalable, resilient solutions with agile methodologies and cutting-edge technology. Each service is independently developed, deployed, and maintained.</p>
                                 <Link href="/microservice" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
                                 <h5 class="title"> <Link href="/gamedevelopment">Game Development</Link></h5>
-                                <p>Enter the world of endless entertainment with our expert game development services, crafting immersive and engaging games for mobile, PC, and console platforms with stunning graphics and captivating gameplay.</p>
+                                <p>At KetupArtStudio, we create captivating and immersive games, from concept to character design, ensuring visually stunning, engaging experiences across various platforms.</p>
                                 <Link href="/gamedevelopment" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-36.png" alt="icon">
                                 <h5 class="title"> <Link href="/webdevelopment">Web Development</Link></h5>
-                                <p>Transform your online presence with our expert web development services, delivering stunning, user-friendly and scalable websites that captivate your audience, boost your brand and drive business growth.</p>
+                                <p>We specialize in professional web development, delivering high-quality, user-friendly, and optimized websites. Our skilled team offers custom design, responsive development, and robust backend solutions to meet your business needs.</p>
                                 <Link href="/webdevelopment" class="more-btn">Find out more</Link>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
                                 <h5 class="title"> <Link href="/mobiledevelopment">Mobile Development</Link></h5>
-                                <p>Transform your ideas into reality with our exceptional mobile development services, delivering intuitive, user-friendly, and innovative apps for iOS and Android platforms.</p>
+                                <p>We specialize in high-quality, user-centric mobile applications that prioritize seamless functionality, intuitive design, and optimal performance.</p>
                                 <Link href="/mobiledevelopment" class="more-btn">Find out more</Link>
                             </div>
                         </div>

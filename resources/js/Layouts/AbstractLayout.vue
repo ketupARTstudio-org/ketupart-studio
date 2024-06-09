@@ -931,7 +931,7 @@ defineProps({
                                                         <li><Link href="/publication">Publications</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li class="menu-item-has-children">
+                                                <!-- <li class="menu-item-has-children">
                                                     <a href="javascript:void(0);">Products</a>
                                                     <ul class="axil-submenu">
                                                         <li><strong class="ms-2 text-success">Education</strong></li>
@@ -952,10 +952,10 @@ defineProps({
                                                         <li><hr class="my-2"></li>
                                                         <li><strong class="ms-2  text-success">POS</strong></li>
                                                         <li><a href="javascript:;"><b>K-Resto</b> - Restaurant Ordering Management System</a></li>                                                       
-                                                        <!-- <li><hr class="my-2"></li>
-                                                        <li><a href="javascript:;"><b>VIEW ALL PRODUCTS</b></a></li> -->
+                                                        <li><hr class="my-2"></li>
+                                                        <li><a href="javascript:;"><b>VIEW ALL PRODUCTS</b></a></li>
                                                     </ul>
-                                                </li>
+                                                </li> -->
                                                 <!-- <li><Link href="/blog">Blogs</Link></li> -->
                                                 <li><Link href="/contact">Contact</Link></li>
                                             </ul>
@@ -1074,7 +1074,7 @@ defineProps({
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-5">
+                                            <!-- <div class="col-sm-5">
                                                 <div class="footer-widget">
                                                     <h6 class="widget-title">Products</h6>
                                                     <div class="footer-menu-link">
@@ -1089,7 +1089,7 @@ defineProps({
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>

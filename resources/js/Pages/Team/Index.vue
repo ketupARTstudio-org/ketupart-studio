@@ -17,7 +17,7 @@ defineProps({
         <div class="breadcrum-area breadcrumb-banner">
             <div class="container">
                 <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
-                    <h1 class="title h2">Talent &amp; Experience</h1>
+                    <h1 class="title h2">Team</h1>
                     <p>Build your solution with us and revolutionize the way forward with state-of-the-art technology that help people life.</p>
                 </div>
                 <div class="banner-thumbnail thumbnail-2" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
@@ -78,6 +78,9 @@ defineProps({
                                 <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#ismailModal">Muhammad Ismail Mat Isham</a></h4>
                                 <span class="designation fw-bold">Founder / Chief Executive Officer</span>
                                 <span class="designation">Immersive Tech Specialist</span>
+                                <br>
+                                <span class="designation"><b>Credentials</b></span>
+                                <span class="designation">Unity Certified Associate: Game Developer</span>
                             </div>
                         </div>
                     </div>
@@ -89,9 +92,15 @@ defineProps({
                                 </a>
                             </div>
                             <div class="content">
-                                <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#siangModal">Chan Vei Siang</a></h4>
+                                <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#siangModal">Chan (曾伟祥) Vei Siang</a></h4>
                                 <span class="designation fw-bold">Founder / Chief Operating Officer</span>
                                 <span class="designation">Immersive Tech Specialist / AI Specialist</span>
+                                <br>
+                                <span class="designation"><b>Credentials</b></span>
+                                <span class="designation">Unity Certified Associate: Programmer</span>
+                                <span class="designation">Microsoft Certified: Azure AI Fundamentals</span>
+                                <span class="designation">Microsoft Certified: Power Platform Fundamentals</span>
+                                <span class="designation">Microsoft Certified: Azure Fundamentals</span>
                             </div>
                         </div>
                     </div>
@@ -106,6 +115,14 @@ defineProps({
                                 <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#zulZaynModal">Zulwaqar Zain Mohtar</a></h4>
                                 <span class="designation fw-bold">Founder / Chief Technology Officer</span>
                                 <span class="designation">Cloud Specialist / Full Stack Specialist</span>
+                                <br>
+                                <span class="designation"><b>Credentials</b></span>
+                                <span class="designation">AWS Certified Solutions Architect</span>
+                                <span class="designation">AWS Certified Cloud Practitioner</span>
+                                <span class="designation">Microsoft Certified: Azure AI Fundamentals</span>
+                                <span class="designation">Microsoft Certified: Azure Data Fundamental</span>
+                                <span class="designation">Microsoft Certified: Azure Fundamentals</span>
+                                <span class="designation">Unity Certified User: Programmer</span>
                             </div>
                         </div>
                     </div>

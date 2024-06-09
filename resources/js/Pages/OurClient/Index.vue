@@ -40,22 +40,22 @@ defineProps({
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-6 h-100" data-sal="slide-up" data-sal-duration="500">
-                        <div class="brand-grid d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
                             <img src="assets/abstract/media/brand/logo-DEC4IR-2.png" alt="Brand" class="p-5">
                         </div>
                     </div>
                     <div class="col-lg-3 col-6 h-100" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
-                        <div class="brand-grid d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
                             <img src="assets/abstract/media/brand/logo_utm.png" alt="Brand" class="p-5">
                         </div>
                     </div>
                     <div class="col-lg-3 col-6 h-100" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
-                        <div class="brand-grid d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
                             <img src="assets/abstract/media/brand/logo_mranti.png" alt="Brand" class="p-5">
                         </div>
                     </div>
                     <div class="col-lg-3 col-6 h-100" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
-                        <div class="brand-grid d-flex justify-content-center align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">
                             <img src="assets/abstract/media/brand/logo-kpm.png" alt="Brand" class="p-5">
                         </div>
                     </div>
