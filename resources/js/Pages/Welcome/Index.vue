@@ -79,7 +79,7 @@ defineProps({
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
                                 <h5 class="title"> <Link href="/immersive">Immersive Technology</Link></h5>
-                                <p>At KetupArt Studio, we specialize in AR/VR development, creating immersive experiences that enhance user engagement, elevate brand experiences, and drive business growth.</p>
+                                <p>At KetupArt Studio, we specialize in AR,VR & XR development, creating immersive experiences that enhance user engagement, elevate brand experiences, and drive business growth.</p>
                                 <Link href="/immersive" class="more-btn">Find out more</Link>
                             </div>
                         </div>
