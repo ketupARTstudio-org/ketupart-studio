@@ -79,7 +79,7 @@ defineProps({
                                 <span class="designation fw-bold">Founder / Chief Executive Officer</span>
                                 <span class="designation">Immersive Tech Specialist</span>
                                 <br>
-                                <span class="designation"><b>Credentials</b></span>
+                                <span class="designation"><b>Professional Certified</b></span>
                                 <span class="designation">Unity Certified Associate: Game Developer</span>
                             </div>
                         </div>
@@ -94,9 +94,10 @@ defineProps({
                             <div class="content">
                                 <h4 class="title"><a href="javascript:;" data-bs-toggle="modal" data-bs-target="#siangModal">Chan (曾伟祥) Vei Siang</a></h4>
                                 <span class="designation fw-bold">Founder / Chief Operating Officer</span>
-                                <span class="designation">Immersive Tech Specialist / AI Specialist</span>
+                                <span class="designation">Data Scientist / Data Analyst</span>
                                 <br>
-                                <span class="designation"><b>Credentials</b></span>
+                                <span class="designation"><b>Professional Certified</b></span>
+                                <span class="designation">Microsoft Certified: Power BI Data Analyst Associate</span>
                                 <span class="designation">Unity Certified Associate: Programmer</span>
                                 <span class="designation">Microsoft Certified: Azure AI Fundamentals</span>
                                 <span class="designation">Microsoft Certified: Power Platform Fundamentals</span>
@@ -116,7 +117,7 @@ defineProps({
                                 <span class="designation fw-bold">Founder / Chief Technology Officer</span>
                                 <span class="designation">Cloud Specialist / Full Stack Specialist</span>
                                 <br>
-                                <span class="designation"><b>Credentials</b></span>
+                                <span class="designation"><b>Professional Certified</b></span>
                                 <span class="designation">AWS Certified Solutions Architect</span>
                                 <span class="designation">AWS Certified Cloud Practitioner</span>
                                 <span class="designation">Microsoft Certified: Azure AI Fundamentals</span>
@@ -154,7 +155,7 @@ defineProps({
                                 <h4 class="title">Muhammad Ismail Mat Isham</h4>
                                 <span class="designation fw-bold">Founder / Chief Executive Officer</span>
                                 <span class="designation">Immersive Tech Specialist</span>
-                                <p>As a Chief Executive Officer, Muhammad Ismail Mat Isham is responsible for the overall strategic direction and growth of the company. He has over 10 years of experience in the technology industry and has a proven track record of delivering innovative solutions to complex problems. Ismail is passionate about using technology to solve real-world problems and is committed to helping businesses achieve their goals through the use of cutting-edge technology.</p>
+                                <p>Mr. Muhammad Ismail received his Master of Philosophy in Computer Science from UTM, with his research focused on psychomotor skills training using VR technology. He also has produced various 3D and VR applications for educational purposes.</p>
                             </div>
                         </div>
                     </div>
@@ -179,8 +180,8 @@ defineProps({
                             <div class="content d-flex flex-column h-100 justify-content-center">
                                 <h4 class="title">Chan Vei Siang</h4>
                                 <span class="designation fw-bold">Founder / Chief Operating Officer</span>
-                                <span class="designation">Immersive Tech Specialist / AI Specialist</span>
-                                <p>As a Chief Operating Officer, Chan Vei Siang is responsible for the overall operations and growth of the company. He has over 10 years of experience in the technology industry and has a proven track record of delivering innovative solutions to complex problems. Siang is passionate about using technology to solve real-world problems and is committed to helping businesses achieve their goals through the use of cutting-edge technology.</p>
+                                <span class="designation">Data Scientist / Data Analyst</span>
+                                <p>Mr. Chan Vei Siang received his Master of Philosophy in Computer Science from UTM. His research focuses on Data Visualisation and Human-Computer Interaction. He also has expertise in web design and business analytics design.</p>
                             </div>
                         </div>
                     </div>
@@ -206,7 +207,7 @@ defineProps({
                                 <h4 class="title">Zulwaqar Zain Mohtar</h4>
                                 <span class="designation fw-bold">Founder / Chief Technology Officer</span>
                                 <span class="designation">Cloud Specialist / Full Stack Specialist</span>
-                                <p>As a Chief Technology Officer, Zulwaqar Zain Mohtar is responsible for the overall technology strategy and direction of the company. He has over 10 years of experience in the technology industry and has a proven track record of delivering innovative solutions to complex problems. Zulwaqar is passionate about using technology to solve real-world problems and is committed to helping businesses achieve their goals through the use of cutting-edge technology.</p>
+                                <p>Mr. Zulwaqar Zain received his Master of Philosophy in Software Engineering from UTM and is proficient in Web Technologies, Cloud Computing and Software Engineering. He has participated in various high-profile projects, including Digital Transformation of Health, Safety and Environment (HSE) for UMW Holdings, Digital Twin Offshore Pipeline for PETRONAS and Enterprise Resource Planning (ERP) for G&P Professionals Group.</p>
                             </div>
                         </div>
                     </div>

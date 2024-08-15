@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="row justify-content-center pt-4">
-        <div class="col-12 col-lg-11">
+        <div class="col-12 col-lg-6">
             <div>
                 <x-jet-authentication-card-logo />
             </div>

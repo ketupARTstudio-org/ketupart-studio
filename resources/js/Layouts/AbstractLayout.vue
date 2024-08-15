@@ -927,8 +927,8 @@ defineProps({
                                                     <ul class="axil-submenu">
                                                         <li><Link href="/methodology">Work Methodology</Link></li>
                                                         <li><Link href="/casestudy">Case Study</Link></li>
-                                                        <li><Link href="/project">Projects</Link></li>
-                                                        <li><Link href="/publication">Publications</Link></li>
+                                                        <!-- <li><Link href="/project">Projects</Link></li>
+                                                        <li><Link href="/publication">Publications</Link></li> -->
                                                     </ul>
                                                 </li>
                                                 <!-- <li class="menu-item-has-children">
@@ -1068,8 +1068,8 @@ defineProps({
                                                         <ul class="list-unstyled">
                                                             <li><Link href="/methodology"><small>Work Methodology</small></Link></li>
                                                             <li><Link href="/casestudy"><small>Case Study</small></Link></li>
-                                                            <li><Link href="/project"><small>Projects</small></Link></li>
-                                                            <li><Link href="/publication"><small>Publications</small></Link></li>
+                                                            <!-- <li><Link href="/project"><small>Projects</small></Link></li>
+                                                            <li><Link href="/publication"><small>Publications</small></Link></li> -->
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -1107,8 +1107,8 @@ defineProps({
                                     <div class="col-md-6">
                                         <div class="footer-bottom-link">
                                             <ul class="list-unstyled">
-                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                                <li><a href="terms-of-use.html">Terms of Use</a></li>
+                                                <li><a href="/privacy-policy" target="_blank">Privacy Policy</a></li>
+                                                <li><a href="/terms-of-service" target="_blank">Terms of Use</a></li>
                                             </ul>
                                         </div>
                                     </div>
