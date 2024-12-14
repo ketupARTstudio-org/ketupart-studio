@@ -86,6 +86,11 @@ Route::get('/publication', function () {
     return Inertia::render('Publication/Index', []);
 });
 
+//Products
+Route::get('/gofly', function () {
+    return Inertia::render('GoFly/Index', []);
+});
+
 //Blog
 Route::get('/blog', function () {
     return Inertia::render('Blog/Index', []);

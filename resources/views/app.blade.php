@@ -36,6 +36,7 @@
         <link rel="stylesheet" href="/assets/abstract/css/app.css">
         <link rel="stylesheet" href="/assets/abstract/css/custom.css">
 
+        <script src="https://kit.fontawesome.com/116c15aa0d.js" crossorigin="anonymous"></script>
        
         <!-- Scripts -->
         @routes
