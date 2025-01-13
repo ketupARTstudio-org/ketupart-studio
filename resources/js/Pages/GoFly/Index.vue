@@ -135,7 +135,7 @@ z-index: 2; /* Ensures the content is above the overlay */
                         <div class="card bg-color-dark mx-2  mb-2">
                             <div class="card-body p-0">
                                 <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;min-width:300px;max-width:450px;">
-                                    <source src="assets/images/basic_control.mp4" type="video/mp4">
+                                    <source src="assets/images/pitch_roll.mp4" type="video/mp4">
                                 </video>
                             </div>
                             <div class="card-footer">
@@ -145,7 +145,7 @@ z-index: 2; /* Ensures the content is above the overlay */
                         <div class="card bg-color-dark  mb-2">
                             <div class="card-body p-0">
                                 <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;min-width:300px;max-width:450px;">
-                                    <source src="assets/images/basic_control.mp4" type="video/mp4">
+                                    <source src="assets/images/combined.mp4" type="video/mp4">
                                 </video>
                             </div>
                             <div class="card-footer">
@@ -187,7 +187,7 @@ z-index: 2; /* Ensures the content is above the overlay */
                         <div class="card me-2 bg-color-dark">
                             <div class="card-body p-0">
                                 <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; min-width:300px;max-width:450px">
-                                    <source src="assets/images/poi.mp4" type="video/mp4">
+                                    <source src="assets/images/freefly.mp4" type="video/mp4">
                                 </video>
                             </div>
                             <div class="card-footer">
@@ -259,7 +259,7 @@ z-index: 2; /* Ensures the content is above the overlay */
                     <div class="thumbnail">
                         <img src="assets/images/bg_drone.gif" alt="Thumbnail" style="width: 100vw;">
                         <div class="popup-video">
-                            <a href="assets/images/bg_drone2.mp4" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
+                            <a href="https://www.youtube.com/watch?v=v1ADPXHMi3Q" class="play-btn popup-youtube"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                 </div>
