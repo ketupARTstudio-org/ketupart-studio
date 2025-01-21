@@ -2,7 +2,7 @@
 
   
 
-**Last updated May 28, 2024**
+**Last updated January 21, 2025**
 
   
 
@@ -12,7 +12,7 @@
 
 This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
-*   Download and use our mobile application (GoFly), or any other application of ours that links to this privacy notice
+*   Download and use our mobile application ("**GoFly**"), or virtual reality (VR) application ("**GoFly VR**"), or any other application of ours that links to this privacy notice
 
 *   Engage with us in other related ways, including any sales, marketing, or events
 
