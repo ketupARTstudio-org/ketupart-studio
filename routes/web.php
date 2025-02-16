@@ -130,4 +130,11 @@ Route::get('/gofly/privacy-policy', function () {
     ]);
 });
 
+Route::get('/gofly/terms-of-services', function () {
+    $policyFile = Jetstream::localizedMarkdownPath('terms_of_services_gofly.md');
+    return view('policy', [
+        'policy' => Str::markdown(file_get_contents($policyFile)),
+    ]);
+});
+
 

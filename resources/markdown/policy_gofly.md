@@ -2,7 +2,7 @@
 
   
 
-**Last updated May 28, 2024**
+**Last updated January 21, 2025**
 
   
 
@@ -12,7 +12,7 @@
 
 This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
-*   Download and use our mobile application (GoFly), or any other application of ours that links to this privacy notice
+*   Download and use our mobile application ("**GoFly**"), or virtual reality (VR) application ("**GoFly VR**"), or any other application of ours that links to this privacy notice
 
 *   Engage with us in other related ways, including any sales, marketing, or events
 
@@ -462,4 +462,4 @@ Malaysia
 
   
 
-Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please fill out and submit a [data subject access request](https://app.termly.io/notify/8bf18fba-d1cb-455f-8d64-9ae1e11a1bcc).
+Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please fill out and submit a [data subject access request](https://docs.google.com/forms/d/e/1FAIpQLSfx9C3Bwe_fXZAtSmQ8ZcWwqhacBrSnJiy-mosqv72ttRuD3w/viewform?usp=preview).
