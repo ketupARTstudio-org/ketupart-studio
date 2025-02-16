@@ -914,10 +914,10 @@ defineProps({
                                                     <ul class="axil-submenu">
                                                         <li><Link href="/consultancy">Digital Consultancy</Link></li>
                                                         <li><Link href="/immersive">Immersive Technology</Link></li>
-                                                        <li><Link href="/blockchain">Blockchain Technology</Link></li>
-                                                        <li><Link href="/cloudcomputing">Cloud Computing</Link></li>
-                                                        <li><Link href="/microservice">Microservices</Link></li>
                                                         <li><Link href="/gamedevelopment">Game Development</Link></li>
+                                                        <!-- <li><Link href="/blockchain">Blockchain Technology</Link></li> -->
+                                                        <li><Link href="/cloudcomputing">Cloud Computing</Link></li>
+                                                        <!-- <li><Link href="/microservice">Microservices</Link></li> -->
                                                         <li><Link href="/webdevelopment">Web Development</Link></li>
                                                         <li><Link href="/mobiledevelopment">Mobile Apps Development</Link></li>                                                       
                                                     </ul>
@@ -1043,9 +1043,9 @@ defineProps({
                                                         <ul class="list-unstyled">
                                                             <li><Link href="/consultancy"><small>Digital Consultancy</small></Link></li>
                                                             <li><Link href="/immersive"><small>Immersive Technology</small></Link></li>
-                                                            <li><Link href="/blockchain"><small>Blockchain Technology</small></Link></li>
+                                                            <!-- <li><Link href="/blockchain"><small>Blockchain Technology</small></Link></li> -->
                                                             <li><Link href="/cloudcomputing"><small>Cloud Computing</small></Link></li>
-                                                            <li><Link href="/microservice"><small>Microservices</small></Link></li>
+                                                            <!-- <li><Link href="/microservice"><small>Microservices</small></Link></li> -->
                                                             <li><Link href="/gamedevelopment"><small>Game Development</small></Link></li>
                                                             <li><Link href="/webdevelopment"><small>Web Development</small></Link></li>
                                                             <li><Link href="/mobiledevelopment"><small>Mobile Development</small></Link></li>  

@@ -22,7 +22,7 @@ defineProps({
         <section class="banner banner-style-4">
             <div class="container">
                 <div class="banner-content">
-                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Providing Solution for Enterprise, SMEs & Public Sector</h1>
+                    <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">Providing Solution for Immersive World</h1>
                     <p data-sal="slide-up" data-sal-duration="1000">We provide a bunch of technology services, with latest technology and security frameworks to regulate your business and being on track with global standards with the vision in Empowering Industries, SMEs, and Education through cutting-edge technology solutions that unleash productivity, efficiency, and innovation for a brighter future.</p>
                     <div data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                         <a href="#section-2" class="axil-btn btn-fill-primary btn-large">View Services</a>
@@ -30,7 +30,7 @@ defineProps({
                 </div>
                 <div class="banner-thumbnail">
                     <div class="large-thumb text-end" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
-                        <img class="paralax-image w-100 w-lg-50 me-20 me-lg-0" src="assets/abstract/media/banner/technology2.png" alt="Shape">
+                        <img class="paralax-image w-100 w-lg-50 me-20 me-lg-0" src="assets/abstract/media/banner/immersive.jpg" alt="Shape">
                     </div>
                 </div>
                 <div class="banner-social" data-sal="slide-up" data-sal-duration="800">
@@ -63,7 +63,7 @@ defineProps({
                     <p class="opacity-50 w-100">"The software development process is a journey of continuous improvement, where imagination meets reality through the power of code and collaboration, creating innovative solutions that shape the world we live in."</p>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                         <div class="services-grid active p-20" style="padding: 20px;">
                          
                             <div class="content">
@@ -74,7 +74,7 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
@@ -84,37 +84,7 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                        <div class="services-grid" style="padding: 20px;">
-                            <div class="content">
-                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
-                                <h5 class="title"> <Link href="/blockchain">Blockchain Technology</Link></h5>
-                                <p>We offer innovative blockchain solutions to transform industries, enhance security, ensure data integrity, optimize operations, reduce costs, and promote transparency in supply chain management, identity verification, and smart contracts.</p>
-                                <Link href="/blockchain" class="more-btn">Find out more</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="services-grid" style="padding: 20px;">
-                            <div class="content">
-                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
-                                <h5 class="title"> <Link href="/cloudcomputing">Cloud Computing</Link></h5>
-                                <p>We deliver comprehensive cloud solutions with AWS, Azure, and Google Cloud, offering IaaS, PaaS, and SaaS for scalable, efficient, and secure business growth.</p>
-                                <Link href="/cloudcomputing" class="more-btn">Find out more</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                        <div class="services-grid" style="padding: 20px;">
-                            <div class="content">
-                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
-                                <h5 class="title"> <Link href="/microservice">Microservices & API</Link></h5>
-                                <p>We design and manage microservices tailored to your needs, ensuring scalable, resilient solutions with agile methodologies and cutting-edge technology. Each service is independently developed, deployed, and maintained.</p>
-                                <Link href="/microservice" class="more-btn">Find out more</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-39.png" alt="icon">
@@ -124,7 +94,38 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                    <!-- <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid" style="padding: 20px;">
+                            <div class="content">
+                                <img src="assets/abstract/media/icon/icon-6.png" alt="icon">
+                                <h5 class="title"> <Link href="/blockchain">Blockchain Technology</Link></h5>
+                                <p>We offer innovative blockchain solutions to transform industries, enhance security, ensure data integrity, optimize operations, reduce costs, and promote transparency in supply chain management, identity verification, and smart contracts.</p>
+                                <Link href="/blockchain" class="more-btn">Find out more</Link>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid" style="padding: 20px;">
+                            <div class="content">
+                                <img src="assets/abstract/media/icon/icon-41.png" alt="icon">
+                                <h5 class="title"> <Link href="/cloudcomputing">Cloud Computing</Link></h5>
+                                <p>We deliver comprehensive cloud solutions with AWS, Azure, and Google Cloud, offering IaaS, PaaS, and SaaS for scalable, efficient, and secure business growth.</p>
+                                <Link href="/cloudcomputing" class="more-btn">Find out more</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid" style="padding: 20px;">
+                            <div class="content">
+                                <img src="assets/abstract/media/icon/icon-38.png" alt="icon">
+                                <h5 class="title"> <Link href="/microservice">Microservices & API</Link></h5>
+                                <p>We design and manage microservices tailored to your needs, ensuring scalable, resilient solutions with agile methodologies and cutting-edge technology. Each service is independently developed, deployed, and maintained.</p>
+                                <Link href="/microservice" class="more-btn">Find out more</Link>
+                            </div>
+                        </div>
+                    </div> -->
+                   
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                         <div class="services-grid" style="padding: 20px;">
                          
                             <div class="content">
@@ -135,7 +136,7 @@ defineProps({
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                    <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                         <div class="services-grid" style="padding: 20px;">
                             <div class="content">
                                 <img src="assets/abstract/media/icon/icon-28.png" alt="icon">
