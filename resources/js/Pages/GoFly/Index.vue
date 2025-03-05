@@ -94,8 +94,12 @@ z-index: 2; /* Ensures the content is above the overlay */
                             <p class="w-100">Welcome to the ultimate drone simulation experience! Dive into a world where fun meets learning and take your skills to new heights.</p>
                             <p class="w-100">Take control of your drone journey—start playing and training today!</p>
                             <div class="d-flex flex-row mb-5">
-                                <a href="#download-gofly" class="axil-btn btn-fill-primary btn-large" style="background-color: #0d6efd;border: 1px solid #0d6efd;--color-hover: #002358;">
-                                    <h4 class="mb-0"><i class="fa-brands fa-meta"></i> Get on Meta Quest Store</h4>
+                                <a href="https://chanmalichan8.itch.io/gofly-vr-lite" target="_blank" class="axil-btn btn-fill-primary btn-large" style="background-color: #dc3545;border: 1px solid #dc3545;--color-hover: #cf1a2b;">
+                                    <h4 class="mb-0">
+                                        <!-- <i class="fa-brands fa-meta"></i>  -->
+                                        <img src="assets/images/itchio.png" alt="" style="width:90px">
+                                        Get on itch.io
+                                    </h4>
                                 </a>
                             </div>
                         </div>
