@@ -93,21 +93,36 @@ z-index: 2; /* Ensures the content is above the overlay */
                             <h2>Train Like a Pro, Play Like a Champ </h2>
                             <p class="w-100">Welcome to the ultimate drone simulation experience! Dive into a world where fun meets learning and take your skills to new heights.</p>
                             <p class="w-100">Take control of your drone journey—start playing and training today!</p>
-                            <div class="d-flex flex-row mb-5">
-                                <a href="https://chanmalichan8.itch.io/gofly-vr-lite" target="_blank" class="axil-btn btn-fill-primary btn-large" style="background-color: #dc3545;border: 1px solid #dc3545;--color-hover: #cf1a2b;">
-                                    <h4 class="mb-0">
-                                        <!-- <i class="fa-brands fa-meta"></i>  -->
-                                        <img src="assets/images/itchio.png" alt="" style="width:90px">
-                                        Get on itch.io
-                                    </h4>
-                                </a>
-                            </div>
+                           
                         </div>
                         <div class="col-12 col-lg-6">
                             <div class="thumbnail text-right">
                                 <img src="assets/images/meta-quest-3.png" alt="Mockup">
                             </div>
                         </div>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row mb-5">
+                        <a href="https://sidequestvr.com/app/41261 " target="_blank" class="axil-btn btn-fill-primary btn-large me-0 me-lg-3 mb-3 " style="background-color: #101227;border: 1px solid #101227;--color-hover: #252956;">
+                            <h4 class="mb-0">
+                                <!-- <i class="fa-brands fa-meta"></i>  -->
+                                <img src="assets/images/sidequest-white.webp" alt="" style="width:70px">
+                                Get on Side Quest
+                            </h4>
+                        </a>
+                        <a href="https://sidequestvr.com/app/41261 " target="_blank" class="axil-btn btn-fill-primary btn-large me-0 me-lg-3 mb-3" style="background-color: #dc3545;border: 1px solid #dc3545;--color-hover: #cf1a2b;">
+                            <h4 class="mb-0">
+                                <!-- <i class="fa-brands fa-meta"></i>  -->
+                                <img src="assets/images/itchio.png" alt="" style="width:80px">
+                                Get on itch.io
+                            </h4>
+                        </a>
+                        <a href="javascript:;" class="axil-btn btn-fill-primary btn-large mb-3 d-flex flex-column align-items-center" style="background-color: #0082fb ;border: 1px solid #0082fb;--color-hover: #0d6efd;">
+                            <h4 class="mb-0">
+                                <i class="fa-brands fa-meta"></i> 
+                                Get on Meta Store 
+                            </h4>
+                            <small>(Coming Soon)</small>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -162,6 +177,26 @@ z-index: 2; /* Ensures the content is above the overlay */
                     
                     <span class="subtitle">DRONE SHOT TECHNIQUE</span>
                     <div class="d-flex  flex-column flex-lg-row justify-content-center">
+                        <div class="card me-2 bg-color-dark  mb-2">
+                            <div class="card-body p-0">
+                                <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; min-width:300px;max-width:450px;">
+                                    <source src="assets/images/poi_room.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="card-footer">
+                                <h4 class="mb-0">Point of Interest</h4> <small>(Room)</small>
+                            </div>
+                        </div>
+                        <div class="card me-2 bg-color-dark  mb-2">
+                            <div class="card-body p-0">
+                                <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; min-width:300px;max-width:450px;">
+                                    <source src="assets/images/8pattern_room.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="card-footer">
+                                <h4 class="mb-0">8 Pattern Technique</h4> <small>(Room)</small>
+                            </div>
+                        </div>
                         <div class="card me-2 bg-color-dark  mb-2">
                             <div class="card-body p-0">
                                 <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; min-width:300px;max-width:450px;">
