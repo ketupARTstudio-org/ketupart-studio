@@ -140,21 +140,21 @@ Route::get('/gofly/terms-of-services', function () {
 
 //Product
 Route::get('/product/privacy-policy', function () {
-    $policyFile = Jetstream::localizedMarkdownPath('privacy_policy.md');
+    $policyFile = Jetstream::localizedMarkdownPath('product_privacy_policy.md');
     return view('policy', [
         'policy' => Str::markdown(file_get_contents($policyFile)),
     ]);
 });
 
 Route::get('/product/refund-policy', function () {
-    $policyFile = Jetstream::localizedMarkdownPath('refund_policy.md');
+    $policyFile = Jetstream::localizedMarkdownPath('product_refund_policy.md');
     return view('policy', [
         'policy' => Str::markdown(file_get_contents($policyFile)),
     ]);
 });
 
 Route::get('/product/shipping-policy', function () {
-    $policyFile = Jetstream::localizedMarkdownPath('shipping_policy.md');
+    $policyFile = Jetstream::localizedMarkdownPath('product_shipping_policy.md');
     return view('policy', [
         'policy' => Str::markdown(file_get_contents($policyFile)),
     ]);
