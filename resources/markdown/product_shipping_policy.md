@@ -1,4 +1,4 @@
-# **Return or Exchange Policy for DEC4IR 2025 Merchandise Products**
+### **Return or Exchange Policy for DEC4IR 2025 Merchandise Products**
 Thanks for purchasing our products at **ketupartstudio.onpay.my** ("we," "our," or "Seller") operated by **KetupART Studio** (SSM No.: 202203172936).
 
 In order to be eligible for an exchange or return, you can only return if you received the wrong size or product type. You have 14 calendar days from the delivery date to initiate your return. The product must be in the same condition that you receive it and undamaged in any way. Please complete the return request by filling out the Google Form at <https://forms.gle/QM6yDyuJDwiofHFt7>, including your invoice/receipt number, purchased item to return, photo of the products, full name, bank details for refund processing, etc.

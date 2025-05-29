@@ -1,4 +1,4 @@
-# **Refund Policy for DEC4IR 2025 Merchandise Products**
+### **Refund Policy for DEC4IR 2025 Merchandise Products**
 Thanks for purchasing our products at **ketupartstudio.onpay.my** ("we," "our," or "Seller") operated by **KetupART Studio** (SSM No.: 202203172936).
 
 In order to be eligible for refund, you can only return and refund if you received the wrong size or product type and the stock has run out. You have 14 calendar days from the delivery date to initiate your return. The product must be in the same condition that you receive it and undamaged in any way. Please complete the return request by filling out the Google Form at <https://forms.gle/QM6yDyuJDwiofHFt7>, including your invoice/receipt number, purchased item to return or refund, photo of the products, full name, bank details for refund processing, etc. 

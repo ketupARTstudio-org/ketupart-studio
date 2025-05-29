@@ -1075,6 +1075,27 @@ defineProps({
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-sm-5">
+                                                <div class="footer-widget">
+                                                    <h6 class="widget-title">Policy</h6>
+                                                    <div class="footer-menu-link">
+                                                        <b><u>General Policy</u></b>
+                                                        <ul class="list-unstyled" style="padding-top:10px">
+                                                            <li><a href="/privacy-policy" target="_blank">Privacy Policy</a></li>
+                                                            <li><a href="/terms-of-service" target="_blank">Terms of Use</a></li> 
+                                                        </ul>
+                                                    </div>
+                                                    <br><br>
+                                                    <div class="footer-menu-link">
+                                                        <b><u>Products Policy</u></b>
+                                                        <ul class="list-unstyled" style="padding-top:10px">
+                                                            <li><a href="/product/privacy-policy" target="_blank">Privacy Policy</a></li>
+                                                            <li><a href="/product/shipping-policy" target="_blank">Shipping Policy</a></li>
+                                                            <li><a href="/product/refund-policy" target="_blank">Refund Policy</a></li>   
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <!-- <div class="col-sm-5">
                                                 <div class="footer-widget">
                                                     <h6 class="widget-title">Products</h6>
