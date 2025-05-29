@@ -69,15 +69,20 @@ defineProps({
                         </div>
                     </div> -->
                     <div class="col-xl-12 col-lg-12 offset-xl-1">
-                        <!-- <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
+                        <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                             <h4 class="title">Phone</h4>
-                            <p>Our person in charge is open from Mon-Fri, 10:00 am to 6:00 pm</p>
-                            <h4 class="phone-number"><a href="tel:1234567890">(123) 456 7890</a></h4>
-                        </div> -->
+                            <p>Our person in charge is available from <br> Mon-Fri, 9:00 am to 6:00 pm <br> Sat, 9:00 am to 12:30 pm</p>
+                            <h4 class="phone-number"><a href="tel:1234567890">+601154054256</a></h4>
+                        </div>
                         <div class="contact-info mb--30">
                             <h4 class="title">Email</h4>
                             <p>Our support team will get back to in 48-h during standard business hours.</p>
                             <h4 class="phone-number"><a href="mailto:info@example.com">ketupartstudio@gmail.com</a></h4>
+                        </div>
+                        <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
+                            <h4 class="title">Address</h4>
+                            <p>Our business located here</p>
+                            <h4 class="phone-number">KetupArt Studio, <br> 9230, Jalan Enggang 4, <br> Bandar Putra, <br> 81000 Kulai, <br> Johor.</h4>
                         </div>
                     </div>
                 </div>
