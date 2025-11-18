@@ -30,9 +30,9 @@ Route::get('/', function () {
 Route::get('/aboutus', function () {
     return Inertia::render('AboutUs/Index', []);
 });
-Route::get('/team', function () {
-    return Inertia::render('Team/Index', []);
-});
+// Route::get('/team', function () {
+//     return Inertia::render('Team/Index', []);
+// });
 Route::get('/ourclient', function () {
     return Inertia::render('OurClient/Index', []);
 });

@@ -1059,7 +1059,7 @@ defineProps({
                                                     <div class="footer-menu-link">
                                                         <ul class="list-unstyled">
                                                             <li><Link href="/aboutus"><small>KetupArt</small></Link></li>
-                                                            <li><Link href="/team"><small>Team</small></Link></li>
+                                                            <!-- <li><Link href="/team"><small>Team</small></Link></li> -->
                                                             <li><Link href="/ourclient"><small>Our Clients</small></Link></li>
                                                         </ul>
                                                     </div>
