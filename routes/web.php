@@ -138,6 +138,21 @@ Route::get('/gofly/terms-of-services', function () {
     ]);
 });
 
+//Foundly
+Route::get('/foundly/privacy-policy', function () {
+    $policyFile = Jetstream::localizedMarkdownPath('privacy_policy_foundly.md');
+    return view('policy', [
+        'policy' => Str::markdown(file_get_contents($policyFile)),
+    ]);
+});
+
+Route::get('/foundly/terms-of-services', function () {
+    $policyFile = Jetstream::localizedMarkdownPath('terms_of_services_foundly.md');
+    return view('policy', [
+        'policy' => Str::markdown(file_get_contents($policyFile)),
+    ]);
+});
+
 //Product
 Route::get('/product/privacy-policy', function () {
     $policyFile = Jetstream::localizedMarkdownPath('product_privacy_policy.md');
