@@ -13,7 +13,7 @@ We are KetupART Studio ("**Company**," "**we**," "**us**," "**our**").
 
 We operate the mobile application GoFly mobile application or GoFly virtual reality (VR) application (the "**App**"), as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
 
-You can contact us by phone at (+60)1154054256, email at ketupartstudio@gmail.com, or by mail to 9230, Jalan Enggang 4 Bandar Putra, Kulai, Johor 81000, Malaysia.
+You can contact us by phone at (+60)1154054256, email at ketupartstudio@gmail.com, or by mail to CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri, Technovation Park, Universiti Teknologi Malaysia, 81300, Johor Bahru, Johor, Malaysia.
 
 These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("**you**"), and KetupART Studio, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 

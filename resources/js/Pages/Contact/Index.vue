@@ -82,7 +82,7 @@ defineProps({
                         <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                             <h4 class="title">Address</h4>
                             <p>Our business located here</p>
-                            <h4 class="phone-number">KetupArt Studio, <br> 9230, Jalan Enggang 4, <br> Bandar Putra, <br> 81000 Kulai, <br> Johor.</h4>
+                            <h4 class="phone-number">KetupArt Studio, <br> CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri <br> Technovation Park, Universiti Teknologi Malaysia <br> 81300, Johor Bahru, Johor <br> Malaysia.</h4>
                         </div>
                     </div>
                 </div>

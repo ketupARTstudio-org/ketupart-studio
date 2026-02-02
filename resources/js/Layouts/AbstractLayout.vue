@@ -1030,7 +1030,7 @@ defineProps({
                                     <div class="col-xl-3" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
                                         <div class="d-flex flex-column">
                                             <h5>Get In Touch</h5>
-                                            <p>KetupArt Studio, T03, Level 1, University Industry Research Laboratory (UIRL), Universiti Teknologi Malaysia, 81310 Johor Bahru, Johor</p>
+                                            <p>KetupArt Studio, CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri, Technovation Park, Universiti Teknologi Malaysia, 81300, Johor Bahru, Johor</p>
                                             <p>ketupartstudio@gmail.com</p>
                                         </div>
                                     </div>

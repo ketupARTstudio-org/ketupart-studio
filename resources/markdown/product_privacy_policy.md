@@ -69,7 +69,7 @@ Your information may be transferred to and processed in countries other than you
 If you have any questions about this Privacy Policy or our data practices, please contact us at:
 
 - Data Protection Representative: KetupART Studio
-- Address: 9230, JALAN ENGGANG 4, BANDAR PUTRA, 81000, KULAI, JOHOR
+- Address: CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri, Technovation Park, Universiti Teknologi Malaysia, 81300, Johor Bahru, Johor, Malaysia
 - Email: it.dec4ir2025@protonmail.com
 - Phone: (+60)17-3456032
 

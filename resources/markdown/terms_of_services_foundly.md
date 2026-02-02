@@ -2,7 +2,7 @@
 
   
 
-**Last updated January 17, 2026**
+**Last updated February 2, 2026**
 
   
   
@@ -13,7 +13,7 @@ We are KetupART Studio ("**Company**," "**we**," "**us**," "**our**").
 
 We operate the mobile application Foundly mobile application (the "**App**"), as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
 
-You can contact us by phone at (+60)1154054256, email at ketupartstudio@gmail.com, or by mail to 9230, Jalan Enggang 4 Bandar Putra, Kulai, Johor 81000, Malaysia.
+You can contact us by phone at (+60)1154054256, email at ketupartstudio@gmail.com, or by mail to CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri, Technovation Park, Universiti Teknologi Malaysia, 81300, Johor Bahru, Johor, Malaysia.
 
 These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("**you**"), and KetupART Studio, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
@@ -39,7 +39,7 @@ We recommend that you print a copy of these Legal Terms for your records.
 
 <a href="#user-generated-contributions">5. USER GENERATED CONTRIBUTIONS</a>
 
-<a href="#contributions-license">6. CONTIBUTIONS LICENSE</a>
+<a href="#contribution-license">6. CONTRIBUTION LICENSE</a>
 
 <a href="#guidelines-for-reviews">7. GUIDELINES FOR REVIEWS</a>
 
@@ -49,33 +49,35 @@ We recommend that you print a copy of these Legal Terms for your records.
 
 <a href="#privacy-policy">10. PRIVACY POLICY</a>
 
-<a href="#copyright-infringements">11. COPYRIGHT INFRINGEMENTS</a>
+<a href="#third-party-services">11. THIRD-PARTY SERVICES</a>
 
-<a href="#term-termination">12. TERM AND TERMINATION</a>
+<a href="#copyright-infringements">12. COPYRIGHT INFRINGEMENTS</a>
 
-<a href="#modifications-intrruptions">13. MODIFICATIONS AND INTERRUPTIONS</a>
+<a href="#term-termination">13. TERM AND TERMINATION</a>
 
-<a href="#governing-law">14. GOVERNING LAW</a>
+<a href="#modifications-intrruptions">14. MODIFICATIONS AND INTERRUPTIONS</a>
 
-<a href="#dispute-resolution">15. DISPUTE RESOLUTION</a>
+<a href="#governing-law">15. GOVERNING LAW</a>
 
-<a href="#corrections">16. CORRECTIONS</a>
+<a href="#dispute-resolution">16. DISPUTE RESOLUTION</a>
 
-<a href="#disclaimer">17. DISCLAIMER</a>
+<a href="#corrections">17. CORRECTIONS</a>
 
-<a href="#limitations-liability">18. LIMITATIONS OF LIABILITY</a>
+<a href="#disclaimer">18. DISCLAIMER</a>
 
-<a href="#indemnification">19. INDEMNIFICATION</a>
+<a href="#limitations-liability">19. LIMITATIONS OF LIABILITY</a>
 
-<a href="#user-data">20. USER DATA</a>
+<a href="#indemnification">20. INDEMNIFICATION</a>
 
-<a href="#e-communications">21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a>
+<a href="#user-data">21. USER DATA</a>
 
-<a href="#cnur">22. CALIFORNIA USERS AND RESIDENTS</a>
+<a href="#e-communications">22. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</a>
 
-<a href="#misc">23. MISCELLANEOUS</a>
+<a href="#cnur">23. CALIFORNIA USERS AND RESIDENTS</a>
 
-<a href="#contact-us">24. CONTACT US</a>
+<a href="#misc">24. MISCELLANEOUS</a>
+
+<a href="#contact-us">25. CONTACT US</a>
 
 
   
@@ -142,7 +144,7 @@ You are solely responsible for your Submissions and/or Contributions andyou expr
 We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately refer to the "<a href="#copyright-infringements">COPYRIGHT INFRINGEMENTS</a>" section below.
 
 
-<h2 id="user-representations">3. USER PREPRESENTATIONS</h2>
+<h2 id="user-representations">3. USER REPRESENTATIONS</h2>
 
 By using the Services, you represent and warrant that: (1) you have the legal capacity and you agree to comply with these Legal Terms; (2) you are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Services; (3) you will not access the Services through automated or non-human means, whether through abot, script or otherwise; (4) you will not use the Services for any illegal or unauthorized purpose; and (5) your use of the Services will not violate any applicable law or regulation.
 
@@ -207,7 +209,7 @@ Any use of the Services in violation of the foregoing violates these Legal Terms
 
   
 
-<h2 id="contributions-license">6. CONTRIBUTION LICENSE</h2>
+<h2 id="contribution-license">6. CONTRIBUTION LICENSE</h2>
 
 By posting your Contributions to any part of the Services, you automatically grant, and you represent and warrant that you have the right to grant, to us an unrestricted, unlimited, irrevocable, perpetual, non-exclusive, transferable, royalty-free, fully-paid, worldwide right, and license to host, use, copy, reproduce, disclose, sell, resell, publish, broadcast, retitle, archive, store, cache, publicly perform, publicly display, reformat, translate, transmit, excerpt (in whole or in part), and distribute such Contributions (including, without limitation, your image and voice) for any purpose, commercial, advertising, or otherwise, and to prepare derivative works of, or incorporate into other works, such Contributions, and grant and authorize sublicenses of the foregoing. The use and distribution may occur in any media formats and through any media channels.
 
@@ -257,14 +259,41 @@ https://ketupartstudio.com/foundly/privacy-policy. By using the Services, you ag
   
 
 
-<h2 id="copyright-infringements">11. COPYRIGHT INFRIGNEMENTS</h2>  
+<h2 id="third-party-services">11. THIRD-PARTY SERVICES</h2>
+
+**_In Short:_** _The Services use third-party services for advertising and in-app purchases, which are subject to their own terms and privacy policies._
+
+The Services integrate with certain third-party services to provide functionality and features. By using the Services, you acknowledge and agree that:
+
+**Advertising Services:**
+We use Google AdMob to serve advertisements within the free tier of the App. AdMob may collect and process certain information about your device and usage, including device identifiers, IP address, and approximate location, to serve and measure ads. AdMob's data collection and use are governed by Google's Privacy Policy and Terms of Service. You can learn more about how Google uses data at https://policies.google.com/technologies/partner-sites.
+
+**In-App Purchase Services:**
+We use RevenueCat to process and manage in-app purchases and subscriptions. RevenueCat may collect and process purchase-related information, including purchase receipts, subscription status, and device identifiers. RevenueCat's services are governed by their own Terms of Service and Privacy Policy, available at https://www.revenuecat.com/terms.
+
+**Your Responsibilities:**
+* You are responsible for reviewing and complying with the terms and privacy policies of these third-party services.
+* We are not responsible for the practices, policies, or content of these third-party services.
+* Any disputes or issues arising from your interaction with these third-party services are between you and the respective third party.
+
+**Opting Out:**
+You may be able to limit personalized advertising through your device settings:
+* **iOS:** Settings > Privacy & Security > Tracking
+* **Android:** Settings > Privacy > Ads
+
+We reserve the right to add, remove, or replace third-party services at any time without prior notice. Continued use of the Services after any such changes constitutes your acceptance of the new third-party services and their respective terms.
+
+
+
+
+<h2 id="copyright-infringements">12. COPYRIGHT INFRINGEMENTS</h2>  
 
 We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately notify us using the contact information provided below (a "**Notification**"). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked toby the Services infringes your copyright, you should consider first contacting an attorney.
 
   
 
 
-<h2 id="term-termination">12. TERM AND TERMINATION</h2>
+<h2 id="term-termination">13. TERM AND TERMINATION</h2>
 
 These Legal Terms shall remain in full force and effect while you use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
 
@@ -272,7 +301,7 @@ If we terminate or suspend your account for any reason, you are prohibited from 
 
   
 
-<h2 id="modifications-intrruptions">13. MODIFICATIONS AND INTERRUPTIONS</h2>
+<h2 id="modifications-intrruptions">14. MODIFICATIONS AND INTERRUPTIONS</h2>
 
 We reserve the right to change, modify, or remove the contents of the Services at any time or for any reason at our sole discretion without notice.However, we have no obligation to update any information on our Services. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Services.
 
@@ -281,14 +310,14 @@ We cannot guarantee the Services will be available at all times. We may experien
 
   
 
-<h2 id="governing-law">14. GOVERNING LAW</h2>
+<h2 id="governing-law">15. GOVERNING LAW</h2>
 
 These Legal Terms shall be governed by and defined following the laws of Malaysia. KetupART Studio and yourself irrevocably consent that the courts of Malaysia shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.
 
 
   
 
-<h2 id="dispute-resolution">15. DISPUTE RESOLUTION</h2>
+<h2 id="dispute-resolution">16. DISPUTE RESOLUTION</h2>
 
 <h3>Informal Negotations</h3>
 
@@ -311,71 +340,72 @@ The Parties agree that the following Disputes are not subject to the above provi
 
 
 
-<h2 id="corrections">16. CORRECTIONS</h2>
+<h2 id="corrections">17. CORRECTIONS</h2>
 
 There may be information on the Services that contains typographical errors, inaccuracies, or omissions, including descriptions, pricing,availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Services at any time, without prior notice.
 
 
 
 
-<h2 id="disclaimer">17. DISCLAIMER</h2>
+<h2 id="disclaimer">18. DISCLAIMER</h2>
 
 THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO THE SERVICES AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OFTHE SERVICES, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICES, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SERVICES BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SERVICES. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT ORSERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SERVICES, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS ORSERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
 
 
 
 
-<h2 id="limitations-liability">18. LIMITATIONS OF LIABILITY</h2>
+<h2 id="limitations-liability">19. LIMITATIONS OF LIABILITY</h2>
 
 IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO US DURING THE TWELVE (12) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
 
 
 
 
-<h2 id="indemnification">19. INDEMNIFICATION</h2>
+<h2 id="indemnification">20. INDEMNIFICATION</h2>
 
 You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners,and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys' fees and expenses, made by any third party due to or arising out of: (1) your Contributions; (2) use of the Services; (3) breach of these Legal Terms; (4) any breach of your representations and warranties set forth in these Legal Terms; (5) your violation of the rights of a third party, including but not limited to intellectual property rights; or (6) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding theforegoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
 
 
 
 
-<h2 id="user-data">20. USER DATA</h2>
+<h2 id="user-data">21. USER DATA</h2>
 
 We will maintain certain data that you transmit to the Services for the purpose of managing the performance of the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
 
 
 
 
-<h2 id="e-communications">21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h2>
+<h2 id="e-communications">22. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h2>
 
 Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures,and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
 
 
 
 
-<h2 id="cnur">22. CALIFORNIA USERS AND RESIDENTS</h2>
+<h2 id="cnur">23. CALIFORNIA USERS AND RESIDENTS</h2>
 
 If any complaint with us is not satisfactorily resolved, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North MarketBlvd., Suite N 112, Sacramento, California 95834 or by telephone at (800)952-5210 or (916) 445-1254.
 
 
 
 
-<h2 id="misc">23. MISCELLANEOUS</h2>
+<h2 id="misc">24. MISCELLANEOUS</h2>
 
 These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce anyright or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extentpermissible by law. We may assign any or all of our rights and obligationsto others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provisionor part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.
 
 
 
 
-<h2 id="contact-us">24. CONTACT US</h2>
+<h2 id="contact-us">25. CONTACT US</h2>
 
 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
 
 
 KetupART Studio <br>
 Data Protection Officer <br>
-9230, Jalan Enggang 4 Bandar Putra <br>
-Kulai, Johor 81000 <br>
-Malaysia<br>
+CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri <br>
+Technovation Park, Universiti Teknologi Malaysia <br>
+81300, Johor Bahru, Johor <br>
+Malaysia
 **Phone: (+60)1154054256**<br>
 **ketupartstudio@gmail.com**

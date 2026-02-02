@@ -58,7 +58,7 @@ This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), desc
 
   
 
-**How do you exercise your rights?** The easiest way to exercise your rights is by submitting a [data subject access request](https://app.termly.io/notify/8bf18fba-d1cb-455f-8d64-9ae1e11a1bcc), or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+**How do you exercise your rights?** The easiest way to exercise your rights is by contacting us at ketupartstudio@gmail.com. We will consider and act upon any request in accordance with applicable data protection laws.
 
   
 
@@ -394,7 +394,7 @@ Depending upon the state where you live, you may also have the following rights:
 
   
 
-To exercise these rights, you can contact us by submitting a [data subject access request](https://app.termly.io/notify/8bf18fba-d1cb-455f-8d64-9ae1e11a1bcc), by emailing us at ketupartstudio@gmail.com, or by referring to the contact details at the bottom of this document.
+To exercise these rights, you can contact us by emailing us at ketupartstudio@gmail.com, or by referring to the contact details at the bottom of this document.
 
   
 
@@ -452,8 +452,9 @@ If you have questions or comments about this notice, you may contact our Data Pr
 
 KetupART Studio <br>
 Data Protection Officer <br>
-9230, Jalan Enggang 4 Bandar Putra <br>
-Kulai, Johor 81000 <br>
+CubeX-03, CubeX Catalyst, Aras 2, Bangunan Pusat Industri <br>
+Technovation Park, Universiti Teknologi Malaysia <br>
+81300, Johor Bahru, Johor <br>
 Malaysia
 
   
