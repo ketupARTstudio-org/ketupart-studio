@@ -1,47 +1,36 @@
-<p align="center"><a href="#"><img src="public/assets/images/logo/logo-ketupart_studio.png" width="200"></a></p>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<!-- <p align="center">
-<a href="https://gitlab.com/ImranShamm/hse-magicx/-/pipelines"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-</p>
+## Getting Started
 
-<p align="center">
-Link: <a href="https://vertigo.zulzayn.com" target="_blank">vertigo.zulzayn.com</a>
-</p> -->
+First, run the development server:
 
-## REQUIREMENT
-This installation is intended to be used with laragon that comes with preinstall tools needed for the project for local development environment. For other ways the requirement is still the same but you need to configure them yourself.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Just make sure that your Laragon run with below Environment
-- Composer 2
-- PHP = ^8.1
-- MySQL 5.7
-- Apache/Nginx 
-- Node 16++
-- NPM 8++
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## INSTALLATION STEPS
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**1) Clone**
-- SSH : `git@gitlab.com:ketupart-studio/ketupart-studio.git`
-- HTTPS : `https://gitlab.com/ketupart-studio/ketupart-studio.git`
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-**2) run - `composer install`**
+## Learn More
 
-**3) Copy .env.example file and rename to .env** 
-- change `APP_ENV=production`
+To learn more about Next.js, take a look at the following resources:
 
-**4) run - `php artisan key:generate`**
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**5) run - `php artisan storage:link`**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-**6) Create database - dev_ketupart_studio**
+## Deploy on Vercel
 
-**7) Migrate database - php artisan migrate**
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-**7) run - `npm install`**
-
-**8) run - `npm run build`**
-
-**9) : If Linux Server)** Set Permission - `sudo chown -R root:www-data /var/www/html/ketupart-studio/ && sudo find /var/www/html/ketupart-studio/ -type f -exec chmod 664 {} \; && sudo find /var/www/html/ketupart-studio/ -type d -exec chmod 775 {} \;`
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

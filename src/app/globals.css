@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.footer-link-list li + li {
+  margin-top: 8px;
+}
+
+.policy-page {
+  min-height: 100vh;
+  background: #f6f7fb;
+}
+
+.policy-content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.policy-content h2,
+.policy-content h3,
+.policy-content h4,
+.policy-content h5,
+.policy-content h6 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.policy-content p,
+.policy-content li {
+  line-height: 1.65;
+}
+
+.policy-content a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+body.active-dark-mode .policy-page {
+  background: #0f1117;
+}
+
+body.active-dark-mode .policy-page .card {
+  background: #171a22;
+  border-color: #2a3040;
+}
+
+body.active-dark-mode .policy-page .card-body,
+body.active-dark-mode .policy-page h1,
+body.active-dark-mode .policy-page h2,
+body.active-dark-mode .policy-page h3,
+body.active-dark-mode .policy-page h4,
+body.active-dark-mode .policy-page h5,
+body.active-dark-mode .policy-page h6,
+body.active-dark-mode .policy-page p,
+body.active-dark-mode .policy-page li {
+  color: #e6e9f2;
+}
+
+body.active-dark-mode .policy-page a {
+  color: #8cb4ff;
+}
+
+.policy-page .policy-logo-light {
+  display: inline-block;
+}
+
+.policy-page .policy-logo-dark {
+  display: none;
+}
+
+body.active-dark-mode .policy-page .policy-logo-light {
+  display: none;
+}
+
+body.active-dark-mode .policy-page .policy-logo-dark {
+  display: inline-block;
+}
