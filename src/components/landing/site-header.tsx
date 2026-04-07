@@ -55,7 +55,13 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
                 </SmartLink>
               </div>
               <div className="header-main-nav">
-                <nav className="mainmenu-nav" id="mobilemenu-popup">
+                <nav
+                  className="mainmenu-nav"
+                  id="mobilemenu-popup"
+                  tabIndex={-1}
+                  data-bs-scroll="true"
+                  data-bs-backdrop="false"
+                >
                   <div className="d-block d-lg-none">
                     <div className="mobile-nav-header">
                       <div className="mobile-nav-logo">
@@ -64,7 +70,7 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
                           <img className="dark-mode" src="/assets/abstract/media/logo-3.png" alt="Site Logo" />
                         </SmartLink>
                       </div>
-                      <button className="mobile-menu-close" data-bs-dismiss="offcanvas">
+                      <button type="button" className="mobile-menu-close" data-bs-dismiss="offcanvas">
                         <i className="fas fa-times" />
                       </button>
                     </div>
@@ -140,14 +146,14 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
                   <li className="my_switcher d-block d-lg-none">
                     <ul>
                       <li title="Light Mode">
-                        <a href="javascript:void(0)" className="setColor light" data-theme="light">
+                        <button type="button" className="setColor light" data-theme="light">
                           <i className="fal fa-lightbulb-on" />
-                        </a>
+                        </button>
                       </li>
                       <li title="Dark Mode">
-                        <a href="javascript:void(0)" className="setColor dark" data-theme="dark">
+                        <button type="button" className="setColor dark" data-theme="dark">
                           <i className="fas fa-moon" />
-                        </a>
+                        </button>
                       </li>
                     </ul>
                   </li>

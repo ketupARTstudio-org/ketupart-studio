@@ -78,7 +78,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/abstract/css/app.css" />
         <link rel="stylesheet" href="/assets/abstract/css/custom.css" />
       </head>
-      <body className="sticky-header">
+      <body className="sticky-header active-dark-mode">
         <div className="my_switcher d-none d-lg-block">
           <ul>
             <li title="Light Mode">

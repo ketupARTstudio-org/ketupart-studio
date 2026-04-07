@@ -5,6 +5,7 @@ function resolveMarkdownPath(filename: string): string {
   const candidates = [
     path.join(process.cwd(), "resources", "markdown", filename),
     path.join(process.cwd(), "..", "resources", "markdown", filename),
+    path.join(process.cwd(), "archieve", "resources", "markdown", filename),
   ];
 
   for (const candidate of candidates) {
