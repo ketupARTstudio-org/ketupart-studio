@@ -7,6 +7,45 @@ body {
   overflow-y: scroll;
 }
 
+.ketupart-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #121212;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+
+.ketupart-brand-mark {
+  width: 42px !important;
+  height: 42px !important;
+  object-fit: contain;
+}
+
+.header-logo a:hover .ketupart-brand,
+.mobile-nav-logo a:hover .ketupart-brand {
+  color: #008900;
+}
+
+body.active-dark-mode .ketupart-brand {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .ketupart-brand {
+    gap: 8px;
+    font-size: 1.65rem;
+  }
+
+  .ketupart-brand-mark {
+    width: 36px !important;
+    height: 36px !important;
+  }
+}
+
 .footer-link-list li + li {
   margin-top: 8px;
 }
@@ -79,4 +118,206 @@ body.active-dark-mode .policy-page .policy-logo-light {
 
 body.active-dark-mode .policy-page .policy-logo-dark {
   display: inline-block;
+}
+
+.foundly-download-page {
+  --foundly-ink: #17233f;
+  position: relative;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  overflow: hidden;
+  padding: 48px 20px;
+  background: linear-gradient(145deg, #f6fbff 0%, #edf4ff 45%, #fff8f0 100%);
+  color: var(--foundly-ink);
+}
+
+.foundly-glow {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(10px);
+  opacity: .5;
+  pointer-events: none;
+}
+
+.foundly-glow-one {
+  top: -210px;
+  right: -90px;
+  background: radial-gradient(circle, #75b7ff 0%, transparent 68%);
+}
+
+.foundly-glow-two {
+  bottom: -240px;
+  left: -100px;
+  background: radial-gradient(circle, #ffc67a 0%, transparent 68%);
+}
+
+.foundly-download-card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 680px);
+  padding: 48px clamp(24px, 7vw, 72px) 36px;
+  border: 1px solid rgba(255, 255, 255, .8);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, .8);
+  box-shadow: 0 24px 80px rgba(43, 76, 125, .16);
+  text-align: center;
+  backdrop-filter: blur(18px);
+}
+
+.foundly-home-link {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 7px;
+  margin: 0 auto 28px;
+  color: #5c6880;
+  font-size: .88rem;
+  font-weight: 600;
+}
+
+.foundly-home-link:hover {
+  color: #2369c6;
+}
+
+.foundly-app-icon {
+  display: block;
+  width: min(184px, 60vw);
+  height: auto;
+  margin: 0 auto 24px;
+  border-radius: 24px;
+  box-shadow: 0 14px 30px rgba(32, 72, 104, .25);
+}
+
+.foundly-eyebrow {
+  margin: 0 0 10px;
+  color: #2369c6;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.foundly-download-card h1 {
+  margin: 0;
+  color: var(--foundly-ink);
+  font-size: clamp(2.1rem, 6vw, 3.4rem);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+
+.foundly-intro {
+  max-width: 510px;
+  margin: 22px auto 30px;
+  color: #5c6880;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.foundly-store-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.foundly-store-button {
+  display: flex;
+  min-width: 210px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 11px 20px;
+  border: 1px solid #303030;
+  border-radius: 13px;
+  background: #090909;
+  color: #fff;
+  text-align: left;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.foundly-store-button:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .2);
+}
+
+.foundly-store-button svg {
+  width: 29px;
+  height: 34px;
+  flex: 0 0 auto;
+}
+
+.foundly-store-button span {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.foundly-store-button small {
+  margin-bottom: 3px;
+  font-size: .64rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+}
+
+.foundly-availability {
+  margin: 18px 0 30px;
+  color: #788399;
+  font-size: .86rem;
+}
+
+.foundly-legal {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #6f7a90;
+  font-size: .84rem;
+}
+
+.foundly-legal a {
+  color: inherit;
+}
+
+.foundly-legal a:hover {
+  color: #2369c6;
+}
+
+body.active-dark-mode .foundly-download-page {
+  background: linear-gradient(145deg, #091225 0%, #101b31 50%, #21170e 100%);
+}
+
+body.active-dark-mode .foundly-download-card {
+  border-color: rgba(255, 255, 255, .09);
+  background: rgba(15, 25, 45, .84);
+}
+
+body.active-dark-mode .foundly-download-card h1 {
+  color: #f5f8ff;
+}
+
+body.active-dark-mode .foundly-intro,
+body.active-dark-mode .foundly-availability,
+body.active-dark-mode .foundly-legal,
+body.active-dark-mode .foundly-home-link {
+  color: #b7c1d4;
+}
+
+@media (max-width: 540px) {
+  .foundly-download-page {
+    padding: 20px 14px;
+  }
+
+  .foundly-download-card {
+    padding: 34px 20px 28px;
+    border-radius: 24px;
+  }
+
+  .foundly-store-button {
+    width: 100%;
+  }
 }

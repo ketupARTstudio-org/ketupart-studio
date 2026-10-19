@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -17,6 +18,21 @@ function SmartLink({ href, children }: SmartLinkProps) {
   return <Link href={href}>{children}</Link>;
 }
 
+function BrandLogo() {
+  return (
+    <span className="ketupart-brand">
+      <Image
+        src="/assets/images/logo/logo-ketupart_studio.png"
+        alt=""
+        width={512}
+        height={512}
+        className="ketupart-brand-mark"
+      />
+      <span>KetupART</span>
+    </span>
+  );
+}
+
 export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
   const homeHref = isSubpage ? "/" : "#home";
   const aboutHref = "/aboutus";
@@ -34,6 +50,7 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
   const portfolioHref = isSubpage ? "/#portfolio" : "#portfolio";
   const productsHref = isSubpage ? "/#products" : "#products";
   const goflyHref = "/gofly";
+  const foundlyHref = "/foundly/download";
   const contactHref = "/contact";
 
   return (
@@ -45,13 +62,7 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
             <div className="header-navbar">
               <div className="header-logo">
                 <SmartLink href={homeHref}>
-                  <img className="light-version-logo" src="/assets/abstract/media/logo.png" alt="logo" />
-                </SmartLink>
-                <SmartLink href={homeHref}>
-                  <img className="dark-version-logo" src="/assets/abstract/media/logo-3.png" alt="logo" />
-                </SmartLink>
-                <SmartLink href={homeHref}>
-                  <img className="sticky-logo" src="/assets/abstract/media/logo-2.png" alt="logo" />
+                  <BrandLogo />
                 </SmartLink>
               </div>
               <div className="header-main-nav">
@@ -66,8 +77,7 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
                     <div className="mobile-nav-header">
                       <div className="mobile-nav-logo">
                         <SmartLink href={homeHref}>
-                          <img className="light-mode" src="/assets/abstract/media/logo-2.png" alt="Site Logo" />
-                          <img className="dark-mode" src="/assets/abstract/media/logo-3.png" alt="Site Logo" />
+                          <BrandLogo />
                         </SmartLink>
                       </div>
                       <button type="button" className="mobile-menu-close" data-bs-dismiss="offcanvas">
@@ -117,6 +127,11 @@ export function SiteHeader({ isSubpage = false }: SiteHeaderProps) {
                         <li>
                           <SmartLink href={goflyHref}>
                             <b>Go Fly</b> - VR Drone Training
+                          </SmartLink>
+                        </li>
+                        <li>
+                          <SmartLink href={foundlyHref}>
+                            <b>Foundly</b> - Personal Address Book
                           </SmartLink>
                         </li>
                       </ul>
