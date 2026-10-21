@@ -120,6 +120,33 @@ body.active-dark-mode .policy-page .policy-logo-dark {
   display: inline-block;
 }
 
+/* This section retains a dark surface in both themes, so its heading copy
+   must not inherit the light theme's dark text colors. */
+#services.bg-color-dark > .container > .section-heading .subtitle {
+  color: #65d36e;
+}
+
+body .section-heading .subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+@media (max-width: 767px) {
+  body .section-heading .subtitle {
+    font-size: 22px;
+  }
+}
+
+#services.bg-color-dark > .container > .section-heading .title {
+  color: #fff;
+}
+
+#services.bg-color-dark > .container > .section-heading p {
+  color: #d2d8df;
+  opacity: 1 !important;
+}
+
 .foundly-download-page {
   --foundly-ink: #17233f;
   position: relative;
@@ -320,4 +347,186 @@ body.active-dark-mode .foundly-home-link {
   .foundly-store-button {
     width: 100%;
   }
+}
+
+/* Refined fallback CTA for legacy landing pages during the redesign migration. */
+.banner-style-4 .banner-content .axil-btn.btn-fill-primary {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 22px;
+  border: 1px solid #007500;
+  border-radius: 10px;
+  background: #007500;
+  box-shadow: 0 10px 24px rgba(0, 117, 0, .18);
+  font-size: .92rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: background .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.banner-style-4 .banner-content .axil-btn.btn-fill-primary::after {
+  content: "\2192";
+  font-size: 1.1rem;
+  transition: transform .2s ease;
+}
+
+.banner-style-4 .banner-content .axil-btn.btn-fill-primary:hover {
+  border-color: #00a800;
+  background: #00a800;
+  box-shadow: 0 14px 30px rgba(0, 117, 0, .24);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.banner-style-4 .banner-content .axil-btn.btn-fill-primary:hover::after {
+  transform: translateX(3px);
+}
+
+/*
+ * Legacy theme compatibility layer
+ * Keep surface and foreground colors paired when switching themes. The
+ * original theme changes text globally, which otherwise creates white-on-
+ * white and dark-on-dark combinations in fixed-color sections.
+ */
+body.active-light-mode {
+  --site-surface: #ffffff;
+  --site-surface-soft: #f6f7fb;
+  --site-card: #ffffff;
+  --site-heading: #172033;
+  --site-copy: #525e70;
+  --site-border: #dfe4ea;
+}
+
+body.active-dark-mode {
+  --site-surface: #11151c;
+  --site-surface-soft: #171c25;
+  --site-card: #1b212b;
+  --site-heading: #f4f7fb;
+  --site-copy: #b8c2cf;
+  --site-border: #303846;
+}
+
+body.active-light-mode .main-wrapper {
+  background-color: var(--site-surface);
+  color: var(--site-copy);
+}
+
+body.active-light-mode .bg-color-light,
+body.active-light-mode .bg-color-mercury {
+  background-color: var(--site-surface-soft) !important;
+}
+
+body.active-light-mode .bg-color-light h1,
+body.active-light-mode .bg-color-light h2,
+body.active-light-mode .bg-color-light h3,
+body.active-light-mode .bg-color-light h4,
+body.active-light-mode .bg-color-light h5,
+body.active-light-mode .bg-color-light h6,
+body.active-light-mode .bg-color-mercury h1,
+body.active-light-mode .bg-color-mercury h2,
+body.active-light-mode .bg-color-mercury h3,
+body.active-light-mode .bg-color-mercury h4,
+body.active-light-mode .bg-color-mercury h5,
+body.active-light-mode .bg-color-mercury h6 {
+  color: var(--site-heading);
+}
+
+body.active-light-mode .bg-color-light p,
+body.active-light-mode .bg-color-light li,
+body.active-light-mode .bg-color-mercury p,
+body.active-light-mode .bg-color-mercury li {
+  color: var(--site-copy);
+}
+
+body .bg-color-dark {
+  background-color: #27272e !important;
+}
+
+body .bg-color-dark h1,
+body .bg-color-dark h2,
+body .bg-color-dark h3,
+body .bg-color-dark h4,
+body .bg-color-dark h5,
+body .bg-color-dark h6,
+body .bg-color-dark .title,
+body .bg-color-dark a:not(.axil-btn) {
+  color: #f7f8fb;
+}
+
+body .bg-color-dark p,
+body .bg-color-dark li {
+  color: #c5c9d1;
+}
+
+body.active-light-mode .card,
+body.active-light-mode .contact-form-box,
+body.active-light-mode .project-grid,
+body.active-light-mode .team-grid {
+  border-color: var(--site-border);
+  background-color: var(--site-card);
+}
+
+body.active-light-mode .card h1,
+body.active-light-mode .card h2,
+body.active-light-mode .card h3,
+body.active-light-mode .card h4,
+body.active-light-mode .card h5,
+body.active-light-mode .card h6,
+body.active-light-mode .contact-form-box h1,
+body.active-light-mode .contact-form-box h2,
+body.active-light-mode .contact-form-box h3,
+body.active-light-mode .contact-form-box h4,
+body.active-light-mode .contact-form-box h5,
+body.active-light-mode .contact-form-box h6 {
+  color: var(--site-heading);
+}
+
+body.active-light-mode .card p,
+body.active-light-mode .card li,
+body.active-light-mode .contact-form-box p,
+body.active-light-mode .contact-form-box li {
+  color: var(--site-copy);
+}
+
+body.active-dark-mode .card,
+body.active-dark-mode .contact-form-box,
+body.active-dark-mode .project-grid,
+body.active-dark-mode .team-grid {
+  border-color: var(--site-border);
+  background-color: var(--site-card);
+}
+
+body.active-light-mode input,
+body.active-light-mode textarea,
+body.active-light-mode select {
+  border-color: var(--site-border);
+  background-color: #fff;
+  color: var(--site-heading);
+}
+
+body.active-dark-mode input,
+body.active-dark-mode textarea,
+body.active-dark-mode select {
+  border-color: var(--site-border);
+  background-color: var(--site-surface-soft);
+  color: var(--site-heading);
+}
+
+body.active-light-mode .axil-submenu {
+  background-color: #fff;
+}
+
+body.active-light-mode .axil-submenu a {
+  color: #273247 !important;
+}
+
+body.active-dark-mode .axil-submenu {
+  background-color: #1b212b;
+}
+
+body.active-dark-mode .axil-submenu a {
+  color: #c8d0dc !important;
 }

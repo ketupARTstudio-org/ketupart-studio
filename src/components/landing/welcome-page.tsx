@@ -1,6 +1,7 @@
 import { deliverables, services, stats } from "@/components/landing/data";
 import { SiteFooter } from "@/components/landing/site-footer";
 import { SiteHeader } from "@/components/landing/site-header";
+import Link from "next/link";
 
 export function WelcomePage() {
   return (
@@ -83,12 +84,10 @@ export function WelcomePage() {
                     <div className="content">
                       <img src={service.icon} alt="icon" />
                       <h5 className="title">
-                        <a href="#services">{service.title}</a>
+                        <Link href={service.href}>{service.title}</Link>
                       </h5>
                       <p>{service.description}</p>
-                      <a href="#services" className="more-btn">
-                        Find out more
-                      </a>
+                      <Link href={service.href} className="more-btn">View service</Link>
                     </div>
                   </div>
                 </div>
