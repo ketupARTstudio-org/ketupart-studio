@@ -3,50 +3,65 @@ export type Service = {
   description: string;
   icon: string;
   delay: string;
+  href: string;
 };
 
 export const services: Service[] = [
   {
-    title: "Digital Consultancy",
+    title: "Digital Strategy & Consultancy",
     description:
-      "We integrate business and technology to accelerate digital transformation, offering strategic counsel, tech expertise, change management, and continuous improvement to achieve your business goals.",
+      "We help teams choose the right technology, plan realistic improvements, and turn business requirements into a clear delivery roadmap.",
     icon: "/assets/abstract/media/icon/icon-36.png",
     delay: "100",
+    href: "/consultancy",
   },
   {
-    title: "Immersive Technology",
+    title: "AR, VR & XR Development",
     description:
-      "At KetupArt Studio, we specialize in AR,VR & XR development, creating immersive experiences that enhance user engagement, elevate brand experiences, and drive business growth.",
+      "We design and build immersive applications for training, education, simulation, product demonstrations, and interactive experiences.",
     icon: "/assets/abstract/media/icon/icon-41.png",
     delay: "200",
+    href: "/immersive",
   },
   {
     title: "Game Development",
     description:
-      "At KetupArtStudio, we create captivating and immersive games, from concept to character design, ensuring visually stunning, engaging experiences across various platforms.",
+      "We develop interactive 2D and 3D experiences, covering gameplay prototypes, interface design, development, testing, and deployment.",
     icon: "/assets/abstract/media/icon/icon-39.png",
-    delay: "100",
-  },
-  {
-    title: "Cloud Computing",
-    description:
-      "We deliver comprehensive cloud solutions with AWS, Azure, and Google Cloud, offering IaaS, PaaS, and SaaS for scalable, efficient, and secure business growth.",
-    icon: "/assets/abstract/media/icon/icon-41.png",
     delay: "300",
+    href: "/gamedevelopment",
   },
   {
-    title: "Web Development",
+    title: "Cloud Setup & Deployment",
     description:
-      "We specialize in professional web development, delivering high-quality, user-friendly, and optimized websites. Our skilled team offers custom design, responsive development, and robust backend solutions.",
-    icon: "/assets/abstract/media/icon/icon-36.png",
+      "We set up cloud environments, deploy applications, and help businesses manage reliable infrastructure on AWS, Azure, and Google Cloud.",
+    icon: "/assets/abstract/media/icon/icon-41.png",
     delay: "100",
+    href: "/cloudcomputing",
   },
   {
-    title: "Mobile Development",
+    title: "Websites & Web Systems",
     description:
-      "We specialize in high-quality, user-centric mobile applications that prioritize seamless functionality, intuitive design, and optimal performance.",
-    icon: "/assets/abstract/media/icon/icon-28.png",
+      "We build responsive company websites, portals, dashboards, and custom web systems that are straightforward to use and maintain.",
+    icon: "/assets/abstract/media/icon/icon-36.png",
     delay: "200",
+    href: "/webdevelopment",
+  },
+  {
+    title: "Mobile App Development",
+    description:
+      "We create practical mobile apps for Android and iOS, from interface planning and development through testing and store release.",
+    icon: "/assets/abstract/media/icon/icon-28.png",
+    delay: "300",
+    href: "/mobiledevelopment",
+  },
+  {
+    title: "VR Classroom Setup",
+    description:
+      "We plan and set up VR classrooms, including headset preparation, room layout, connectivity, content deployment, testing, and user onboarding.",
+    icon: "/assets/abstract/media/icon/icon-29.png",
+    delay: "100",
+    href: "/vr-classroom",
   },
 ];
 
