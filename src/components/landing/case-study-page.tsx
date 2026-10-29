@@ -1,7 +1,7 @@
 import { SiteFooter } from "@/components/landing/site-footer";
 import { SiteHeader } from "@/components/landing/site-header";
 
-type CaseStudyItem = {
+export type CaseStudyItem = {
   categoryClass: string;
   categoryLabel: string;
   title: string;
@@ -10,7 +10,7 @@ type CaseStudyItem = {
   link: string;
 };
 
-const caseStudies: CaseStudyItem[] = [
+export const caseStudies: CaseStudyItem[] = [
   {
     categoryClass: "education",
     categoryLabel: "Education",

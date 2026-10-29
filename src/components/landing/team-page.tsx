@@ -1,7 +1,7 @@
 import { SiteFooter } from "@/components/landing/site-footer";
 import { SiteHeader } from "@/components/landing/site-header";
 
-type TeamMember = {
+export type TeamMember = {
   key: string;
   name: string;
   role: string;
@@ -12,7 +12,7 @@ type TeamMember = {
   bio: string;
 };
 
-const teamMembers: TeamMember[] = [
+export const teamMembers: TeamMember[] = [
   {
     key: "ismail",
     name: "Muhammad Ismail Mat Isham",

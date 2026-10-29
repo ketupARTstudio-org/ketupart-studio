@@ -1,7 +1,7 @@
 import { SiteFooter } from "@/components/landing/site-footer";
 import { SiteHeader } from "@/components/landing/site-header";
 
-const clientLogos = [
+export const clientLogos = [
   "/assets/abstract/media/brand/logo-DEC4IR-2.png",
   "/assets/abstract/media/brand/logo_utm.png",
   "/assets/abstract/media/brand/logo_mranti.png",
