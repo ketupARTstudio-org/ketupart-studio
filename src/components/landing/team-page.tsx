@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
   {
     key: "ismail",
     name: "Muhammad Ismail Mat Isham",
-    role: "Founder / Chief Executive Officer",
+    role: "Founder / Director",
     specialty: "Immersive Tech Specialist",
     certifications: ["Unity Certified Associate: Game Developer"],
     image: "/assets/abstract/media/team/ismail.png",
@@ -26,7 +26,7 @@ export const teamMembers: TeamMember[] = [
   {
     key: "siang",
     name: "Chan Vei Siang",
-    role: "Founder / Chief Operating Officer",
+    role: "Founder / Director",
     specialty: "Data Scientist / Data Analyst",
     certifications: [
       "Microsoft Certified: Power BI Data Analyst Associate",
@@ -42,7 +42,7 @@ export const teamMembers: TeamMember[] = [
   {
     key: "zulzayn",
     name: "Zulwaqar Zain Mohtar",
-    role: "Founder / Chief Technology Officer",
+    role: "Co-Founder / Technical Partner",
     specialty: "Cloud Specialist / Full Stack Specialist",
     certifications: [
       "AWS Certified Solutions Architect",
