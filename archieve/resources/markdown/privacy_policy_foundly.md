@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 
-**Last updated February 1, 2026**
+**Last updated November 25, 2026**
 
 This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
@@ -14,11 +14,11 @@ This privacy notice for KetupART Studio ("**we**," "**us**," or "**our**"), desc
 
 **_This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our_** [**_table of contents_**](#toc) **_below to find the section you are looking for._**
 
-**What personal information do we process?** We do not collect or store your contacts or locations on our servers. Your saved friends data is stored locally on your device. We do process limited device and usage data via third-party services used for ads and purchases. Learn more about [personal information you disclose to us](#personalinfo).
+**What personal information do we process?** We do not collect or store your contacts or locations on our servers. Your saved friends data is stored locally on your device. If you turn on Google Drive backup, a copy is stored in your own Google Drive account, not on our servers. We do process limited device and usage data via third-party services used for ads and purchases. Learn more about [personal information you disclose to us](#personalinfo).
 
 **Do we process any sensitive personal information?** We do not process sensitive personal information.
 
-**Do we collect any information from third parties?** We receive purchase validation data from RevenueCat and ad-related data from AdMob.
+**Do we collect any information from third parties?** We receive purchase validation data from RevenueCat and ad-related data from AdMob. If you connect Google Drive backup, Google shares your Google account email address with the app so it can show which account is connected; it is stored only on your device.
 
 **How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#processinfo).
 
@@ -70,13 +70,23 @@ Want to learn more about what we do with any information we collect? [Review the
 
 Contact names, photos, categories, and locations that you save in Foundly are stored locally on your device only. We do not collect or store this information on our servers.
 
+**Backups you choose to make:**
+
+*   **Backup file.** When you use "Save file", Foundly creates a backup file containing your saved friends and their photos and saves it to the location you choose on your device. We do not receive this file.
+
+*   **Google Drive backup (optional).** If you connect Google Drive backup, Foundly uses Google Sign-In to store a backup file containing your saved friends and their photos in a hidden, app-specific folder of your own Google Drive account (Google's "appDataFolder"). Foundly requests only the "drive.appdata" permission, so it can access only the files it creates there and cannot see any other files in your Google Drive. The backup is stored by Google under your Google account and is never sent to our servers. Foundly also receives your Google account email address so it can show which account is connected; this is stored only on your device. If you use Premium daily backup, the backup is updated automatically at most once a day when you open the app.
+
 **Information collected by third-party services:**
 
 *   **AdMob (Google)** may collect device identifiers (e.g., advertising ID), approximate location, IP address, and usage data to serve and measure ads, which may be personalized.
 
 *   **RevenueCat** may process purchase-related data (e.g., purchase receipts, subscription status, and device identifiers) to verify entitlements.
 
+*   **Google (Google Sign-In and Google Drive)**, only if you connect Google Drive backup, processes your Google account details and stores your backup file in your Google Drive under Google's own privacy policy.
+
 We do not use additional analytics or crash reporting beyond the services listed above.
+
+**Google user data.** Foundly's use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. Information received from Google APIs is used only to back up and restore your Foundly data at your request; it is not used for advertising, not sold, and not transferred to anyone else.
 
 **Sensitive Information.** We do not process sensitive information.
 
@@ -93,6 +103,8 @@ All personal information that you provide to us must be true, complete, and accu
 *   **To serve ads** in the free tier via AdMob.
 
 *   **To process and restore purchases** via RevenueCat.
+
+*   **To back up and restore your data** in your own Google Drive, only when you turn on Google Drive backup.
 
 *   **To comply with legal obligations** and protect our rights.
 
@@ -157,6 +169,8 @@ We may share information with the following service providers:
 
 *   **RevenueCat** (in-app purchase processing and entitlement verification)
 
+*   **Google** (Google Sign-In and Google Drive, only if you connect Google Drive backup; your backup is stored in your own Google account)
+
 We do not sell your personal information.
 
 We may need to share your personal information in the following situations:
@@ -168,6 +182,8 @@ We may need to share your personal information in the following situations:
 **_In Short:_** _We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law._
 
 Your saved contacts remain on your device until you delete them or uninstall the app. We do not store this information on our servers.
+
+A Google Drive backup remains in your Google Drive until you delete it. Disconnecting Google Drive in Foundly stops new backups and removes the app's access, but does not delete the existing backup. You can delete it at any time from Google Drive on the web: **Settings > Manage apps > Foundly > Options > Delete hidden app data**. Backup files you save to your device remain there until you delete them.
 
 Third-party service data is retained according to the providers' retention policies.
 
@@ -221,20 +237,29 @@ California law requires us to let you know how we respond to web browser DNT sig
 
 We have collected the following categories of personal information in the past twelve (12) months:
 
-| **Category** | **Examples** | **Collected** |
-| --- | --- | --- |
-| A. Identifiers | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | NO  |
-| B. Personal information as defined in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information | NO  |
-| C. Protected classification characteristics under state or federal law | Gender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data | NO  |
-| D. Commercial information | Transaction information, purchase history, financial details, and payment information | NO  |
-| E. Biometric information | Fingerprints and voiceprints | NO  |
-| F. Internet or other similar network activity | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements | NO  |
-| G. Geolocation data | Device location | NO  |
-| H. Audio, electronic, sensory, or similar information | Images and audio, video or call recordings created in connection with our business activities | NO  |
-| I. Professional or employment-related information | Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us | NO  |
-| J. Education Information | Student records and directory information | NO  |
-| K. Inferences drawn from collected personal information | Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual's preferences and characteristics | NO  |
-| L. Sensitive personal Information |     | NO  |
+*   **A. Identifiers:** YES. Advertising ID and IP address through AdMob; app user ID through RevenueCat. _Examples: contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name._
+
+*   **B. Personal information as defined in the California Customer Records statute:** NO. _Examples: name, contact information, education, employment, employment history, and financial information._
+
+*   **C. Protected classification characteristics under state or federal law:** NO. _Examples: gender, age, date of birth, race and ethnicity, national origin, marital status, and other demographic data._
+
+*   **D. Commercial information:** YES. Premium purchase status through RevenueCat; payments are handled by Google Play or the App Store. _Examples: transaction information, purchase history, financial details, and payment information._
+
+*   **E. Biometric information:** NO. _Examples: fingerprints and voiceprints._
+
+*   **F. Internet or other similar network activity:** YES. Interactions with ads through AdMob. _Examples: browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements._
+
+*   **G. Geolocation data:** YES. Approximate location from your IP address, through AdMob; we never collect precise location. _Examples: device location._
+
+*   **H. Audio, electronic, sensory, or similar information:** NO. _Examples: images and audio, video or call recordings created in connection with our business activities._
+
+*   **I. Professional or employment-related information:** NO. _Examples: business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us._
+
+*   **J. Education Information:** NO. _Examples: student records and directory information._
+
+*   **K. Inferences drawn from collected personal information:** NO. _Examples: inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual's preferences and characteristics._
+
+*   **L. Sensitive personal Information:** NO.
 
 We may also collect other personal information outside of these categories through instances where you interact with us in person, online, or by phone or mail in the context of:
 
@@ -330,5 +355,7 @@ Technovation Park, Universiti Teknologi Malaysia <br>
 Malaysia
 
 <h2 id="reviewdata">13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</h2>
+
+**Your Foundly data and backups.** Friends you save stay on your device; delete them in the app or uninstall the app to remove them. To delete a Google Drive backup, use Google Drive on the web: **Settings > Manage apps > Foundly > Options > Delete hidden app data**. To remove Foundly's access to your Google account, disconnect it in Foundly or visit <https://myaccount.google.com/permissions>.
 
 Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please fill out and submit a [data subject access request](https://docs.google.com/forms/d/e/1FAIpQLSfx9C3Bwe_fXZAtSmQ8ZcWwqhacBrSnJiy-mosqv72ttRuD3w/viewform?usp=preview).
